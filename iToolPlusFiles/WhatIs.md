@@ -11,3 +11,8 @@ and we develop this product because it fee and alterna
 cra
 actuall
 we say it is a crack version of imazing softwares
+
+# What Is
+Imazing software cracked.
+Unlimited activation,
+free forever
