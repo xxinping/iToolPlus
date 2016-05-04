@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<base href="<!-- replace_tmp_path -->" />
+		<style type='text/css' name="note"> 
+			body
+			{
+				margin:0;
+				background:rgb(254, 248, 189); /* note background color */
+				font-family: verdana, helvetica, arial, sans-serif;
+				<!-- replace_css -->
+			}
+			
+			div:focus
+			{
+				outline: none;
+			}
+			
+			img.note-background-gradient
+			{
+				position:fixed;
+				min-height:250px;
+				height:100%;
+				width:100%;
+			}
+			
+			div.note-content-protector
+			{
+				display:none;
+				position:fixed;
+				z-index:1;
+				top:0px;
+				width: 100%;
+				height:100%;
+			}
+		</style>
+		<style type='text/css' name="note-window">
+			div.note-rule-vertical
+			{
+				top:0px;
+				z-index:3;
+			}
+		
+			div#note-editor-frame
+			{
+				position:absolute;
+				top:0px;
+				bottom:0px;
+				left:0px;
+				right:0px;
+			}
+
+			iframe.note-editor
+			{
+				position:relative;
+				width:100%;
+				height:100%;
+				z-index:2;
+				border:0px;
+			}
+		</style>
+		<style type='text/css' name="note-editor">			
+			div:focus
+			{
+				outline:none;
+			}
+			
+			span:focus
+			{
+				outline:none;
+			}
+			
+			div.note-wrapper
+			{
+				position:absolute;
+				top:0px;
+				bottom:0px;
+				right:0px;
+				left:0px;
+			}
+			
+			div.note-header
+			{
+				position:absolute;
+				top:20px;
+				bottom:0px;
+				right:0px;
+				left:0px;
+			}
+			
+			div.note-body
+			{
+				position:absolute;
+				top:0px;
+				left:0px;
+				right:0px;
+				min-height:100%;
+				
+				background-position: 0px 17px; /* line-height - font descender */
+				background-repeat:repeat-y;
+				background-attachment:scroll;
+				background-image:url(note-rule-horizontal.png); /* adjusted programatically */
+			}
+			
+			div.note-content
+			{
+				position:relative;
+				margin-left:5px; 
+				margin-right:32px;
+				padding-left:27px;
+				line-height:20px;	/* adjusted programatically */
+				/* background:rgba(9, 129, 0, 0.4);*/
+			}
+			
+			div.note-rule-vertical
+			{
+				position:fixed;
+				width: 1px;
+				height:100%;
+				background:#f2ca8f;
+				-webkit-user-select:none;
+			}
+		</style>
+		<style type='text/css' name="todo-note"> 
+			div.mail-todo-placeholder
+			{
+				display:inline-block;
+			}
+			
+			embed.todo-proxy-linkarrow
+			{
+				width:20px;
+			}
+			
+			embed.todo 
+			{
+				height:17px;
+				padding:0px;
+				margin:0px;
+				border:0px;
+				line-height:1em;
+			}
+			
+			div.mail-todo-delete
+			{
+				opacity:0;
+			}
+			
+			embed.todo-proxy-delete
+			{
+				margin:0px;
+				margin-left:1px;
+				width:20px;
+				-webkit-user-select:none;
+			}
+			
+			embed.todo-proxy-arrow
+			{
+				margin:0px;
+				width:20px;
+			}
+			
+			embed.todo-proxy-check
+			{
+				margin:0px;
+				width:20px;
+			}
+			
+			img.todo-alarm
+			{
+				padding-right:.5em;
+			}
+			
+			table.mail-todo-element
+			{
+				padding:0px;
+				margin:0px;
+				position:relative;
+				border-collapse:collapse;
+				border-spacing:0;
+			}
+			
+			td.mail-todo-delete
+			{
+				position:absolute;
+				width:32px;
+				height:20px;
+				left:-30px;
+				padding:0px;
+				vertical-align:top;
+				margin:0px;
+				margin-top:-1px;
+				border-collapse:collapse;
+				border-spacing:0;
+				-webkit-user-select:none;
+			}
+			
+			td.mail-todo-body {
+				padding:0px;
+				vertical-align:top;
+				margin:0px;
+				border:0px;
+				border-collapse:collapse;
+				border-spacing:0;
+			}
+			
+			span.mail-todo-window
+			{
+				padding:0px;
+				margin:0px;
+				width:20px;
+			}
+			
+			span.mail-todo-checkbox
+			{
+				padding:0px;
+				margin:0px;
+				width:20px;
+			}
+			
+			span.mail-todo-date
+			{
+				vertical-align:top;
+				color:rgb(180,34,0);
+			}
+			
+			span.mail-todo-content
+			{
+				vertical-align:top;
+				white-space:pre-wrap;
+			}
+			
+			span.mail-todo-content:focus
+			{
+				outline:none;
+			}
+			
+			div.mail-todo-body
+			{
+				vertical-align:top;
+				padding:0px;
+				margin:0px;
+				min-width:5px;
+				display:inline-block;
+				word-break:break-word;
+				-webkit-highlight:'todo';
+			}
+			
+			div.mail-todo-linkarrow
+			{
+				display:inline-block;
+				padding:0px;
+				margin-left:20px;
+				vertical-align:bottom;
+				width: 20px;
+				bottom: 5px;
+			}
+			
+			div.mail-todo-padding-right
+			{
+				display:inline-block;
+				padding:0px;
+				top:0px;
+				bottom:0px;
+				width:23px;
+			}
+			
+			span.mail-todo-placeholder-date
+			{
+				display:none;
+			}
+			
+			span.mail-todo-placeholder-extra
+			{
+				display:none;
+			}
+			
+			/*
+			
+			div.mail-todo-body
+			{
+				background:rgba(255, 0, 0, 0.3);
+			}
+			
+			table.mail-todo-element
+			{
+				background:rgba(255, 0, 0, 0.3);
+			}
+			
+			td.mail-todo-window
+			{
+				background:rgba(255, 100, 200, 0.4);
+			}
+			
+			td.mail-todo-checkbox
+			{
+				background:rgba(255, 255, 100, 0.4);
+			}
+			
+			td.mail-todo-content
+			{
+				background:rgba(255, 255, 255, 0.4);
+			}
+			
+			td.mail-todo-linkarrow
+			{
+				background:rgba(100, 100, 255, 0.4);
+			}
+			
+			div.mail-todo-body
+			{
+				background:rgba(255, 0, 0, 0.3);
+			}
+			*/
+		</style>	
+		<!-- replace_js -->	
+	</head>
+	<body style="overflow:auto;" name="note container">
+		<!-- background gradient -->
+		<img class="note-background-gradient" src="note-background-gradient.png" alt=""/>
+
+		<!-- prevent user selection -->
+		<div class="note-content-protector"></div>
+
+		<!-- note editor -->
+		<div id="note-editor-frame">
+			<!-- The name attribute of the iframe is used in EmbeddedNoteDocumentEditor, so it shouldn't be changed -->
+			<div class="note-editor">
+				<!-- vertical rule lines -->
+				<div class="note-rule-vertical" style="left:22px"></div>
+				<div class="note-rule-vertical" style="left:26px"></div>
+		
+				<div class="note-wrapper">
+					<div class="note-header">
+						<div class="note-body" id="note-body">
+							<div class="note-content" id="note-content" contenteditable="false">
+								<!-- replace_note_content -->
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</body>
+</html>

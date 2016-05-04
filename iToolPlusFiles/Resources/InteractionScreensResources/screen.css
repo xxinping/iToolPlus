@@ -1,0 +1,140 @@
+/* <![CDATA[ */ 
+
+INPUT:hover {
+    -webkit-appearance: none;
+    height: 50px;
+    background-color:#FFF;
+    color:#666;
+    font-weight:bold;
+    border: solid #666 1px;
+    font-size: 14px;
+}
+
+
+BODY {
+    margin:                 0px;
+    color:                  #333333;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              15px;
+    line-height:            20px;
+    text-decoration:        none;
+    font-family:            "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana, Geneva, Wwiss, SunSans-Regular, sans-serif;
+    background-color:       #F6F6F6;
+}
+
+H1 { 
+    color:                  #333333;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              30px;
+    line-height:            normal;
+    margin:                 0px;
+    padding:                0px;
+    padding-top:            30px;
+    padding-bottom:         25px;
+    text-align:             left;
+}
+
+H2 {
+    color:                  #333333;
+    font-style:             normal;
+    font-weight:            normal;
+    font-size:              20px;
+    line-height:            normal;
+    margin:                 0px;
+    padding:                0px;
+    text-align:             left;
+}
+
+H3 {
+    color:                  #333333;
+    font-style:             normal;
+    font-weight:            bold;
+    font-size:              15px;
+    line-height:            normal;
+    margin:                 0px;
+    padding:                0px;
+    text-align:             left;
+}
+
+A {
+    text-decoration:        none;
+}
+
+A:link {
+    color:                  #3688FA;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:visited {
+    color:                  #3688FA;
+    font-weight:            normal;
+    text-decoration:        none;
+}
+
+A:hover {
+    color:                  #3688FA;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+A:active {
+    color:                  #3688FA;
+    font-weight:            normal;
+    text-decoration:        underline;
+}
+
+IMG {
+    border:                 none;
+}
+
+.white {
+    color:                  #999999;
+}
+
+DIV#page * {
+    text-align:             center;
+}
+
+DIV#page INPUT[type=button] {
+    width:                  200px;
+    height:                 30px;
+    font-size:              16px;
+    margin:                 10px;    
+    -webkit-appearance:     none;
+    background-color:       #FFF;
+    color:                  #666;
+    font-weight:            bold;
+    border:                 solid #BBBBBB 1px;
+	border-radius:          5px;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+}
+
+DIV#page INPUT[type=button]:hover {
+	background-color:       #3688FA;
+    border:                 solid #3688FA 1px;
+	color:                  #FFFFFF;
+}
+
+DIV#page P, DIV#page LI, DIV#page H2 {
+	text-align:				left;
+}
+
+UL {
+	display: 				inline-block;
+	list-style-type: 		circle;
+	list-style-position: 	outside;
+	padding-left: 			18px;
+	padding-bottom:			0px;
+	margin-bottom:			0px;
+}
+
+LI {
+	margin-left:			0px;
+	margin-bottom:			10px;
+}
+
+/* ]]> */

@@ -1,0 +1,444 @@
+/* standard Finder menu item, see screenshot */
+"AboutIMazing(Finder)_Label"		= "iMazing 정보"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "환경설정..."; // standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "서비스"; // standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "iMazing 종료"; // standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "iMazing 숨기기"; // standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "다른 앱 숨김"; // standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "전체 표시"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"File(Finder)_Label"      			= "파일"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "새 폴더"; // standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "열기"; // standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "외부 앱 열기"; // standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "'{fileName}' 미리보기"; // standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "미리보기"; 
+"CloseWindow(Finder)_UserAction"	= "창 닫기"; // standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "추가 정보"; // standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "'{itemName}' 상세 정보 보기";
+
+/* standard Finder menu item, see screenshot */
+"Edit(Finder)_Label"             		= "편집"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "실행 취소"; // standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "다시 실행"; // standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "복사"; // standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "붙여넣기"; // standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "전체 선택"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"View(Finder)_Label"             		= "보기"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "툴바 표시"; // standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "툴바 숨김"; // standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "툴바 편집..."; // standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "남은 공간"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Window(Finder)_Label"            		= "윈도우"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "최소화"; // standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "확대/축소"; // standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "모두 앞으로 이동"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Help(Finder)_Label"	= "도움말"; //standard Finder menu item, see screenshot
+
+
+/* Windows Explorer View option, see screenshot */
+"Icons(Explorer)_Label"          	= "아이콘"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "큰 아이콘"; // Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "타일"; // Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "상세 정보"; // Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "목록"; // Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "아이콘, 목록, 또는 열로 항목을 표시합니다"; // Tooltip from Finder, see screenshot
+
+/* Finder sorting options, see screenshot */
+"DateModified(Finder)_Label"		= "수정한 날짜"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "생성한 날짜"; // Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "최근 사용일"; // Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "크기"; // as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "생성일"; // as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "수정일"; // as displayed in Finder->Get Info,see screenshot
+
+/* If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates. */
+"KeepBoth(Finder)_UserReply"		= "둘 다 보존"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "정지"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "교체"; // Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "건너뛰기"; // Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "모두 적용"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "병합"; // Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "대상 폴더:";
+"FileName:_Label"				= "파일 이름:";
+"Destination(Folder)_Label"		= "대상 위치"; // Destination folder
+
+/* Choose a destination or source folder */
+"Choose000_UserAction" = "선택하세요...";
+"Choose_UserConfirmation"		= "선택"; // items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "{itemname} 복사 중"; 
+"CopyToX_UserAction"			= "'{location}' 위치로 복사"; // to location in file system
+"CopyToMac_UserAction"			= "Mac으로 복사"; 
+"CopyToPC_UserAction"			= "PC로 복사";
+"CopyToDevice_UserAction"		= "장치로 복사"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "복사 시작 중...";
+"ItemsToCopyN_Label"       		= "복사할 항목:"; // Needs retranslation
+"CopyItem_Title"				= "항목 복사";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "항목 복사";
+"Copied(MediaItem)_Label"		= "복사됨"; // status of a single media item
+"ItemXCopied_Info"				= "{itemname} 복사됨"; 
+"ItemXAndOthersCopied_Info"		= "{itemname} 및 기타 항목 복사됨";
+"CopyingItemX000_Info" = "{itemname} 복사 중...";
+/* Confirm folder creation */
+ 
+"CreateFolder_UserConfirmation"	= "폴더 만들기"; // Confirm folder creation
+"NewFolderName_Info"			= "새 폴더명 입력";
+"CreatingFolder_Info"			= "{itemname} 폴더 생성 중";
+
+/* Standard delete action */
+ 
+"Delete_UserAction"				= "삭제"; //Standard delete action
+"ConfirmItemDelete_Info"		= "'{itemname}'을(를) 삭제할까요?";
+"DeletingItemX_Info"			= "{itemname} 삭제 중";
+
+/* the action, not the noun */
+
+"Download_UserAction"			= "다운로드"; // the action, not the noun
+"DownloadingX_Info"				= "{componentname} 다운로드 중..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "파일이 이미 존재합니다:"; 
+"ItemAlreadyExists_Info"		= "'{itemname}' 이름을 가진 항목이 이 위치에 이미 존재합니다. 해당 항목을 교체할까요?";
+"Duplicate(Noun)_Label"        	= "사본"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "복제";
+
+/* Export generic data */
+ 
+"Export_UserAction"            	= "내보내기"; // Export generic data
+"ExportToPDF_UserAction"		= "PDF로 내보내기";
+"ExportToText_UserAction"		= "텍스트로 내보내기";
+"ExportToCSV_UserAction"		= "CSV로 내보내기";
+"ExportInfo_UserAction"			= "내보내기 정보"; // User action to export information, not information regarding an export process!
+
+/* Import data */
+ 
+"Import_UserAction"             = "불러오기"; // Import data
+
+/* Installing software */
+ 
+"InstallingX_Info"						= "설치 진행 중..."; //Installing software
+"InstallingAppX_Info"					= "{appName} 설치 중";
+"AppXInstalled_Info"					= "{itemname} 설치 완료";
+"AppXAndOthersInstalled_Info"			= "{itemname} 및 기타 항목 설치 완료";
+"UninstallingAppX_Info"					= "{appName} 설치 제거 중";
+"AppXUninstalled_Info"					= "{itemname} 설치 제거 완료";
+"AppXAndOthersUninstalled_Info"			= "{itemname} 및 기타 항목 설치 제거 완료";
+
+/* Quit the application */
+ 
+"Quit_UserAction"               		= "종료"; // Quit the application
+"Refresh_UserAction"            		= "새로 고침"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "'{name}' 표시"; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "저장"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "검색"; 
+
+/* Moving file from one location to another */
+ 
+"MovingItemX_Info"				= "{itemname} 이동 중"; //Moving file from one location to another
+
+/* Open file */
+ 
+"OpenX_UserAction"				= "'{fileName}' 열기"; //Open file
+"OpenItem_Title"				= "항목 열기"; // Item as in media item or file
+"OpenItems_Title"				= "항목 열기"; 
+"ItemXOpened_Info"				= "{itemname} 열림";
+"ItemXAndOthersOpened_Info"		= "{itemname} 및 기타 항목 열림";
+"OpeningItemX_Info"				= "{itemname} 여는 중";
+ 
+/* password change: the user enters the current password after this label */
+ 
+"OldPassword_Label"					= "기존 비밀번호:"; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "새 비밀번호:"; // password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "재입력:"; // password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "새 비밀번호 확인 정보가 일치하지 않습니다! 새 비밀번호를 다시 확인해주세요.";
+"RememberPassword_Label"			= "비밀번호 기억"; // the application should remember the user's password
+"InvalidPassword_Title"				= "비밀번호 오류!";
+
+/* Generic print action */
+ 
+"Print_UserAction"				= "인쇄"; // Generic print action
+"PrintToPdfFile_Label"			= "PDF 파일로 인쇄...";
+"GenericPrinter_Label"			= "일반 프린터...";
+"Paper(Printing)_Label"			= "용지"; 
+"PaperSize_Info"				= "{paperWidth} x {paperHeight} {sizeUnit}"; // Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "여백"; 
+"Left(Margin)_Label"			= "좌"; 
+"Top(Margin)_Label"				= "상";
+"Right(Margin)_Label"			= "우";
+"Bottom(Margin)_Label"			= "하";
+"Orientation(Printing)_Label"	= "방향"; // Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{pageNumber} / {totalPages}페이지"; // The current viewed page
+
+/* processed items count follows */
+
+"Processed:n_Label"           	= "처리 완료:"; // processed items count follows
+"Remaining:n_Label"    			= "남은 항목:"; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "총 {totalitems}개 항목 중 {processeditems}개"; // used when processing a single item
+"ItemsCountXofY_Info"			= "총 {totalitems}개 항목 중 {processeditems}개";
+"ItemsCountXof1Success_Info"	= "총 {totalitems}개 항목 중 {processeditems}개가 성공적으로 처리되었습니다."; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "총 {totalitems}개 항목 중 {processeditems}개가 성공적으로 처리되었습니다.";
+
+/* Standard rename file action */
+ 
+"Rename_UserAction"				= "이름 변경"; //Standard rename file action
+"RenamingItemX_Info"			= "{itemname} 이름 변경 중";
+"Renaming000_Info" = "이름 변경 중...";
+/* Confirm current selection */
+
+"Select_UserConfirmation"       = "선택"; // Confirm current selection
+"Selection(Process)_Label"		= "선택 항목"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "선택 항목 확인"; // Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "어떤 항목을 복사할까요?"; // All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "선택한 항목만";
+"AllItems_UserReply"           	= "모든 항목";
+/* Needs retranslate, items where tracks */
+"SelectedItemsN_Info"       	= "선택된 항목:"; 
+"SelectedItemsCount_Info"		= "{nbDisplayedItems}개 중 {nbSelectedItems}개 선택됨";
+"ItemsCount_Info"				= "{nbDisplayedItems}개 항목";
+"MySelection(nItems)_Info"     	= "새 선택 항목 ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "전송 준비 중. 잠시 기다려주세요...";
+"Transfer(Process)_Label"	= "전송"; // The process of transferring data, not the verb.
+
+/* Software error */
+ 
+
+"Error_Label"                	= "오류"; // Software error
+"Errors_Label"                 	= "오류"; // Labelizes error count
+"UnknownError_Info"				= "알 수 없는 오류";
+"ErrorCopyingFile_Title"		= "파일 복사 오류";
+"IgnoreFurtherErrors_UserReply"	= "추가 오류 무시";
+"UnableToLoadData_Info"			= "데이터를 불러올 수 없습니다"; 
+"FileOrFolderDoesNotExist_Info"	= "파일 또는 폴더가 존재하지 않습니다: {filename}"; 
+
+"NotEnoughSpace_Title"			= "공간 부족";  // not enough space on target storage
+"NotEnoughSpace(Copy)_Info"		= "복사 작업에 필요한 공간이 부족합니다.\n\n무시하고 작업을 계속할까요?\n\n남은 공간: {availablespace}\n필요 공간: {requiredspace}";
+"NotEnoughSpace_Info"			= "사용 가능한 디스크 공간이 부족합니다.";
+
+/* Needs Jé Input */
+ 
+"AdvancedInfo_Title"			= "고급 정보"; //Needs Jé Input
+"Details_Label"               	= "상세 정보"; // Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "아니요";  // Status Label, as in Connected: No
+"None(Neutral)_Label"			= "없음"; // If applicable, gender neutral. Details: None
+"Report(Noun)_Label"			= "보고서"; // A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "로그 표시";
+"SizeFree_Info"					= "{diskSpaceFree} 남음"; // example: 20 GB free
+"Statistics(Report)_Label"    	= "통계:"; // Statistics of transfer operation
+"Status(Connection)_Label"		= "상태"; // Labellizes connection status
+"Status(Item)_Label"           	= "상태"; // Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "이 폴더는 비어 있습니다.";
+"UnknownType_Label"      		= "알 수 없음"; // Unknown file type
+"Yes_Label"                   	= "예"; // Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "파일 시스템";
+"FileBrowser_Title"				= "파일 브라우저"; // Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "폴더"; // Folder of file system
+"Documents_Label"				= "문서"; // Documents as in electronic documents
+"Developer_Label"				= "개발자"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "도움말 보기";
+"Help(Noun)_Label"						= "도움말"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "사용자 의견 및 버그 신고 전송";
+"PrintJobWindow_Title"					= "도우미"; // As in software wizard window
+ 
+/* 35 KB of 1 GB for example */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSizeTotal} 중 {dataSize} 사용"; // 35 KB of 1 GB for example
+
+"Loading000_Info" = "불러오는 중...";
+"ItCanTakeAWhile_Info"		= "시간이 다소 소요됩니다. 잠시 기다리세요...";
+"PleaseWait_Info"			= "잠시 기다려주세요...";
+"NoDataAvailable000_Info" = "사용 가능한 데이터 없음...";
+"CalculatingSize_Info"		= "크기 계산 중..."; // Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "이용 약관";
+"AboutDigiDNA_Label"		= "DigiDNA 정보";
+
+/* In navigation context, as in a file browser or an internet browser */
+ 
+"Back(Navigation)_UserAction"		= "뒤로"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "다음";  // In navigation context
+"Previous(Navigation)_UserAction"	= "이전"; // In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "경로"; // As in file path
+"NavigationButtons_Info"			= "이전 열어본 폴더 보기";
+"ShowHistory_UserAction"			= "기록 보기"; // Browsing history
+
+/* As in data processing or transfer operations */
+
+"Operations_Label"					= "작업"; //As in data processing or transfer operations
+"NoOperation_Label"					= "작업 없음"; 
+"OperationAborted_Info"				= "작업이 중단되었습니다.";
+"OperationFailed_Title"				= "작업 실패";
+"OperationFailed_Info"				= "작업 실패";
+"StopOperationX_UserAction"			= "작업 정지: {name}"; 
+"Stopping000_Label" = "중지 중...";
+"PauseResumeOperationX_UserAction"	= "작업 일시정지/계속: {name}";
+"Success(Status)_Label"				= "성공"; // Operation success
+
+/* In a menu, reveals extra options */
+ 
+"Options_Label"					= "옵션"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "고급 옵션";
+"FileBrowserOptions:_Label"		= "파일 브라우저 옵션:";
+"BrowserOptions_Label"			= "브라우저 옵션"; // Refers to file browser
+"Configuration(Process)_Label"	= "설정"; // The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "숨겨진 파일 및 폴더 표시";
+"HideHiddenFiles_Label"			= "숨겨진 파일 및 폴더 숨김";
+
+"Analytics_Title"				= "분석"; // Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "도움말 메시지 끄기"; 
+
+"DataExportDelimiterSetting:_Info"	= "데이터 내보내기 구분 문자 (CSV, 탭 사용 구분값):"; // When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "탭";
+"Comma(Char)_Label"           		= "쉼표";
+"Semicolon(Char)_Label"       		= "세미콜론";
+
+"InterfaceLanguage_Label"	= "인터페이스 언어"; // Language of the app
+"SystemLanguage_Label"		= "시스템 언어"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "언어 변경 완료";
+
+"OptionsPresetForBestResult_Info"	= "이 옵션들은 최적의 성능을 위해 사전 설정되어 있으나 필요에 따라 변경 가능합니다.";
+
+/* Like reboot computer, not restart app. */
+ 
+"Restart(Computer)_UserAction"			= "재시작"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "재실행"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "종료"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "수면"; // Triggers computer or mobile device sleep mode
+
+/* In a filtering context, all unfiltered data: all messages, all contacts, etc... */
+ 
+"All(Filter)_Label"             = "전체"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "날짜"; 
+"DateAdded_Label"            	= "추가한 날짜"; // Labelizes the date at which an item was added
+"Kind(File)_Label"				= "유형"; // Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "수정일: %@"; // %@ replaced by file modification date
+"Name(Item)_Label"				= "이름"; // File name, item name, NOT person name
+"Size(Data)_Label"				= "크기"; // File size
+"Time_Label"                    = "시간"; // Time of the day
+"Type(File)_Label"				= "유형"; // JPG, MOV, TXT, MP3
+
+/* Limit chars, used in button */
+ 
+"TrialPeriodNDaysLeft_Info"			= "무료 체험 기간: {nDays}일 남음"; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "무료 체험 기간: 마지막 날입니다!";
+"TrialPeriodExpired_Info"			= "무료 체험 기간 만료";
+"CheckForUpdates_UserAction"  		= "업데이트 확인"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "구매"; // The action, not the noun.
+"License(Noun)_Label"				= "라이선스"; // As in software license
+"LostKey_UserAction"          		= "등록번호 분실"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "지금 구매";
+"Activate(License)_UserAction"		= "활성화"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "비활성화"; // Deactivate the license to allow activating on another computer
+
+/* Byte Unit abbreviation */
+
+"SizeBytesShort_Label"		= "바이트";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "KB"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "MB"; 
+"SizeGigaBytesShort_Label"	= "GB";
+"SizeTeraBytesShort_Label"	= "TB";
+"SizePetaBytesShort_Label"	= "PB";
+"SizeExaBytesShort_Label"	= "EB";
+"SizeZettaBytesShort_Label"	= "ZB";
+"SizeYottaBytesShort_Label"	= "YB";
+"SizeKibiBytesShort_Label"	= "KiB";
+"SizeMebiBytesShort_Label"	= "MiB";
+"SizeGibiBytesShort_Label"	= "GiB";
+"SizeTebiBytesShort_Label"	= "TiB";
+"SizePebiBytesShort_Label"	= "PiB";
+"SizeExbiBytesShort_Label"	= "EiB";
+"SizeZebiBytesShort_Label"	= "ZiB";
+"SizeYobiBytesShort_Label"	= "YiB";
+
+"Hour(Duration)_Label"		= "시간";
+"Hours(Duration)_Label"		= "시간";
+"Minute(Duration)_Label"	= "분";
+"Minutes(Duration)_Label"	= "분";
+"Second(Duration)_Label"	= "초";
+"Seconds(Duration)_Label"	= "초";
+
+"LengthUnitMilimeterShort_Label"	= "mm"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "인치"; // Inch unit abbreviation
+
+/* Standard Cancel Button */
+ 
+"Cancel_UserAction"			= "취소"; // Standard Cancel Button
+"Clear_UserAction"			= "지우기"; // Clear list of items
+"Close_UserAction"			= "닫기"; // Close file folder
+"Continue_UserReply"		= "계속"; // Continue after interruption
+"Done_UserConfirmation"		= "완료"; // Leave current context
+"DontShowAgain_Label"		= "다시 표시 안함"; // Don't show the current message again
+"Ignore_UserReply"			= "무시"; // Ignore warning and go ahead
+"Later_UserReply"			= "나중에"; // User reply to application suggestion
+"More_UserAction"			= "기타"; // Display extra options
+"No_UserReply"				= "아니요";  
+"NoThanks_UserReply"		= "아니요, 괜찮습니다.";
+"NotNow_UserReply"			= "나중에";
+"OK_UserReply"				= "확인"; 
+"Retry_UserReply"			= "재시도"; // retry current action
+"Yes_UserReply"				= "예"; 
+

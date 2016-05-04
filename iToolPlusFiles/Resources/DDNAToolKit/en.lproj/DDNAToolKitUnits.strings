@@ -1,0 +1,39 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            DDANToolKitUnits.strings
+ * @author          Stéphane Cherpit <stephane@digidna.net>
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+/*
+ No need to translate this files !!!
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Data Size Units (general use)
+ */
+
+"DDNANSStringDataSizeTypeBytes"                 = "B";
+"DDNANSStringDataSizeTypeKiloBytes"             = "KB";
+"DDNANSStringDataSizeTypeMegaBytes"             = "MB";
+"DDNANSStringDataSizeTypeGigaBytes"             = "GB";
+"DDNANSStringDataSizeTypeTeraBytes"             = "TB";
+"DDNANSStringDataSizeTypePetaBytes"             = "PB";
+"DDNANSStringDataSizeTypeExaBytes"              = "EB";
+"DDNANSStringDataSizeTypeZettaBytes"            = "ZB";
+"DDNANSStringDataSizeTypeYottaBytes"            = "YB";
+
+"DDNANSStringDataSizeTypeKibiBytes"             = "KiB";
+"DDNANSStringDataSizeTypeMebiBytes"             = "MiB";
+"DDNANSStringDataSizeTypeGibiBytes"             = "GiB";
+"DDNANSStringDataSizeTypeTebiBytes"             = "TiB";
+"DDNANSStringDataSizeTypePebiBytes"             = "PiB";
+"DDNANSStringDataSizeTypeExbiBytes"             = "EiB";
+"DDNANSStringDataSizeTypeZebiBytes"             = "ZiB";
+"DDNANSStringDataSizeTypeYobiBytes"             = "YiB";
+
+

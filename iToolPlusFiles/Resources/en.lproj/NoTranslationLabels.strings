@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            NoTranslationsLabels.strings
+ * @author          Jean-David Gadina - www.digidna.net
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Device summary screen
+ */
+"FindMyDeviceEnabled"                           = "Find My {deviceclass} Enabled";
+"iCloudBackupEnabled"                           = "iCloud Backup Enabled";
+"DeviceID"                                      = "Device ID";
+"DeviceColor"                                   = "Color";
+"DeviceEnclosureColor"                          = "Enclosure Color";
+"SerialNumber"                                  = "Serial Number";
+"iOSBuildVersion"                               = "iOS Build Version";
+"ModelDetails"                                  = "Model Details";
+"ModelNumber"                                   = "Model Type";
+"EthernetMacAddress"                            = "Ethernet MAC Address";
+"WifiMacAddress"                                = "Wi-Fi MAC Address";
+"BluetoothMacAddress"                           = "Bluetooth MAC Address";
+"FirmwareVersion"                               = "Firmware Version";
+"BasebandVersion"                               = "Baseband Version";
+"ECID"                                          = "ECID";
+"ActivationState"                               = "Activation State";
+"RegionInfo"                                    = "Region";
+"TimeZone"                                      = "Time Zone";
+"MLBSerialNumber"                               = "MLB Serial Number";
+"ECID"                                          = "ECID";
+"IMEI"                                          = "IMEI";
+"IMSI"                                          = "IMSI";
+"ICCID"                                         = "ICCID";
+"HardwareModel"                                 = "Hardware Model";
+"HardwarePlateform"                             = "Hardware Platform";
+"CPUArchitecture"                               = "CPU Architecture";
+"Jailbroken"                                    = "Jailbroken";
+"SystemBonjourUniqueID"                         = "Bonjour Unique ID";
+"USBDeviceID"                                   = "USB Device ID";
+"USBProductID"                                  = "USB Product ID";
+"USBLocationD"                                  = "USB Location ID";
+"USBInterfaceSpeed"                             = "USB Interface Speed";
+"ReadFolder_Title"                              = "Read Folder";
+"DatasetOperationTitleOpenItem"                 = "Open Item";

@@ -1,0 +1,444 @@
+/* standard Finder menu item, see screenshot */
+"AboutIMazing(Finder)_Label"		= "Sobre o iMazing"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "Preferências..."; // standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "Serviços"; // standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "Encerrar o iMazing"; // standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "Ocultar o iMazing"; // standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "Ocultar outros"; // standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "Mostrar tudo"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"File(Finder)_Label"      			= "Arquivo"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "Nova pasta"; // standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "Abrir"; // standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "Abrir com"; // standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "Visualização Rápida \"{fileName}\""; // standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "Visualização Rápida"; 
+"CloseWindow(Finder)_UserAction"	= "Fechar janela"; // standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "Obter informações"; // standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "Obter informações sobre \"{itemName}\"";
+
+/* standard Finder menu item, see screenshot */
+"Edit(Finder)_Label"             		= "Editar"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "Desfazer"; // standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "Refazer"; // standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "Copiar"; // standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "Colar"; // standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "Selecionar todos"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"View(Finder)_Label"             		= "Visualizar"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "Mostrar barra de ferramentas"; // standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "Ocultar barra de ferramentas"; // standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "Personalizar barra de ferramentas..."; // standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "Espaço flexível"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Window(Finder)_Label"            		= "Janela"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "Minimizar"; // standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "Zoom"; // standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "Trazer tudo para a frente"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Help(Finder)_Label"	= "Ajuda"; //standard Finder menu item, see screenshot
+
+
+/* Windows Explorer View option, see screenshot */
+"Icons(Explorer)_Label"          	= "Ícones"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "Ícones grandes"; // Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "Blocos"; // Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "Detalhes"; // Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "Lista"; // Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "Mostrar itens como ícones, em uma lista ou em colunas"; // Tooltip from Finder, see screenshot
+
+/* Finder sorting options, see screenshot */
+"DateModified(Finder)_Label"		= "Data da modificação"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "Data da criação"; // Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "Última abertura"; // Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "Tamanho"; // as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "Criado"; // as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "Modificado"; // as displayed in Finder->Get Info,see screenshot
+
+/* If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates. */
+"KeepBoth(Finder)_UserReply"		= "Manter ambos"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "Parar"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "Substituir"; // Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "Pular"; // Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "Aplicar a todos"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "Mesclar"; // Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "Pasta de destino:";
+"FileName:_Label"				= "Nome do arquivo:";
+"Destination(Folder)_Label"		= "Destino"; // Destination folder
+
+/* Choose a destination or source folder */
+"Choose000_UserAction" = "Escolher...";
+"Choose_UserConfirmation"		= "Escolher"; // items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "Copiando {itemname}"; 
+"CopyToX_UserAction"			= "Copiar para \"{location}\""; // to location in file system
+"CopyToMac_UserAction"			= "Copiar para Mac"; 
+"CopyToPC_UserAction"			= "Copiar para PC";
+"CopyToDevice_UserAction"		= "Copiar para dispositivo"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "Iniciando cópia...";
+"ItemsToCopyN_Label"       		= "Itens para copiar:"; // Needs retranslation
+"CopyItem_Title"				= "Copiar item";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "Copiar itens";
+"Copied(MediaItem)_Label"		= "Copiado"; // status of a single media item
+"ItemXCopied_Info"				= "{itemname} Copiado"; 
+"ItemXAndOthersCopied_Info"		= "{itemname} e outros Copiados";
+"CopyingItemX000_Info" = "Copiando {itemname}...";
+/* Confirm folder creation */
+ 
+"CreateFolder_UserConfirmation"	= "Criar pasta"; // Confirm folder creation
+"NewFolderName_Info"			= "Digite o novo nome da pasta";
+"CreatingFolder_Info"			= "Criando pasta {itemname}";
+
+/* Standard delete action */
+ 
+"Delete_UserAction"				= "Apagar"; //Standard delete action
+"ConfirmItemDelete_Info"		= "Deseja mesmo apagar  \"{itemname}\" ?";
+"DeletingItemX_Info"			= "Apagando {itemname}";
+
+/* the action, not the noun */
+
+"Download_UserAction"			= "Baixar"; // the action, not the noun
+"DownloadingX_Info"				= "Baixando {componentname}..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "Arquivo já existente:"; 
+"ItemAlreadyExists_Info"		= "Já existe um item chamado \"{itemname}\" neste local. Deseja substituí-lo?";
+"Duplicate(Noun)_Label"        	= "Duplicar"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "Duplicidades";
+
+/* Export generic data */
+ 
+"Export_UserAction"            	= "Exportar"; // Export generic data
+"ExportToPDF_UserAction"		= "Exportar para PDF";
+"ExportToText_UserAction"		= "Exportar para texto";
+"ExportToCSV_UserAction"		= "Exportar para CSV";
+"ExportInfo_UserAction"			= "Exportar Informações"; // User action to export information, not information regarding an export process!
+
+/* Import data */
+ 
+"Import_UserAction"             = "Importar"; // Import data
+
+/* Installing software */
+ 
+"InstallingX_Info"						= "Instalando..."; //Installing software
+"InstallingAppX_Info"					= "Instalando {appName}";
+"AppXInstalled_Info"					= "{itemname} instalado";
+"AppXAndOthersInstalled_Info"			= "{itemname} e outros instalados";
+"UninstallingAppX_Info"					= "Desinstalando {appName}";
+"AppXUninstalled_Info"					= "{itemname} desinstalado";
+"AppXAndOthersUninstalled_Info"			= "{itemname} e outros desinstalados";
+
+/* Quit the application */
+ 
+"Quit_UserAction"               		= "Encerrar"; // Quit the application
+"Refresh_UserAction"            		= "Atualizar"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "Revelar \"{name}\""; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "Salvar"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "Buscar"; 
+
+/* Moving file from one location to another */
+ 
+"MovingItemX_Info"				= "Movendo {itemname}"; //Moving file from one location to another
+
+/* Open file */
+ 
+"OpenX_UserAction"				= "Abrir \"{fileName}\""; //Open file
+"OpenItem_Title"				= "Abrir item"; // Item as in media item or file
+"OpenItems_Title"				= "Abrir itens"; 
+"ItemXOpened_Info"				= "{itemname} Aberto";
+"ItemXAndOthersOpened_Info"		= "{itemname} e outros Abertos";
+"OpeningItemX_Info"				= "Abrindo {itemname}";
+ 
+/* password change: the user enters the current password after this label */
+ 
+"OldPassword_Label"					= "Senha antiga:"; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "Nova senha:"; // password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "Verificar:"; // password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "A nova senha e a senha de verificação são diferentes! Verifique sua nova senha.";
+"RememberPassword_Label"			= "Lembrar senha"; // the application should remember the user's password
+"InvalidPassword_Title"				= "Senha inválida!";
+
+/* Generic print action */
+ 
+"Print_UserAction"				= "Imprimir"; // Generic print action
+"PrintToPdfFile_Label"			= "Imprimir para arquivo PDF...";
+"GenericPrinter_Label"			= "Impressora genérica";
+"Paper(Printing)_Label"			= "Papel"; 
+"PaperSize_Info"				= "{paperWidth} x {paperHeight} {sizeUnit}"; // Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "Margens"; 
+"Left(Margin)_Label"			= "Esquerda"; 
+"Top(Margin)_Label"				= "Superior";
+"Right(Margin)_Label"			= "Direita";
+"Bottom(Margin)_Label"			= "Inferior";
+"Orientation(Printing)_Label"	= "Orientação"; // Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{pageNumber} de {totalPages}"; // The current viewed page
+
+/* processed items count follows */
+
+"Processed:n_Label"           	= "Processados:"; // processed items count follows
+"Remaining:n_Label"    			= "Restantes:"; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "{processeditems} de {totalitems} item"; // used when processing a single item
+"ItemsCountXofY_Info"			= "{processeditems} de {totalitems} itens";
+"ItemsCountXof1Success_Info"	= "{processeditems} de {totalitems} item foi processado com êxito."; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "{processeditems} de {totalitems} itens foram processados com êxito.";
+
+/* Standard rename file action */
+ 
+"Rename_UserAction"				= "Renomear"; //Standard rename file action
+"RenamingItemX_Info"			= "Renomeando {itemname}";
+"Renaming000_Info" = "Renomeando...";
+/* Confirm current selection */
+
+"Select_UserConfirmation"       = "Selecionar"; // Confirm current selection
+"Selection(Process)_Label"		= "Seleção"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "Confirmar seleção"; // Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "O que você deseja copiar?"; // All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "Apenas os itens selecionados";
+"AllItems_UserReply"           	= "Todos os itens";
+/* Needs retranslate, items where tracks */
+"SelectedItemsN_Info"       	= "Itens selecionados:"; 
+"SelectedItemsCount_Info"		= "{nbSelectedItems} de {nbDisplayedItems} selecionados";
+"ItemsCount_Info"				= "{nbDisplayedItems} itens";
+"MySelection(nItems)_Info"     	= "Minha seleção ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "Preparando transferência. Aguarde...";
+"Transfer(Process)_Label"	= "Transferência"; // The process of transferring data, not the verb.
+
+/* Software error */
+ 
+
+"Error_Label"                	= "Erro"; // Software error
+"Errors_Label"                 	= "Erros"; // Labelizes error count
+"UnknownError_Info"				= "Erro desconhecido";
+"ErrorCopyingFile_Title"		= "Erro ao copiar arquivo";
+"IgnoreFurtherErrors_UserReply"	= "Ignorar outros erros";
+"UnableToLoadData_Info"			= "Não é possível carregar dados"; 
+"FileOrFolderDoesNotExist_Info"	= "O arquivo ou pasta não existe: {filename}"; 
+
+"NotEnoughSpace_Title"			= "Espaço insuficiente";  // not enough space on target storage
+"NotEnoughSpace(Copy)_Info"		= "Não há espaço suficiente para processar a cópia.\n\nGostaria de prosseguir assim mesmo?\n\nDisponível: {availablespace}\nNecessário: {requiredspace}";
+"NotEnoughSpace_Info"			= "Não há espaço disponível suficiente no disco.";
+
+/* Needs Jé Input */
+ 
+"AdvancedInfo_Title"			= "Informações avançadas"; //Needs Jé Input
+"Details_Label"               	= "Detalhes"; // Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "Não";  // Status Label, as in Connected: No
+"None(Neutral)_Label"			= "Nenhum"; // If applicable, gender neutral. Details: None
+"Report(Noun)_Label"			= "Relatório"; // A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "Mostrar registros";
+"SizeFree_Info"					= "{diskSpaceFree} livre"; // example: 20 GB free
+"Statistics(Report)_Label"    	= "Estatísticas:"; // Statistics of transfer operation
+"Status(Connection)_Label"		= "Status"; // Labellizes connection status
+"Status(Item)_Label"           	= "Status"; // Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "Esta pasta está vazia.";
+"UnknownType_Label"      		= "Desconhecido"; // Unknown file type
+"Yes_Label"                   	= "Sim"; // Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "Sistema de arquivos";
+"FileBrowser_Title"				= "Navegador de arquivos"; // Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "Pasta"; // Folder of file system
+"Documents_Label"				= "Documentos"; // Documents as in electronic documents
+"Developer_Label"				= "Desenvolvedor"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "Obter ajuda";
+"Help(Noun)_Label"						= "Ajuda"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "Enviar comentário ou relatório de erros";
+"PrintJobWindow_Title"					= "Assistente"; // As in software wizard window
+ 
+/* 35 KB of 1 GB for example */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSize} de {dataSizeTotal}"; // 35 KB of 1 GB for example
+
+"Loading000_Info" = "Carregando...";
+"ItCanTakeAWhile_Info"		= "Isso pode demorar um pouco. Por favor, seja paciente...";
+"PleaseWait_Info"			= "Aguarde";
+"NoDataAvailable000_Info" = "Nenhum dado disponível...";
+"CalculatingSize_Info"		= "Calculando tamanho..."; // Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "Termos e Condições";
+"AboutDigiDNA_Label"		= "Sobre a DigiDNA";
+
+/* In navigation context, as in a file browser or an internet browser */
+ 
+"Back(Navigation)_UserAction"		= "Voltar"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "Próximo";  // In navigation context
+"Previous(Navigation)_UserAction"	= "Anterior"; // In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "Caminho"; // As in file path
+"NavigationButtons_Info"			= "Ver as pastas exibidas anteriormente";
+"ShowHistory_UserAction"			= "Exibir histórico"; // Browsing history
+
+/* As in data processing or transfer operations */
+
+"Operations_Label"					= "Operações"; //As in data processing or transfer operations
+"NoOperation_Label"					= "Nenhuma operação"; 
+"OperationAborted_Info"				= "Operação cancelada.";
+"OperationFailed_Title"				= "Falha na operação";
+"OperationFailed_Info"				= "Falha na operação";
+"StopOperationX_UserAction"			= "Parar operação: {name}"; 
+"Stopping000_Label" = "Interrompendo...";
+"PauseResumeOperationX_UserAction"	= "Pausar/continuar operação: {name}";
+"Success(Status)_Label"				= "Sucesso"; // Operation success
+
+/* In a menu, reveals extra options */
+ 
+"Options_Label"					= "Opções"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "Opções avançadas";
+"FileBrowserOptions:_Label"		= "Opções do navegador de arquivos:";
+"BrowserOptions_Label"			= "Opções do navegador"; // Refers to file browser
+"Configuration(Process)_Label"	= "Configuração"; // The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "Mostrar arquivos e pastas ocultos";
+"HideHiddenFiles_Label"			= "Ocultar arquivos e pastas ocultos";
+
+"Analytics_Title"				= "Estatísticas de uso"; // Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "Não mostrar dicas de ferramentas"; 
+
+"DataExportDelimiterSetting:_Info"	= "Delimitador de exportação de dados (CSV, valores separados por tabulação):"; // When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "Tab";
+"Comma(Char)_Label"           		= "Vírgula";
+"Semicolon(Char)_Label"       		= "Ponto e vírgula";
+
+"InterfaceLanguage_Label"	= "Idioma da interface"; // Language of the app
+"SystemLanguage_Label"		= "Idioma do sistema"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "Idioma alterado";
+
+"OptionsPresetForBestResult_Info"	= "Essas opções são pré-definidas para melhores resultados. Você pode alterá-las, se desejar.";
+
+/* Like reboot computer, not restart app. */
+ 
+"Restart(Computer)_UserAction"			= "Reiniciar"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "Reiniciar"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "Desligar"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "Suspensão"; // Triggers computer or mobile device sleep mode
+
+/* In a filtering context, all unfiltered data: all messages, all contacts, etc... */
+ 
+"All(Filter)_Label"             = "Todos"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "Data"; 
+"DateAdded_Label"            	= "Adicionado em"; // Labelizes the date at which an item was added
+"Kind(File)_Label"				= "Tipo"; // Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "Modificado em: %@"; // %@ replaced by file modification date
+"Name(Item)_Label"				= "Nome"; // File name, item name, NOT person name
+"Size(Data)_Label"				= "Tamanho"; // File size
+"Time_Label"                    = "Tempo"; // Time of the day
+"Type(File)_Label"				= "Tipo"; // JPG, MOV, TXT, MP3
+
+/* Limit chars, used in button */
+ 
+"TrialPeriodNDaysLeft_Info"			= "Período de avaliação: restam {nDays} dias"; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "Período de avaliação: último dia para se registrar!";
+"TrialPeriodExpired_Info"			= "O período de avaliação expirou";
+"CheckForUpdates_UserAction"  		= "Verificar atualizações"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "Compra"; // The action, not the noun.
+"License(Noun)_Label"				= "Licença"; // As in software license
+"LostKey_UserAction"          		= "Perdeu a chave?"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "Comprar agora";
+"Activate(License)_UserAction"		= "Ativar"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "Desativar"; // Deactivate the license to allow activating on another computer
+
+/* Byte Unit abbreviation */
+
+"SizeBytesShort_Label"		= "B";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "KB"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "MB"; 
+"SizeGigaBytesShort_Label"	= "GB";
+"SizeTeraBytesShort_Label"	= "TB";
+"SizePetaBytesShort_Label"	= "PB";
+"SizeExaBytesShort_Label"	= "EB";
+"SizeZettaBytesShort_Label"	= "ZB";
+"SizeYottaBytesShort_Label"	= "YB";
+"SizeKibiBytesShort_Label"	= "KiB";
+"SizeMebiBytesShort_Label"	= "MiB";
+"SizeGibiBytesShort_Label"	= "GiB";
+"SizeTebiBytesShort_Label"	= "TiB";
+"SizePebiBytesShort_Label"	= "PiB";
+"SizeExbiBytesShort_Label"	= "EiB";
+"SizeZebiBytesShort_Label"	= "ZiB";
+"SizeYobiBytesShort_Label"	= "YiB";
+
+"Hour(Duration)_Label"		= "Hora";
+"Hours(Duration)_Label"		= "Horas";
+"Minute(Duration)_Label"	= "Minuto";
+"Minutes(Duration)_Label"	= "Minutos";
+"Second(Duration)_Label"	= "Segundo";
+"Seconds(Duration)_Label"	= "Segundos";
+
+"LengthUnitMilimeterShort_Label"	= "mm"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "pol"; // Inch unit abbreviation
+
+/* Standard Cancel Button */
+ 
+"Cancel_UserAction"			= "Cancelar"; // Standard Cancel Button
+"Clear_UserAction"			= "Limpar"; // Clear list of items
+"Close_UserAction"			= "Fechar"; // Close file folder
+"Continue_UserReply"		= "Continuar"; // Continue after interruption
+"Done_UserConfirmation"		= "OK"; // Leave current context
+"DontShowAgain_Label"		= "Não mostrar novamente"; // Don't show the current message again
+"Ignore_UserReply"			= "Ignorar"; // Ignore warning and go ahead
+"Later_UserReply"			= "Mais tarde"; // User reply to application suggestion
+"More_UserAction"			= "Mais"; // Display extra options
+"No_UserReply"				= "Não";  
+"NoThanks_UserReply"		= "Não, obrigado!";
+"NotNow_UserReply"			= "Agora não";
+"OK_UserReply"				= "OK"; 
+"Retry_UserReply"			= "Tentar de novo"; // retry current action
+"Yes_UserReply"				= "Sim"; 
+

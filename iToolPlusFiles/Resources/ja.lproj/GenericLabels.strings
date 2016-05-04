@@ -1,0 +1,444 @@
+/* standard Finder menu item, see screenshot */
+"AboutIMazing(Finder)_Label"		= "iMazing について"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "環境設定..."; // standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "サービス"; // standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "iMazing を終了"; // standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "iMazing を隠す"; // standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "他を隠す"; // standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "すべてを表示"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"File(Finder)_Label"      			= "ファイル"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "新規フォルダ"; // standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "開く"; // standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "このアプリケーションで開く"; // standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "\"{fileName}\" をクイックルック"; // standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "クイックルック"; 
+"CloseWindow(Finder)_UserAction"	= "ウインドウを閉じる"; // standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "情報を見る"; // standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "\"{itemName}\" の情報を見る";
+
+/* standard Finder menu item, see screenshot */
+"Edit(Finder)_Label"             		= "編集"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "取り消す"; // standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "やり直す"; // standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "コピー"; // standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "ペースト"; // standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "すべてを選択"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"View(Finder)_Label"             		= "表示"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "ツールバーを表示"; // standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "ツールバーを隠す"; // standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "ツールバーをカスタマイズ..."; // standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "伸縮自在のスペース"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Window(Finder)_Label"            		= "ウィンドウ"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "最小化"; // standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "ズーム"; // standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "すべてを手前に移動"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Help(Finder)_Label"	= "ヘルプ"; //standard Finder menu item, see screenshot
+
+
+/* Windows Explorer View option, see screenshot */
+"Icons(Explorer)_Label"          	= "アイコン"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "大アイコン"; // Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "並べて表示"; // Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "詳細"; // Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "リスト"; // Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "リストやカラムでアイテムをアイコン表示"; // Tooltip from Finder, see screenshot
+
+/* Finder sorting options, see screenshot */
+"DateModified(Finder)_Label"		= "更新日時"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "作成日時"; // Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "前回開いた日時"; // Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "サイズ"; // as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "作成"; // as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "変更"; // as displayed in Finder->Get Info,see screenshot
+
+/* If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates. */
+"KeepBoth(Finder)_UserReply"		= "両方残す"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "中止"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "置き換える"; // Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "スキップ"; // Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "すべてに適用"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "統合する"; // Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "コピー先フォルダ：";
+"FileName:_Label"				= "ファイル名:";
+"Destination(Folder)_Label"		= "コピー先"; // Destination folder
+
+/* Choose a destination or source folder */
+"Choose000_UserAction" = "選択...";
+"Choose_UserConfirmation"		= "選択"; // items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "{itemname} をコピー中"; 
+"CopyToX_UserAction"			= "\"{location}\" にコピー..."; // to location in file system
+"CopyToMac_UserAction"			= "Mac にコピー"; 
+"CopyToPC_UserAction"			= "PC にコピー";
+"CopyToDevice_UserAction"		= "デバイスにコピー"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "コピーを開始しています...";
+"ItemsToCopyN_Label"       		= "コピーするアイテム："; // Needs retranslation
+"CopyItem_Title"				= "アイテムをコピー";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "アイテムをコピー";
+"Copied(MediaItem)_Label"		= "コピー完了"; // status of a single media item
+"ItemXCopied_Info"				= "{itemname} がコピーされました"; 
+"ItemXAndOthersCopied_Info"		= "{itemname} とその他がコピーされました";
+"CopyingItemX000_Info" = "{itemname} をコピー中...";
+/* Confirm folder creation */
+ 
+"CreateFolder_UserConfirmation"	= "新規フォルダ作成"; // Confirm folder creation
+"NewFolderName_Info"			= "新規フォルダ名を入力";
+"CreatingFolder_Info"			= "{itemname} フォルダを作成中";
+
+/* Standard delete action */
+ 
+"Delete_UserAction"				= "削除"; //Standard delete action
+"ConfirmItemDelete_Info"		= "\"{itemname}\" を削除してもよろしいですか？";
+"DeletingItemX_Info"			= "{itemname} を削除中";
+
+/* the action, not the noun */
+
+"Download_UserAction"			= "ダウンロード"; // the action, not the noun
+"DownloadingX_Info"				= "{componentname}をダウンロード中..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "すでにファイルが存在します："; 
+"ItemAlreadyExists_Info"		= "コピー先にすでに \"{itemname}\" と同じ名前のアイテムが存在します。上書きしてもよろしいですか？";
+"Duplicate(Noun)_Label"        	= "複製"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "複製する";
+
+/* Export generic data */
+ 
+"Export_UserAction"            	= "エクスポート"; // Export generic data
+"ExportToPDF_UserAction"		= "PDF にエクスポート";
+"ExportToText_UserAction"		= "テキストにエクスポート";
+"ExportToCSV_UserAction"		= "CSV にエクスポート";
+"ExportInfo_UserAction"			= "エクスポート情報"; // User action to export information, not information regarding an export process!
+
+/* Import data */
+ 
+"Import_UserAction"             = "インポート"; // Import data
+
+/* Installing software */
+ 
+"InstallingX_Info"						= "インストール中..."; //Installing software
+"InstallingAppX_Info"					= "{appName} をインストール中";
+"AppXInstalled_Info"					= "{itemname} をインストールしました";
+"AppXAndOthersInstalled_Info"			= "{itemname} とその他をインストールしました";
+"UninstallingAppX_Info"					= "{appName} をアンインストール中";
+"AppXUninstalled_Info"					= "{itemname} をアンインストールしました";
+"AppXAndOthersUninstalled_Info"			= "{itemname} とその他をアンインストールしました";
+
+/* Quit the application */
+ 
+"Quit_UserAction"               		= "終了"; // Quit the application
+"Refresh_UserAction"            		= "更新"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "\"{name}\" を表示"; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "保存"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "検索"; 
+
+/* Moving file from one location to another */
+ 
+"MovingItemX_Info"				= "{itemname} を移動中"; //Moving file from one location to another
+
+/* Open file */
+ 
+"OpenX_UserAction"				= "\"{fileName}\" を開く"; //Open file
+"OpenItem_Title"				= "アイテムを開く"; // Item as in media item or file
+"OpenItems_Title"				= "アイテムを開く"; 
+"ItemXOpened_Info"				= "{itemname} を開きました";
+"ItemXAndOthersOpened_Info"		= "{itemname} とその他を開きました";
+"OpeningItemX_Info"				= "{itemname} を開いています";
+ 
+/* password change: the user enters the current password after this label */
+ 
+"OldPassword_Label"					= "古いパスワード："; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "新しいパスワード："; // password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "再入力："; // password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "新しいパスワードと再入力されたパスワードが一致していません！新しいパスワードを確認してください。";
+"RememberPassword_Label"			= "パスワードを記憶"; // the application should remember the user's password
+"InvalidPassword_Title"				= "無効なパスワードです！";
+
+/* Generic print action */
+ 
+"Print_UserAction"				= "印刷"; // Generic print action
+"PrintToPdfFile_Label"			= "PDF ファイルで印刷（作成）...";
+"GenericPrinter_Label"			= "市販のプリンター...";
+"Paper(Printing)_Label"			= "用紙"; 
+"PaperSize_Info"				= "{paperWidth} （幅）Ｘ {paperHeight} （長さ） {sizeUnit}"; // Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "余白"; 
+"Left(Margin)_Label"			= "左"; 
+"Top(Margin)_Label"				= "上";
+"Right(Margin)_Label"			= "右";
+"Bottom(Margin)_Label"			= "下";
+"Orientation(Printing)_Label"	= "方向"; // Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{totalPages} 中の {pageNumber} 枚目"; // The current viewed page
+
+/* processed items count follows */
+
+"Processed:n_Label"           	= "処理済み："; // processed items count follows
+"Remaining:n_Label"    			= "未処理："; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "{totalitems} 中の {processeditems} アイテム"; // used when processing a single item
+"ItemsCountXofY_Info"			= "{totalitems} 中の {processeditems} アイテム";
+"ItemsCountXof1Success_Info"	= "{totalitems} 中の {processeditems} アイテムの処理が終了しました。"; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "{totalitems} 中の {processeditems} アイテムの処理が終了しました。";
+
+/* Standard rename file action */
+ 
+"Rename_UserAction"				= "リネーム"; //Standard rename file action
+"RenamingItemX_Info"			= "{itemname} リネーム中";
+"Renaming000_Info" = "リネーム中...";
+/* Confirm current selection */
+
+"Select_UserConfirmation"       = "選択"; // Confirm current selection
+"Selection(Process)_Label"		= "選択"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "選択済みを確認"; // Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "どれをコピーしますか？"; // All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "選択済みアイテムのみ";
+"AllItems_UserReply"           	= "全アイテム";
+/* Needs retranslate, items where tracks */
+"SelectedItemsN_Info"       	= "選択済みアイテム："; 
+"SelectedItemsCount_Info"		= "{nbDisplayedItems} 中の {nbSelectedItems} を選択しました";
+"ItemsCount_Info"				= "{nbDisplayedItems} アイテム";
+"MySelection(nItems)_Info"     	= "マイ セレクション ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "転送の準備をしています。お待ちください...";
+"Transfer(Process)_Label"	= "転送"; // The process of transferring data, not the verb.
+
+/* Software error */
+ 
+
+"Error_Label"                	= "エラー"; // Software error
+"Errors_Label"                 	= "エラー"; // Labelizes error count
+"UnknownError_Info"				= "未知のエラー";
+"ErrorCopyingFile_Title"		= "ファイルコピーエラー";
+"IgnoreFurtherErrors_UserReply"	= "以降のエラーを無視";
+"UnableToLoadData_Info"			= "データをロードできません"; 
+"FileOrFolderDoesNotExist_Info"	= "目的のファイルまたはフォルダは存在しません：{filename}"; 
+
+"NotEnoughSpace_Title"			= "空きスペースが足りません";  // not enough space on target storage
+"NotEnoughSpace(Copy)_Info"		= "コピーするのに十分な空き領域がありません。\n\nこのまま作業を続けますか？\n\n空き領域： {availablespace}\n必要領域： {requiredspace}";
+"NotEnoughSpace_Info"			= "ディスクに十分な空きスペースがありません。";
+
+/* Needs Jé Input */
+ 
+"AdvancedInfo_Title"			= "詳細情報"; //Needs Jé Input
+"Details_Label"               	= "詳細"; // Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "いいえ";  // Status Label, as in Connected: No
+"None(Neutral)_Label"			= "なし"; // If applicable, gender neutral. Details: None
+"Report(Noun)_Label"			= "レポート"; // A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "ログを表示";
+"SizeFree_Info"					= "空きスペース {diskSpaceFree}"; // example: 20 GB free
+"Statistics(Report)_Label"    	= "統計："; // Statistics of transfer operation
+"Status(Connection)_Label"		= "ステータス"; // Labellizes connection status
+"Status(Item)_Label"           	= "ステータス"; // Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "このフォルダは空です。";
+"UnknownType_Label"      		= "未知の形式"; // Unknown file type
+"Yes_Label"                   	= "はい"; // Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "ファイルシステム";
+"FileBrowser_Title"				= "ファイルブラウザ"; // Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "フォルダ"; // Folder of file system
+"Documents_Label"				= "ドキュメント"; // Documents as in electronic documents
+"Developer_Label"				= "開発者"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "ヘルプを参照";
+"Help(Noun)_Label"						= "ヘルプ"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "フィードバックかバグレポートを送信";
+"PrintJobWindow_Title"					= "アシスタント"; // As in software wizard window
+ 
+/* 35 KB of 1 GB for example */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSizeTotal} 中の {dataSize}"; // 35 KB of 1 GB for example
+
+"Loading000_Info" = "ロード中...";
+"ItCanTakeAWhile_Info"		= "時間がかかる場合がございます。少々お待ちください...";
+"PleaseWait_Info"			= "お待ちください...";
+"NoDataAvailable000_Info" = "利用できるデータがありません...";
+"CalculatingSize_Info"		= "サイズを計算中..."; // Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "使用許諾事項";
+"AboutDigiDNA_Label"		= "DigiDNA について";
+
+/* In navigation context, as in a file browser or an internet browser */
+ 
+"Back(Navigation)_UserAction"		= "戻る"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "次へ";  // In navigation context
+"Previous(Navigation)_UserAction"	= "前へ"; // In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "パス"; // As in file path
+"NavigationButtons_Info"			= "以前に表示したフォルダを確認";
+"ShowHistory_UserAction"			= "履歴を表示"; // Browsing history
+
+/* As in data processing or transfer operations */
+
+"Operations_Label"					= "処理"; //As in data processing or transfer operations
+"NoOperation_Label"					= "処理なし"; 
+"OperationAborted_Info"				= "処理が中止されました。";
+"OperationFailed_Title"				= "処理に失敗しました";
+"OperationFailed_Info"				= "処理に失敗しました";
+"StopOperationX_UserAction"			= "処理を停止： {name}"; 
+"Stopping000_Label" = "停止中...";
+"PauseResumeOperationX_UserAction"	= "処理を一時停止/再開： {name}";
+"Success(Status)_Label"				= "成功"; // Operation success
+
+/* In a menu, reveals extra options */
+ 
+"Options_Label"					= "オプション"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "詳細オプション";
+"FileBrowserOptions:_Label"		= "ファイルブラウザのオプション：";
+"BrowserOptions_Label"			= "ブラウザオプション"; // Refers to file browser
+"Configuration(Process)_Label"	= "設定"; // The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "隠しファイルとフォルダを表示する";
+"HideHiddenFiles_Label"			= "隠しファイルとフォルダを隠す";
+
+"Analytics_Title"				= "アナリティクス"; // Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "ヒントを表示しない"; 
+
+"DataExportDelimiterSetting:_Info"	= "エクスポートデータの区切り（CSV、TSV）："; // When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "タブ";
+"Comma(Char)_Label"           		= "コンマ";
+"Semicolon(Char)_Label"       		= "セミコロン";
+
+"InterfaceLanguage_Label"	= "インターフェイス言語"; // Language of the app
+"SystemLanguage_Label"		= "システム言語"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "言語が変更されました";
+
+"OptionsPresetForBestResult_Info"	= "最高の状態でご利用いただけるように、あらかじめこれらのオプションは有効に設定されていますが、いつでも変更可能です。";
+
+/* Like reboot computer, not restart app. */
+ 
+"Restart(Computer)_UserAction"			= "再起動"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "再起動"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "シャットダウン"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "スリープ"; // Triggers computer or mobile device sleep mode
+
+/* In a filtering context, all unfiltered data: all messages, all contacts, etc... */
+ 
+"All(Filter)_Label"             = "すべて"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "日付"; 
+"DateAdded_Label"            	= "日付追加済み"; // Labelizes the date at which an item was added
+"Kind(File)_Label"				= "種類"; // Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "変更： %@"; // %@ replaced by file modification date
+"Name(Item)_Label"				= "氏名"; // File name, item name, NOT person name
+"Size(Data)_Label"				= "サイズ"; // File size
+"Time_Label"                    = "時間"; // Time of the day
+"Type(File)_Label"				= "タイプ"; // JPG, MOV, TXT, MP3
+
+/* Limit chars, used in button */
+ 
+"TrialPeriodNDaysLeft_Info"			= "トライアル期間： 残り {nDays} 日間"; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "トライアル期間： 登録最終日です！";
+"TrialPeriodExpired_Info"			= "トライアル期間が終了しました";
+"CheckForUpdates_UserAction"  		= "アップデートを確認"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "購入"; // The action, not the noun.
+"License(Noun)_Label"				= "ライセンス"; // As in software license
+"LostKey_UserAction"          		= "シリアルキーをお忘れですか？"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "今すぐ購入";
+"Activate(License)_UserAction"		= "アクティベーション"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "アクティベーションを無効化"; // Deactivate the license to allow activating on another computer
+
+/* Byte Unit abbreviation */
+
+"SizeBytesShort_Label"		= "B";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "KB"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "MB"; 
+"SizeGigaBytesShort_Label"	= "GB";
+"SizeTeraBytesShort_Label"	= "TB";
+"SizePetaBytesShort_Label"	= "PB";
+"SizeExaBytesShort_Label"	= "EB";
+"SizeZettaBytesShort_Label"	= "ZB";
+"SizeYottaBytesShort_Label"	= "YB";
+"SizeKibiBytesShort_Label"	= "KiB";
+"SizeMebiBytesShort_Label"	= "MiB";
+"SizeGibiBytesShort_Label"	= "GiB";
+"SizeTebiBytesShort_Label"	= "TiB";
+"SizePebiBytesShort_Label"	= "PiB";
+"SizeExbiBytesShort_Label"	= "EiB";
+"SizeZebiBytesShort_Label"	= "ZiB";
+"SizeYobiBytesShort_Label"	= "YiB";
+
+"Hour(Duration)_Label"		= "時間";
+"Hours(Duration)_Label"		= "時間";
+"Minute(Duration)_Label"	= "分";
+"Minutes(Duration)_Label"	= "分";
+"Second(Duration)_Label"	= "秒";
+"Seconds(Duration)_Label"	= "秒";
+
+"LengthUnitMilimeterShort_Label"	= "mm"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "インチ"; // Inch unit abbreviation
+
+/* Standard Cancel Button */
+ 
+"Cancel_UserAction"			= "キャンセル"; // Standard Cancel Button
+"Clear_UserAction"			= "クリア"; // Clear list of items
+"Close_UserAction"			= "閉じる"; // Close file folder
+"Continue_UserReply"		= "続ける"; // Continue after interruption
+"Done_UserConfirmation"		= "終了"; // Leave current context
+"DontShowAgain_Label"		= "再表示しない"; // Don't show the current message again
+"Ignore_UserReply"			= "無視する"; // Ignore warning and go ahead
+"Later_UserReply"			= "後で"; // User reply to application suggestion
+"More_UserAction"			= "詳細情報"; // Display extra options
+"No_UserReply"				= "いいえ";  
+"NoThanks_UserReply"		= "結構です";
+"NotNow_UserReply"			= "今はしない";
+"OK_UserReply"				= "OK"; 
+"Retry_UserReply"			= "再試行"; // retry current action
+"Yes_UserReply"				= "はい"; 
+

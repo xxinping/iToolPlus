@@ -1,0 +1,847 @@
+/* Short for Applications. Labelizes sections of iMazing which display apps on the device, or in a backup. */
+ 
+"Apps_Label"				= "Apps"; // Short for Applications. Labelizes sections of iMazing which display apps on the device, or in a backup.
+"ManageApps_UserAction"		= "Gérer les apps"; // User Action
+"UninstallApp_UserAction"	= "Désinstallation de l'app..."; // User Action
+"InstallApp_UserAction"		= "Restaurer l'app"; // User Action
+"ExtractApp_UserAction"		= "Extraction de l'app..."; // User Action
+
+"AppExtraction_Title"		= "Extraction d'application"; // Dialog box title
+"AppExtractionWhat_Info"	= "Que souhaitez-vous extraire ?\n\nLa sélection de « Application et Données » entraînera l’export d’un fichier « {filextension} » lié à l’identifiant Apple {appleid}. Sélectionnez « Données uniquement » si vous avez l’intention de partager le fichier exporté avec d’autres utilisateurs."; // Refers to extracting app only, or app and app data
+
+"AppInstall_Title"				= "Installation d'application"; // Title of dialog box
+"AppRestore_Title"				= "Restauration d'app"; // Title of dialog box
+"AppInstallWhat_Info"			= "Que souhaitez-vous transférer ?"; // Refers to restoring app to the device: app only, or app and app data.
+"InstallAppOrAppAndData_Info" 	= "Que souhaitez-vous installer ?\n\nSi vous sélectionnez « App et données », votre appareil redémarrera à la fin de l'installation."; // Refers to restoring app to the device: app only, or app and app data.
+
+// "ExtractAppIOS9_Info"			= "As of iOS 9, only app data can be extracted. iMazing will create an .imazingapp file, which when reinstalled will redownload the app on your device and restore app data.";
+"RestoreAppAndReboot_Info"		= "iMazing restaurera les données de l’application et redémarrera votre appareil. Restaurer maintenant ?";
+"OverwriteAppData_Info"			= "Vous êtes sur le point d'écraser les données de l'application. iMazing peut remplacer totalement les données (plus sûr) ou les fusionner (plus rapide). L'option rapide convient à la plupart des jeux ; l'option sûre est recommandée pour les apps contenant des documents et données de l'utilisateur.";
+/* User reply to dialog: Safe or Fast restore of application data? */
+"Fast(Restore)_UserReply"		= "Rapide";
+/* User reply to dialog: Safe or Fast restore of application data? */
+"Safe(Restore)_UserReply"		= "Sûre";
+
+"AppDataExtraction_Info"		= "iMazing extraira maintenant les données de l'application.  \n\nSi vous allez transférer des données importantes, veillez à tester avant de supprimer les données que vous allez transférer. Une minorité d'applications stockent les données dans des emplacements inaccessibles : iMazing pourrait ne pas les restaurer complètement.";
+
+"AppRestoreRebootLongReboot_Info"       = "Votre appareil est en cours de redémarrage. Veuillez patienter, cette opération peut prendre quelques minutes.\n\nLorsque votre appareil sera de nouveau connecté, vous serez invité(e) à :\n\n1. Cliquer sur « Continuer »\n2. Sélectionner votre réseau Wi-Fi\n3. Saisir le mot de passe de votre identifiant Apple\n4. Choisir si vous souhaitez activer Localiser mon {deviceclass}";
+"AppRestoreReboot(ShortMessage)_Info" 	= "{devicename} est en cours de redémarrage. Veuillez patienter...";
+"AppAndData_UserReply"                  = "App et données"; // User Reply in dialog box. When installing or extracting an app, app only or app and data?
+"DataOnly_UserReply"                    = "Données uniquement"; // User Reply in dialog box. When installing or extracting an app, app and app data, or only data?
+// "AppOnly_UserReply"                   = "App Only"; // User Reply in dialog box. When installing or extracting an app, app only or app and data?
+"AppsData_Label"                        = "Données des apps"; // Labelizes wether to include data of applications in operation.
+
+"AppInstallMissingApp_Info"					= "Avant de pouvoir restaurer ses données, {appname} doit être installé sur votre appareil. Veuillez télécharger l'application depuis l'App Store.";
+"AppInstallAppleIDMismatchWarning_Info"		= "Vous êtes sur le point d'installer {appname}, qui est lié à un identifiant Apple différent de celui de votre appareil.\n\nIdentifiant Apple de l'app {appname} : {appappleid}\nIdentifiant Apple de l'appareil : {deviceappleid}.\n\nSi vous installez cette app, vous devrez vous connecter à {appappleid}.\n\nInstaller quand même ?";
+
+"ShowAllApps_UserAction"					= "Afficher toutes les Apps"; // By opposition to 'Only show sharing enabled Apps' below.
+"ShowSharingAppsOnly_UserAction"			= "N'afficher que les Apps pour lesquelles le partage est activé";
+"ShowAppsRootContainer_UserAction"			= "Afficher le conteneur racine des Apps"; // By opposition to 'Only show Apps Documents folder' below
+"OnlyShowAppsDocumentsFolder_UserAction"	= "N'afficher que le dossier Documents des Apps";
+
+
+"iOSAppDataNotAvailable_Info"			= "À partir de l'iOS 8.3, seul le dossier « Documents » des apps compatibles avec le « partage de fichiers » est accessible. iMazing extraira et installera uniquement l'app elle-même, sans les données qui lui sont associées.";
+"DocumentsFolderIsNotAccessible_Info"	= "Le dossier Documents de {appname} n'est pas accessible.\nÀ partir de l'iOS 8.3, seules les apps ayant le « partage de fichiers » activé peuvent accéder au dossier Documents.";
+
+"CannotConnectToApp_Info"					= "Impossible de se connecter à cette App.";
+"CannotInstallAppInvalidFile_Info"			= "Impossible de restaurer l'app.\n\nLe type de fichier n'est pas valide. Vous devez sélectionner un fichier .zip, .ipa ou un dossier .app.";
+"CannotInstallIMazingApp_Info"				= "Les fichiers .imazingapp ne peuvent être installés que sur iOS 9 et plus.";
+
+"InstallingXofYApps_Info"		= "Restauration de {processeditems} sur {totalitems} apps - {status}";
+"UninstallingXofYApps_Info"		= "Désinstallation de {processeditems} sur {totalitems} apps - {status}";
+
+"ExtractingAppX_Info"			= "Extraction de {appName}..."; // Extracting application from device
+"ExtractingXofYApps_Info"		= "Extraction de {processeditems} sur {totalitems} apps - {status}";
+"AppXExtracted_Info"			= "{itemname} extrait"; // Application was successfully extracted
+"AppXAndOthersExtracted_Info"	= "{itemname} et d'autres éléments ont été extraits";
+
+/* iOS Contacts App, exactly as Apple translates it */
+
+"Contacts(App)_Label"			= "Contacts"; // iOS Contacts App, exactly as Apple translates it
+"Contacts(Dataset)_Label"		= "Contacts"; // The dataset, not necessarily the iOS apps. Refers to te content of the Contacts app.
+"Contact_Label"					= "Contact"; // Contact as in entry in address book
+"DefaultFileNameContact_Label"	= "Contact"; // When exporting a single contact, the root name of the exported file. 'Contact - John Smith.vcf' for example.
+"DefaultFileNameContacts_Label"	= "Contacts"; // When exporting a single contact to a single vcard, the root name of the exported file. 'Contacts - 2005-08-12.vcf' would be the full file name, for example.
+
+"PersonTitle_Label"			= "Civilité"; // Title as in Mr, Madam, Professor etc...
+"FirstName_Label"			= "Prénom";
+"LastName_Label"			= "Nom";
+"NoName(Contact)_Label"		= "Sans nom"; // Displayed if the contact record does not have enough info to display a name ( no first name, last name, company etc.. ).
+"Company_Label"				= "Société"; // Field in contact card
+"NotesOnContact_Label"		= "Remarques"; // Field in contact card: notes on the contact
+
+"PhoneNumber_Label"			= "Numéro de téléphone";
+"Number(Phone)_Label"		= "Numéro"; // short for phone number
+
+"ExportContactsAsSingleVCard_Info"  = "Exporter les contacts en tant que VCard unique"; // User action
+"ExportToVCard_UserAction"			= "Exporter vers VCard"; // User action, export contact to VCard
+"ExportToContacts_UserAction"		= "Exporter vers Contacts"; // User action, export from device to desktop Contacts app
+"ImportFromContacts_UserAction"		= "Importer depuis Contacts"; // User action, import from desktop Contacts app to device
+"ImportFromVCard_UserAction"		= "Importer depuis VCard"; // import contact from VCard file to device
+
+"LoadingContacts000_Info"			= "Chargement des contacts...";
+
+"CopyContact_Title"					= "Copier le contact"; // Title of dialog box
+"CopyContacts_Title"				= "Copier les contacts"; // Title of dialog box
+"DeletingContacts_Title"			= "Suppression des contacts..."; // Title of dialog box
+
+"ChooseContactsFromAddressBook_Info"	= "Choisissez les contacts à copier depuis votre carnet d'adresses :"; // Select contacts from the OS X Contacts app to copy to iOS device
+"OrCopyContactsFromFile_Info"			= "Ou copier des contacts depuis un fichier vCard :"; // Select a .vcf file to copy to the device
+
+"DuplicateContact_Title"			= "Contact en double"; // Dialog box title: duplicate contact found.
+"ContactXAlreadyOnDevice_Info"		= "Un contact (« {name} ») est déjà présent sur votre appareil. Que voulez-vous faire ?";
+"ContactXAlreadyInICloud_Info"		= "Un contact (« {name} ») est déjà présent sur votre compte iCloud. Que voulez-vous faire ?";
+"ContactXAlreadyInFacebook_Info"	= "Un contact (« {name} ») est déjà présent sur votre compte Facebook. Que voulez-vous faire ?";
+
+"PreparingToCopyContacts_Info"			= "Préparation de la copie des contacts...";
+"GettingContactsChangesOnDevice_Info"	= "Récupération des changements..."; // Before pushing new contacts to a device, retrieving latest information on the Contacts database
+"CopyingContacts000_Info"       		= "Copie des contacts...";
+"CopyingContactsDetails000_Info"		= "Copie des infos des contacts...";
+"FinalizingContactsCopy000_Info"		= "Finalisation de la copie des contacts...";
+ 
+/* Dialog box title: the selected destination folder cannot be written to */
+ 
+"NotWritable_Title"								= "Protégé en écriture"; // Dialog box title: the selected destination folder cannot be written to
+
+"WritePermissionDenied(ProtectedItem)_Info"		= "« {itemname} » est un élément protégé. Débloquer votre appareil pourrait vous permettre d'y accéder."; // protected item: protected by encryption or iOS security.
+"EditPermissionDenied(General)_Info"			= "« {itemname} » est en lecture seule et aucune modification n'est possible."; // item can be a file or a folder
+"ModificationsOnlyForAdvancedUsers_Info"		= "Toute modification à {itemname} réclame de la vigilance et sera de préférence effectuée par des développeurs ou des utilisateurs confirmés."; // Changes in current location in file system are dangerous!
+
+"NotReadable_Title"						= "Protégé en lecture"; // Dialog box title
+"ReadPermissionDenied(General)_Info" 	= "« {itemname} » ne peut pas être lu."; // item can be a file or a folder.
+
+"CannotCopyFileDoesNotExist_Info"	= "Impossible de copier ce fichier. Il est introuvable sur l'appareil.";
+"CannotCopyFileFromDevice_Info"		= "Impossible de copier ce fichier à partir de l'appareil.";
+
+"CannotConnectToRoot_Info"			= "Impossible de se connecter au dossier racine."; // iOS devices are very secure: not all folders in the file system are accessible. The root folder is not accessible on non jailbroken devices. See 'Rooting' vocabulary in jailbreak or hacking circles.
+
+"LocalModifications_Title"	= "Modifications locales"; // Dialog box title
+"LocalModifications_Info"	= "Le fichier {filename} présente des modifications locales. Le renvoyer vers votre appareil ?"; 
+
+"RefreshX_UserAction"		= "Actualiser « {location} »..."; // user action: reload the displayed file system location from the device
+ 
+/* iBooks iOS app name, exactly as Apple translates it. */
+ 
+"iBooks(App)_Label"	= "iBooks"; // iBooks iOS app name, exactly as Apple translates it. 
+
+/* iOS Messages App, exactly as translated by Apple */
+ 
+"Messages(App)_Label"               = "Messages"; // iOS Messages App, exactly as translated by Apple
+"Messages(Dataset)_Label"			= "Messages"; // the contents of the Messages app
+"Message_Label"                     = "Message"; // a single message in the Messages app
+
+"DateXFromSenderY_Info"             = "{messagedatetime} de {sender}"; // In iMazing's Messages View, each message is preceded by 'dateReceived from contactName' or ( see next phrase )
+"DateXToRecipientY_Info"           	= "{messagedatetime} à {recipients}"; // 'dateSent to conatctName'
+"ExportAttachments_UserAction"		= "Exporter pièces jointes"; // Export attachments of SMS and iMessages: VCards, photos, audio, videos...
+"GroupByDate_Label"             	= "Grouper (par date)"; // Conversation as in messaging Conversation, sorted by date. Used in iMazing's Messages view, see screenshot.
+
+"LoadingMessages000_Info"					= "Chargement des messages..."; // Messages as in messages of the Messages app ( SMS, MMS and iMessage )
+"GeneratingAttachmentThumbnails000_Info"	= "Création des vignettes des pièces jointes..."; // Generating thumbnails for visual media sent or received by MMS or iMessage.
+
+"CopyMessage_Title"					= "Copier le message"; // Title of copy operation of a single message
+"CopyMessages_Title"				= "Copier les messages"; // Title of copy operation of a multiple messages
+"DefaultFileNameMessages_Label"		= "Messages"; // When exporting messages from an iPhone, the root of the exported file name: 'Messages - 2013-02-07.pdf' would be the full file name for example.
+
+/* labelizes itmes which are locally available on the user's iOS device - as opposed to stored in the cloud. Can apply to different data: Notes, Contacts... */
+ 
+"OnMyDevice_Label"							= "Sur mon {deviceclass}"; // labelizes itmes which are locally available on the user's iOS device - as opposed to stored in the cloud. Can apply to different data: Notes, Contacts...
+"Calendars(Dataset)_Label"					= "Calendriers"; // 
+"SafariBookmarks(Dataset)_Label"			= "Marque-pages Safari"; // Safari the Apple web navigator, not animal sight seeing ;) As translated by Apple.
+"OtherDataAndPreferences(Dataset)_Label"	= "Autres données et préférences"; 
+
+/* iOS Notes App, as translated by Apple */
+ 
+"Notes(App)_Label"                  = "Notes"; // iOS Notes App, as translated by Apple
+"Notes(Dataset)_Label"				= "Notes"; // Contents of the notes app: notes
+"DefaultFileNameNote_Label"			= "Note"; // When exporting a single note of the notes app, the root of the exported filename: 'Note - 2015-11-08.txt' for example
+"NewNote_UserAction"				= "Nouvelle note"; // as in create new note in Notes app
+"LoadingNotes000_Info"				= "Chargement des notes..."; // loading contents of the Notes app
+"CopyNote_Title"					= "Copier la note"; // title of operation
+"CopyNotes_Title"					= "Copier les notes"; // title of operation
+
+/* iOS Phone App, exactly as traslated by Apple */
+ 
+"Phone(App)_Label"					= "Téléphone"; // iOS Phone App, exactly as traslated by Apple
+ 
+/* Call log of the iPhone. Phrase used as title. */
+"CallHistory_Title"					= "Historique des appels"; // Call log of the iPhone. Phrase used as title.
+"CallHistory_Label"					= "Historique des appels"; // Call log of the iPhone. Phrase used as label.
+"DefaultFileNameCallHistory_Label"	= "Historique des appels"; // Root of filename of exported call history file: 'Call History - 2015-12-11.csv' for example
+"Blocked(Call)_Label"				= "Bloqué"; // Displayed in call history in place of contact name or phone number if the call was received by a private number( number withheld )
+"LoadingCallHistory000_Info"		= "Chargement de l'historique des appels...";
+"CopyCallHistory_Title"             = "Copier l'historique des appels"; // Used as operation title
+
+"Missed(Call)_Label"			= "Manqués"; // retranslate, labelizes a missed phone call
+"Refused(Call)_Label"			= "Annulé"; // retranslate, labelizes a call which was purposefuly refused by the receiver
+
+"Incoming(Call)_Label"			= "Entrant(s)"; // Incoming phone call: used in call history export to spreadsheet format to labelize call direction
+"Outgoing(Call)_Label"			= "Sortant(s)"; // Outcoming phone call: used in call history export to spreadsheet format to labelize call direction
+ 
+/* Tab in iOS Phone app, exactly as translated by Apple. See screenshot... */
+"VoiceMail(PhoneApp)_Label"			= "Message vocal"; // Tab in iOS Phone app, exactly as translated by Apple. See screenshot...
+"Voicemail(Dataset)_Label"			= "Messages vocaux"; // All voicemail messages on the device: the voicemail dataset. Translate with the plural if applicable.
+"DefaultFileNameVoicemail_Label"	= "Message vocal"; // Root of exported voicemail file: 'Voicemail - 2015-03-01 - John Doe.amr' would be the full filename for example
+
+"LoadingVoicemail000_Info"			= "Chargement du message vocal...";
+"CopyVoicemail_Title"				= "Copier le message vocal"; // Dialog box title when copying a single voicemail recording.
+"CopyVoicemails_Title"				= "Copier le message vocal"; // Dialog box title when copying multiple voicemail recordings. Translate with the plural if applicable.
+ 
+/* Mac OS Photos app, as translated by Apple */
+ 
+"Photos(App)_Label"					= "Photos"; // iOS / Mac OS Photos app, as translated by Apple
+"Photos(Dataset)_Label"				= "Photos"; // As in Photos dataset: the contents of the
+"Camera(App)_Label"					= "Appareil photo"; // iOS Camera app, as translated by Apple
+"PhotoLibrary_Label"				= "Photothèque";
+"NoPhotoLibrary_Title"				= "La photothèque est vide"; // dialog box title
+"NoPhotoLibrary_Info"				= "Aucune photo n'est synchronisée avec cet appareil.";
+"DeletePhoto_Title"					= "Supprimer photo"; // dialog box title
+"DeletePhotosFailLocked_Info"		= "Plusieurs photos n'ont pas pu être supprimées car elles étaient verrouillées :";
+
+"LoadingPhotos000_Info"				= "Chargement des photos...";
+"LoadingPhotosThumbnails000_Info"	= "Chargement des vignettes...";
+"DeletingPhotos000_Info"			= "Suppression des photos...";
+"ConnectUSBToDeletePhotos_Info"		= "Connectez votre câble USB pour supprimer des photos.";
+"ConnectUSBToViewCameraRoll_Info"	= "Votre appareil doit être connecté par USB pour afficher les  vignettes de votre Pellicule. Si la connexion Wi-Fi est activée, vous pouvez explorer votre Pellicule depuis la section Stockage.";
+"PhotoDBNotSupported_Info"			= "La base de données de photos n'est pas prise en charge. Assurez-vous que votre appareil fonctionne sous iOS 5 ou un système ultérieur.";
+"nLivePhotosNotDeleted_Info"		= "iMazing ne peut pas supprimer les Live Photos. Certaines photos ({numitems}) n'ont pas été supprimées de votre appareil.\n\nLes Live Photos peuvent être supprimées directement dans l'app Photos."; // Message at the end of a delete operation informing the user.
+
+/* Get from Mac OS Photos app: smart album containing photos with tagged faces */
+"AllPhotos(PhotoAlbum)_Label"           = "Toutes les photos"; //Get from Mac OS Photos app: smart album containing photos with tagged faces
+"Faces(PhotoAlbum)_Label"               = "Visages"; // Get from Mac OS Photos app: smart album containing photos with tagged faces
+"Panoramas(PhotoAlbum)_Label"           = "Panoramas";	// Get from Mac OS Photos app: smart album containg photos done with the panorama feature of iOS Camera
+"SloMo(PhotoAlbum)_Label"               = "Ralenti"; // Get from Mac OS Photos app: smart album containing slow motion videos shot on the device
+"Bursts(PhotoAlbum)_Label"              = "Rafales"; // Get from Mac OS Photos app : smart album containing of photos taken on the device
+"TimeLapse(PhotoAlbum)_Label"           = "Accéléré"; // Get from Mac OS Photos app: smart album containing time-lapse videos shot on the device
+"Favorites(PhotoAlbum)_Label"           = "Favoris"; // Get from Mac OS Photos app: smart album containing favorite pictures
+"Selfies(PhotoAlbum)_Label"             = "Selfies"; // Get from Mac OS Photos app: smart album containing selfie pictures
+"Screenshots(PhotoAlbum)_Label"         = "Captures d'écran"; // Get from Mac OS Photos app: smart album containing screenshots
+"LivePhotos(PhotoAlbum)_Label"          = "Live Photos"; // Get from Mac OS Photos app: smart album containing live photos (new iPhone 6s live photo mode)
+"HDR(PhotoAlbum)_Label"                 = "HDR"; // Get from Mac OS Photos app: smart album containing HDR photos (High Dynamic Range)
+"Hidden(PhotoAlbum)_Label"              = "Masquées"; // Get from Mac OS Photos app: smart album containing photos hidden by the user
+"RecentlyDeleted(PhotoAlbum)_Label"     = "Supprimées récemment"; // Get from Mac OS Photos app: smart album containing photos recently deleted by the user
+"iCloudPhotoLibrary(PhotoAlbum)_Label"  = "Photothèque iCloud"; // Get from Mac OS Photos app: smart album containing photos stored on "iCloud Photo Library"
+"FilteredOriginals(PhotoAlbum)_Label"	= "Originaux filtrés"; // Photos that has been modified with filters by the user and their original versions
+"Events(PhotoAlbum)_Label"              = "Événements"; // Get from Mac OS Photos app: smart album containing photos relating to events
+
+/* See glossary */ 
+"iCloudPhotoLibrary_Label"	= "Photothèque iCloud"; //See glossary
+"MyPhotoStream_Label"		= "Mon flux Photos"; // See glossary
+"PhotoStream_Label"			= "Flux de photos"; // See glossary
+"MyPhotos_Label"			= "Mes photos"; // Photo album title
+"UploadPhotos_Label"		= "Envoyer des photos"; // Photo album title, not user action
+"SharedPhotos_Label"		= "Photos partagées"; // Photo album title
+"SharedByPersonX_Label"		= "Partagé par {personname}";
+
+"CannotDeleteICloudPhotoLibrary_Info"	= "Les photos ne peuvent être supprimées de votre appareil parce que vous avez activé la Photothèque iCloud."; 
+"PhotoXInICloudCannotProcess_Info"		= "La photo {item} est stockée sur l'iCloud et n'est pas physiquement présente sur votre appareil. Voulez-vous continuer quand même ?";
+"SelectedPhotoInICloudCannotCopy_Info"	= "La photo sélectionnée ne peut être copiée parce qu'elle est stockée sur l'iCloud et qu'elle n'est pas physiquement présente sur votre appareil.";
+
+"DeletePhotos_Title"		= "Supprimer les photos"; // dialog box title
+"DeletePhotosNotOnXP_Info"	= "Il n'est pas possible de supprimer des photos sous Windows XP. Veuillez mettre à niveau votre système pour utiliser cette fonction.";
+
+
+/* iOS Voice Memos app, as translated by Apple */
+ 
+"VoiceMemos(App)_Label"				= "Dictaphone"; // iOS Voice Memos app, as translated by Apple
+"VoiceMemos(Dataset)_Label"			= "Dictaphone"; // Contents of the Voice Memos app
+"DefaultFileNameVoiceMemo_Label"	= "Mémo vocal"; // Root filename of exported voice memo: 'Voice Memo - 2015-11-10 - Memo Label.mp3' for example
+
+"VoiceMemoLabel_Label"			= "Intitulé"; // Voice Memos Apple iOS app: every recording has a user settable label ( name... )
+"LoadingVoiceMemos000_Info"		= "Chargement des mémos vocaux...";
+"CopyVoiceMemo_Title"			= "Copier le mémo vocal"; // Operation title for copying a single voice memo file
+"CopyVoiceMemos_Title"			= "Copier les mémos vocaux"; // Operation title for copying multiple voice memo files
+
+/* noun */
+"Podcast(Noun)_Label"		= "Podcast"; //noun
+"Interview(Noun)_Label"		= "Interview"; // noun
+"Lecture(Noun)_Label"		= "Conférence"; // As in College Lecture, noun
+"Idea_Label"				= "Idée";  
+"Meeting(Noun)_Label"		= "Réunion"; // noun
+"Memo(VoiceMemo)_Label"		= "Mémo"; 
+ 
+ /* Designates the iTunes media library: not only music, also podcasts, movies etc... */
+ 
+"Library(Media)_Label"             	= "Bibliothèque"; // Designates the iTunes media library: not only music, also podcasts, movies etc... 
+"Library(Media)nItems_Label"   		= "Médiathèque ({nbItems})";
+
+"Music(App)_Label"					= "Musique"; // iOS Music App, as it appears on the device
+"Music(nItems)_Label"				= "Musique ({nbItems})";
+
+"iCloudMusicLibrary_LabelOS"		= "Musithèque iCloud"; // See Glossary
+
+"ExportToITunes_UserAction"		= "Exporter vers iTunes"; // Export media from iOS device to the computer's iTunes Library
+"ExportToFolder_UserAction"		= "Exporter vers un dossier"; // Export media from iOS device to a folder on the computer
+
+"ImportFromITunes_UserAction"	= "Importer depuis iTunes"; // Import media from the computer's iTunes Library to an iOS device
+"ImportFromFolder_UserAction"	= "Importer depuis un dossier"; // Import media from a folder on the computer to an iOS device
+
+/* Media duration, applicable to music, podcasts, films... */
+ 
+"Duration(Media)_Label"		= "Durée"; // Media duration, applicable to music, podcasts, films...
+"Album(Music)_Label"		= "Album"; // Music Album, not Photo Album
+"All_n_Albums_Label"		= "Tout ({nbAlbums} albums)";
+"Artist(Music)_Label"		= "Artiste"; // Music artist (performer)
+"All_n_Artists_Label"		= "Tous les ({nbArtists} artistes)";
+"Genre(Music)_Label"		= "Genre"; // Rock, Pop, Electronica, Classic...
+"All_n_Genres_Label"		= "Tous les ({nbGenres} genres)"; 
+"BPM(Music)_Label"			= "BPM"; // Tempo in beats per minute
+"Comments_Label"			= "Commentaires"; // User comments on the media item
+"Composer(Music)_Label"		= "Compositeur"; // Composer of a piece of music
+"Rating_Label"				= "Note"; // rating for media item, generally 1 to 5
+"Ratings_Label"				= "Notes";
+"DiscNumber_Label"			= "Disque n°"; // CD number, used for albums which have more than 1 CD
+"TrackNumber_Label"			= "Piste n°"; // Track number of an album
+"LastPlayed_Label"			= "Dernière lecture"; // last date at which media was played
+"LastSkipped_Label"			= "Dernier saut"; // last date at which media was skipped
+"PlayCount_Label"			= "Lectures"; // number of times the media was played
+"SkipsCount_Label"			= "Sauts"; // number of times the media was skipped
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Options
+ */
+ 
+/* Media Browser Options 
+ */
+"MediaBrowser_Label"		= "Explorateur de médias"; 
+"ColumnBrowser_iTunesLabel"	= "Explorateur de colonnes"; // See screenshot, comes from iTunes View menu
+"ShowColumns_iTunesLabel"	= "Afficher colonnes"; // See screenshot, comes from iTunes View->View Options
+
+"OnlyShowLocalMusic_Label"	= "Masquer la musique dans le cloud"; // purchases and Apple Music tracks not available on the device will be hidden
+"ShowAllMusic_Label"		= "Afficher la musique dans le cloud"; // Show all music, including cloud items. Opposite of previous phrase.
+
+/* media was tracks */
+"AutoDetectTracksMode_Info"					= "Détection automatique des titres déjà dans iTunes :"; //media was tracks
+"AutoDetectTracksModeDisabled_Label"		= "Désactivé"; // automatic detection of media duplicates disabled
+"AutoDetectTracksModeStrictMatching_Label"	= "Correspondance stricte"; // automatic detection of media duplicates matches items which are perfectly identical only.
+"AutoDetectTracksModeFuzzyMatching_Label"	= "Correspondance approximative"; // automatic detection of media duplicates matches items which are very similar, not necessarily identical
+
+/* Title of the media copy window */
+"MediaCopyWizard_Title"			= "Assistant de copie médias"; //Title of the media copy window
+"WhereToCopy(Media)_Info"		= "Où voulez-vous déposer cette copie ?"; // Copying media from iOS device to computer
+"ToITunes_UserReply"			= "Vers iTunes"; 
+"ToUserFolder_UserReply"		= "Vers le dossier de mon choix";
+
+"OrganizeInFolders(Media)_Label"	= "Organiser en dossiers :"; // album
+"ImportLibraryData(Media)_Label"	= "Importer les données de la bibliothèque :"; // Import data of iTunes Media Library
+"iTunesDestinationFolderNote_Info"	= "iMazing va copier vos fichiers dans le dossier iTunes Media. Le dossier iTunes Media peut être modifié dans iTunes à l'onglet Préférences > Avancé.";
+
+"MediaCopyLogs_Title"				= "Journaux de copie médias"; // Title of the window displaying the report on the last media copy operation
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Operations Reporting ( Except Playlists )
+ */
+ 
+"LoadingMediaLibrary000_Info"		= "Chargement de la médiathèque...";
+"LoadingDeviceTracks000_Info"		= "Chargement des morceaux de l'appareil..."; // Media was Tracks
+"CheckingTracksInItunes000_Info" 	= "Détection des morceaux déjà dans iTunes..."; // Media was Tracks
+
+"CopyMediaItem_Title"	= "Copier le morceau"; // needs retranslate
+"CopyMediaItems_Title"	= "Copier les morceaux"; // needs retranslate
+
+"WaitingForDeviceToAcknowledge_Info"	= "En attente de prise en compte des modifications par l'appareil..."; 
+
+"ErrorImportingToITunes_Title"		= "Erreur en important le fichier dans iTunes";
+"CannotImportInITunes_Info" 		= "Impossible d'importer ce fichier dans iTunes.";
+
+"CopyingMediaToDeviceX_Info"		= "Copie des morceaux vers {deviceName}..."; // Media was Tracks
+"ErrorCopyingMediaToDeviceX_Info"	= "Erreur pendant la copie des morceaux sur {deviceName}"; // Media was Tracks
+
+"ImportingMediaToDeviceX_Info"		= "Importation des morceaux vers {deviceName}..."; // Media was Tracks
+"ErrorImportingToDeviceX_Info"		= "Erreur pendant l'importation des morceaux vers {deviceName}"; // Media was Tracks
+
+"DeletingMediaFromDeviceX_Info"		= "Suppression des morceaux de {deviceName}..."; // Media was Tracks
+"MediaDeletedFromDeviceX_Info"		= "Morceaux supprimés de {deviceName}"; // Media was Tracks
+"ErrorDeletingMediaOnDeviceX_Info"	= "Erreur en supprimant les morceaux sur {deviceName}"; // Media was Tracks
+
+/* Needs retranslation(items was tracks ) */
+ 
+"ItemsAlreadyInItunes:_Label"	= "Morceaux déjà dans iTunes :"; //Needs retranslation(items was tracks )
+"AlreadyInITunes_Label"			= "Déjà dans iTunes"; // Labelizes count of media items already in iTunes ( duplicates )
+"AlreadyInItunes:_Label"		= "Déjà dans iTunes :"; // Labelizes count of media items already in iTunes ( duplicates )
+"AlreadyInFolder_Label"			= "Déjà dans le dossier"; // Labelizes count of media items already in target folder ( duplicates )
+"DuplicateMedia_Title"			= "Fichier en double"; // media was tracks. Not the verb, labellizes a media duplicate.
+"DuplicateMediaFound_Info"		= "L'élément {name} existe déjà dans votre médiathèque. Que voulez-vous faire ?";
+
+/* Music playlists */
+ 
+"Playlist_Label"                   	= "Listes"; // Music playlists
+"CreateNewPlaylist_UserAction"     	= "Créer Playlist";
+"NewPlaylist_Title"					= "Nouvelle playlist"; // Title of dialog box
+"NewPlaylist_Info"					= "Veuillez saisir le nom de la nouvelle playlist.";
+"CreatingPlaylistOnDeviceX_Info"	= "Création d'une playlist sur {deviceName}..."; // iMazing is creating a playlist on the iOS device directly
+"NewPlaylistSuccess_Info"			= "Playlist « {playlistName} » créée sur {deviceName}";
+"NewPlaylistError_Info"				= "Erreur pendant la création de la playlist sur {deviceName}";
+
+"DeletePlaylist_UserAction"        	= "Supprimer Playlist";
+"RemovingPlaylists_Info"			= "Suppression des playlists...";
+"RemovingPlaylistsSuccess_Info"		= "Playlists supprimées de {deviceName}";
+"RemovingPlaylistsError_Info"		= "Erreur en supprimant des playlists de {deviceName}";
+
+"RenamePlaylist_UserAction"        	= "Renommer Playlist"; // User action
+"RenamePlaylist_Title"				= "Renommer playlist"; // Title of dialog box
+"RenamePlaylist_Info"				= "Veuillez indiquer le nouveau nom de la playlist.";
+"RenamingPlaylist_Info"				= "Renommage de la playlist...";
+"RenamePlaylistSuccess_Info"		= "Playlist {playlistName} renommée sur {deviceName}";
+"RenamePlaylistError_Info"			= "Erreur en renommant la playlist {playlistName} sur {deviceName}";
+
+"AddingTracksToPlaylistX_Info"			= "Ajout des morceaux à {playlistName}...";
+"AddingTracksToPlaylistXSuccess_Info"	= "Morceaux ajoutés à {playlistName}...";
+"AddingTracksToPlaylistXError_Info"		= "Erreur en ajoutant les morceaux à {playlistName}...";
+
+"RemovingTracksFromPlaylistX_Info"			= "Suppression des morceaux de {playlistName}...";
+"RemovingTracksFromPlaylistXSuccess_Info"	= "Morceaux supprimés de {playlistName}...";
+"RemovingTracksFromPlaylistXError_Info"		= "Erreur en supprimant les morceaux de {playlistName}...";
+
+"ImportingPlaylistsInITunes000_Info"		= "Importation des listes de lecture dans iTunes...";
+"PlaylistsCannotModifyIfCloud_Info"			= "La modification des playlists est impossible si la Musithèque iCloud est activée sur votre appareil.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Warnings and Generic Errors
+ */
+ 
+"iTunesLibraryNotAvailable_Title"	= "Bibliothèque iTunes indisponible";
+"iTunesLibraryNotAvailable_Info"	= "iMazing ne peut pas accéder à votre bibliothèque iTunes. Si vous avez désactivé l'option « Partager le fichier XML de la bibliothèque iTunes avec d'autres applications » dans les préférences avancées d'iTunes, veuillez l'activer et redémarrer iMazing.";
+
+"iTunesNotResponding_Title"			= "iTunes ne répond pas"; 
+"iTunesNotResponding_Info"			= "Un message ou une fenêtre de réglage est ouvert(e) dans iTunes et empêche iMazing de fonctionner.\n\n1. Si iTunes vous invite à « Effacer et synchroniser » votre appareil, cliquez sur « Annuler\" maintenant.\n2. Fermez toutes les fenêtres ou les messages d'iTunes.\n3. Cliquez sur  « OK » pour fermer ce message et recommencer";
+
+"PleaseQuitITunes_Title"			= "Veuillez quitter iTunes";
+"PleaseQuitITunesDetails_Info"		= "iTunes est en cours d'exécution sur votre ordinateur. Veuillez quitter iTunes avant de continuer.";
+
+"ErrorCommunicatingWithDevice_Info"	= "Erreur de communication avec l'appareil. Si le problème persiste, veuillez redémarrer votre appareil et votre ordinateur.";
+
+"iCloudMusicLibraryWarning_Title"	= "Avertissement Musithèque iCloud";
+"iCloudMusicLibraryWarning_Info"	= "Musithèque iCloud détectée sur {deviceName}. Il est possible que certaines fonctions iMazing comme la création et la modification de playlists ne fonctionnent pas correctement. Veuillez désactiver la Musithèque iCloud si vous êtes confronté à des résultats inattendus.";
+
+"MediaLibraryEmpty_Info"			= "Votre médiathèque semble vide.";
+"MediaDBNotSupported_Info"			= "La base de données médias n'est pas prise en charge."; // incompatible media database detected on the device
+
+/* exact name of iOS Videos app */
+ 
+"Videos(App)_Label"					= "Vidéos"; //exact name of iOS Videos app
+
+"Movies(iTunes)_Label"				= "Films"; // see in iTunes, screenshot
+"Movies(nItems)_Label"				= "Films ({nbItems})";
+
+"HomeVideos(iTunes)_Label"			= "Vidéos personnelles"; // see in iTunes, screenshot
+"HomeVideos(nItems)_Label"			= "Vidéos personnelles ({nbItems})";
+
+"TVShows(iTunes)_Label"				= "Séries TV"; // see in iTunes, screenshot
+"TVShows(nItems)_Label"				= "Séries TV ({nbItems})";
+
+"MusicVideos(iTunes)_Label"			= "Clips musicaux";
+"MusicVideos(nItems)_Label"			= "Clips musicaux ({nbItems})";
+
+"Audiobooks(iTunes)_Label"			= "Livres audio"; // see in iTunes, screenshot
+"AudioBooks(nItems)_Label"			= "Livres audio ({nbItems})";
+
+"Podcasts(iTunes)_Label"			= "Podcasts"; // see in iTunes, screenshot
+"Podcasts(nItems)_Label"			= "Podcasts ({nbItems})";
+
+"iTunesU(iTunes)_Label"				= "iTunes U"; // see in iTunes, screenshot
+"iTunesU(nItems)_Label"				= "iTunes U ({nbItems})";
+
+"VideoFormat_Title"					= "Format vidéo"; // 3...
+"VideoFormatNotSupported_Info"		= "Le format vidéo de certains films n'est peut-être pas compatible avec votre appareil. Voulez-vous continuer quand même ?";
+
+/* The backup itself, not the action of backing up! */
+ 
+"Backup(Noun)_Label"			= "Sauvegarde"; //The backup itself, not the action of backing up!
+"Backups_Title"					= "Sauvegardes"; // Section of iMazing displaying all backups.
+"iCloudBackup_Title"			= "Sauvegarde iCloud";
+"EnableICloudBackup_UserAction"	= "Activer la sauvegarde iCloud";
+ 
+"LatestBackup(Date)_Label"	= "Dernière sauvegarde"; // Labelizes the date at which the iOS device was last backed up
+"Encrypted(Status)_Label"	= "Chiffré(e)"; // No field: is the backup encrypted?
+ 
+"DeleteBackup_Title"		= "Supprimer sauvegarde"; // Title for backup deletion confirmation dialog box
+"DeleteBackup_Info"			= "Voulez-vous vraiment supprimer {devicename} des sauvegardes ?\n\nLe chargement des données de votre appareil (messages, contacts, etc.) sera plus long à votre prochain accès.";
+
+"BrowseContent(Backup)_UserAction"	= "Parcourir contenu"; // Browse the contents of a backup
+
+/* The verb: backup now! */
+
+"Backup_UserAction"					= "Sauvegarder"; // The verb: backup now!
+"BackupWizard_Title"				= "Quel type de sauvegarde souhaitez-vous ?"; // see the 4 phrases after this one: simple backup or backup and archive
+"StandardBackup_Label"				= "Sauvegarde standard"; // Backup Noun, not action
+"StandardBackupDescription_Info"	= "Une seule sauvegarde est conservée pour chaque appareil sur votre ordinateur.";
+"BackupAndArchive_Label"			= "Sauvegarder et exporter comme fichier iMazing"; // Export to File was Archive
+"BackupAndArchiveDescription_Info"  = "Exportez la sauvegarde sous forme de fichier si vous souhaitez conserver ou enregistrer une version spécifique.";
+"BackupOptions_Label"				= "Options de sauvegarde :";
+"BackupApps_Label"					= "Sauvegarde d'applis"; // not an action: labelizes an option which can be enabled. Do you want to backup apps as well?
+"EncryptBackupDescription_Info"		= "Chiffrer la sauvegarde (AES 256 bits)"; // not an action: labelizes an option which can be enabled. Should the next backup be encrypted?
+"EncryptBackupEnablesMore_Info"		= "Ceci permettra également la sauvegarde des mots de passe du compte et des données de santé."; 
+"AutoBackupDescription_Info"		= "Sauvegarder automatiquement dès la détection de cet appareil"; // not an action: labelizes an option. Should a backup be triggered automatically every time the device is detected by iMazing?
+"AutoBackupWhenDeviceDetected_Info"	= "Sauvegarde automatique quand l'appareil est détecté"; // see previous phrase, shorter.
+"BackupLocationDescription_Info"	= "Voici l'emplacement des sauvegardes :";
+"ChangeBackupLocationHint_Info"		= "Vous pouvez changer l'emplacement des sauvegardes dans les préférences de iMazing.";
+"ForceFullBackup_Label"				= "Forcer la sauvegarde totale"; // not an action: labelizes an option. Forcing a full backup by opposition to an incremental backup. Full backup takes much longer!
+
+"DeviceXBackup_Title"				= "Sauvegarde de {devicename}"; // Backup Process, not the actual backup. Title for dialog boxes displayed during a backup operation.
+
+"PreparingBackupOfDeviceX_Info"		= "Préparation de la sauvegarde de {devicename}..."; // preparing the backup operation
+"BackingUpDeviceXData_Info"			= "Sauvegarde des données de {devicename}..."; 
+"BackingUpDeviceXApps_Info"			= "Sauvegarde des apps de {devicename}...";
+"CleaningBackupOfDeviceX_Info"		= "Nettoyage de la sauvegarde de {devicename}...";
+"BackingUpDeviceXSuccess_Info"		= "La sauvegarde de {devicename} est réussie et terminée.";
+
+"BackupRestoreFailed_Info"			= "Échec de la sauvegarde ou de la restauration. Actualisez ou, en cas d'échec, redémarrez votre appareil et votre ordinateur.";
+"BackupFailedNotEnoughSpace_Info"	= "iMazing n’a pas pu sauvegarder {devicename} pour cause d’espace disponible insuffisant sur votre ordinateur.";
+ 
+/* User action. Restore a backup to an iOS device. */
+ 
+"RestoreABackup_UserAction"				= "Restaurer une sauvegarde"; // User action. Restore a backup to an iOS device.
+"Restore(Backup)_UserAction"			= "Restaurer"; // User action. Restore a backup to an iOS device.
+"RestoreToDevices(Backup)_UserAction"	= "Restaurer sur les appareils"; // User action. Restore a backup to one or more iOS devices
+
+"RestoreBackupOnDeviceX_Title"		= "Restaurer une sauvegarde sur {devicename} :"; // Title of wizard
+"RestoreBackupXToDevices_Title"		= "Restaurer {devicename} sur les appareils de votre choix :"; // Title of wizard
+
+"SelectBackupToRestore_Label"		= "Sélectionnez une sauvegarde à restaurer :"; // Label in wizard
+"SelectTargetDevices_Label"			= "Sélectionnez les appareils-cibles :"; // Label in wizard
+"SelectRestoreItems_Label"			= "Sélectionnez les éléments à restaurer :"; // Label in wizard
+
+"PreserveSettings(Restore)_Label"	= "Préserver les réglages"; // When restoring a backup, option to preserve settings on the target device
+"RestoreSystemFiles_Label"			= "Restaurer les fichiers système"; // Should the system files be restored in a restore operation?
+"DuplicateRestoredBackup_Label"		= "Dupliquer la sauvegarde après la restauration (plus sûr)";
+
+"DeviceXRestore_Title"		= "Restauration de {devicename}"; // Title of dialog box regarding a Restore Operation
+
+"PreparingRestoreOfDeviceX_Info"		= "Préparation de la restauration de {devicename}..."; 
+"RestoringDeviceXData_Info"				= "Restauration des données de {devicename} à partir de la sauvegarde...";
+"RestoringDeviceXApps_Info"				= "Restauration des apps de {devicename} à partir de la sauvegarde...";
+"RestoringDeviceXSuccess_Info"			= "Restauration de {devicename} terminée.";
+"RestoringData_Info"					= "Restauration des données...";
+"FinalizingRestore_Info"                = "Finalisation de la restauration...";
+
+"RestoreDeviceX_Title"			= "Restaurer {devicename}"; // Title of dialog box regarding a Restore Operation
+"RestoreConfirmation_Title"		= "Confirmer la restauration"; // Title of dialog box
+"RestoreConfirmation_Info"		= "Êtes-vous certain de vouloir restaurer la sauvegarde de {sourceDeviceName} sur {targetDeviceName} ?\n\nAttention ! Ceci supprimera toutes les données actuelles sur {targetDeviceName}. Veillez à sauvegarder {targetDeviceName} si vous avez besoin de conserver ses données.";
+"RestoreHealthDataWarning_Info"	= "Attention ! Vos données de santé et votre trousseau local ne seront pas restaurés. Pour d’inclure ces éléments, veuillez d’abord effectuer une sauvegarde chiffrée de votre appareil :\n\n1. Sélectionnez votre appareil dans la barre latérale gauche d’iMazing\n2. Cliquez sur Sauvegarder dans la barre d’outils en bas\n3. Cochez « Chiffrer la sauvegarde » dans l’assistant de sauvegarde et définissez un mot de passe\n4. Ne perdez pas votre mot de passe, ou vous ne pourrez pas accéder à votre sauvegarde.";
+
+"RestoreSuccess_Title"			= "La restauration a réussi"; // Title of dialog box
+"RestoreXToYSuccess_Info"		= "La restauration de {sourceDeviceName} sur {targetDeviceName} a réussi. Votre appareil est maintenant en cours de redémarrage, et devrait réapparaître en ligne bientôt.";
+
+
+"RestoreFailedNotEnoughSpace_Info"			= "iMazing ne peut restaurer {devicename} car l'espace disponible n'est pas suffisant sur l'appareil {deviceclass}. Effacez des apps, des photos, des vidéos ou d'autres contenus avant de restaurer votre {deviceclass}.";
+"DisableFindMyiPhone_Info"					= "La fonction « Localiser mon {deviceclass} » doit être désactivée avant la restauration de {devicename}.\n\nAllez dans les Réglages d'iCloud sur votre {deviceclass} et désactiver « Localiser mon {deviceclass} » avant de restaurer votre {deviceclass}.";
+"CannotStopRestore_Info"  					= "Vous ne pouvez pas interrompre une restauration.";
+"CannotRestoreHigherIOSVersionNeeded_Info"  = "{devicename} ne peut être restauré car il fonctionne sous une version d'iOS antérieure à celle de l'appareil source.\n\nLa version d'iOS sur {devicename} est {targetiosversion}, or il vous faut au moins l'iOS {sourceiosversion}.\n\nEssayez de mettre à jour l'iOS sur {devicename} avant de le restaurer.";
+ 
+/* Clone an iOS device to another one */
+ 
+"Clone_UserAction"					= "Cloner"; //Clone an iOS device to another one
+"CloneDeviceXToDevices_Title"		= "Cloner {devicename} sur les appareils de votre choix :";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Managing Archives and backup files
+ */
+ 
+"LoadIMazingFile(Backup)_UserAction"		= "Importer un fichier iMazing";
+"ExportAsIMazingFile(Backup)_UserAction"	= "Exporter en tant que fichier iMazing";
+
+"iMazingFileLocation_Label"			= "Emplacement du fichier iMazing :"; // location in file system
+"ExtractingDataFromFile000_Info"	= "Extraction des données à partir du fichier iMazing...";
+"FinalizingBackupOfDeviceX_Info"	= "Création du fichier de sauvegarde de {devicename}..."; // Creating backup file of "My iPhone" for example
+
+"ArchiveBackup_Title"		= "Archiver la sauvegarde"; // Title of dialog box
+"ArchiveBackup_Info"		= "Voulez-vous vraiment archiver la sauvegarde de {devicename} ?";
+"ErrorArchivingBackup_Info"	= "Erreur en archivant la sauvegarde locale.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Extracting data from a backup / Refreshing a backup
+ */
+
+"ExtractingDataFromBackup000_Info"		= "Extraction des données à partir de la sauvegarde...";
+"DataNeedsRefreshHint(Backup)_Info"		= "Vos données sont affichées à partir de votre dernière sauvegarde ({latestbackuptime}).\nConnectez votre appareil et cliquez sur « Actualiser » dans la barre d'outils en haut pour mettre à jour."; // needs retranslate
+"DataNeedsRefreshHint(Cache)_Info"		= "Les données affichées ne sont pas à jour. (date du dernier chargement : {lastloadtime}).\nConnectez votre appareil et cliquez sur « Actualiser » dans la barre d'outils en haut de l'écran pour mettre à jour.";
+"USBBackupLoadingHint_Info"				= "iMazing doit sauvegarder l’intégralité de votre appareil pour extraire les données. L’opération peut être longue.";
+"WiFiBackupLoadingHint_Info"			= "iMazing doit sauvegarder l’intégralité de votre appareil pour extraire les données. Cela peut prendre du temps en utilisant le Wi-Fi. Connectez votre câble USB pour accélérer l’opération.";
+"BackupNeededToAccessData_Info"	 		= "iMazing doit sauvegarder {devicename} pour vous donner accès à ces données. Sauvegarder maintenant ?";
+
+"RefreshData(Backup)_Title"				= "Actualiser les données"; // Title of dialog box.
+"RefreshDataFromBackup_Info"			= "Pour extraire vos données les plus récentes, iMazing a besoin de sauvegarder votre appareil. Ceci écrasera votre sauvegarde iMazing ou iTunes actuelle effectuée le {latestbackuptime}.";
+"BackupNow_UserReply"					= "Sauvegarder maintenant"; // User reply in dialog box. Backup Now, or View from Current Backup...
+"ViewFromCurrentBackup_UserReply"		= "Afficher à partir de la sauvegarde actuelle"; // User reply in dialog box. View data from latest backup.
+
+"ExtractAppData_Title"					= "Extraire les données de l'app"; // Title of dialog box
+"ExtractFromCurrentBackup_UserReply"	= "Extraire à partir de la sauvegarde actuelle"; // User reply in dialog box. Extract Application data from current backup opposed to backup now to get the latest app data from the device.
+
+/* labelizes the default location in the file system of both iTunes and iMazing backups. */
+ 
+"DefaultBackupLocation:_Label"			= "Emplacement de sauvegarde par défaut :"; // labelizes the default location in the file system of both iTunes and iMazing backups.
+"ChangeDefaultBackupFolder_Title"		= "Changer le dossier de sauvegarde par défaut"; // Title of dialog box
+"DefaultBackupLocationChange_Info"		= "Veuillez noter que ceci modifiera l'emplacement des sauvegardes d'iTunes, et déplacera les sauvegardes actuelles vers le nouvel emplacement.";
+"ChangeBackupLocation_Info"				= "Attention, iMazing déplacera toutes les sauvegardes y compris celles d'iTunes. Cela peut prendre un certain temps, veuillez ne pas quitter iMazing tant que l'opération n'est pas terminée.";
+"MovingBackups_Info"					= "Déplacement des sauvegardes vers le nouvel emplacement...";
+"ChangeDefaultBackupFolderSuccess_Info"	= "Le dossier de sauvegarde a été déplacé.";
+"DefaultBackupLocationReset_UserAction"	= "Rétablir l'emplacement par défaut"; // Resets the target folder of backup operations to the default iTunes backup folder.
+"BackupLocationCreateEmptyFolder_Info"	= "Impossible de remplacer l’emplacement de sauvegarde par {targetpath}. Veuillez créer un dossier vide et le sélectionner comme emplacement de sauvegarde.";
+
+/* user action */
+ 
+"ChangeBackupPassword_UserAction"		= "Changer le mot de passe de la sauvegarde"; // user action
+"BackupPassword_Title"					= "Mot de passe de la sauvegarde"; // Dialog box title
+"BackupPassword(Setting)_Info"			= "Saisissez un mot de passe pour protéger toutes les sauvegardes de cet appareil.\n\nAttention : ce réglage protégera TOUTES les sauvegardes de {targetDeviceName}, sauvegardes iTunes incluses. Veillez à conserver une copie de votre mot de passe en lieu sûr : la perte du mot de passe est irréversible et vous empêchera définitivement d'accéder à vos données.";
+"InvalidBackupPassword(Setting)_Info"	= "L'ancien mot de passe est invalide ! Veuillez saisir de nouveau votre ancien mot de passe.\n\nSi vous n'avez pas créé cette sauvegarde avec iMazing, essayez le mot de passe de chiffrement de votre sauvegarde iTunes.";
+"BackupPasswordNeeded_Info"				= "iMazing a besoin de pouvoir accéder à la sauvegarde de votre appareil pour continuer. Veuillez saisir le mot de passe spécifique de sauvegarde que vous avez défini lors de l'activation du chiffrement pour {deviceName}.\n\nSi vous n'avez pas créé cette sauvegarde avec iMazing, essayez le mot de passe de chiffrement de votre sauvegarde iTunes.";
+"BackupEncryptedDeviceNeeded_Info"		= "Cette sauvegarde est chiffrée. Pour la lire, vous devez connecter un appareil sous iOS {backupiosversion} (ou une version ultérieure) à votre ordinateur.";
+
+/* Dialog box title */
+ 
+"iMazingAppleDriversInstaller_Title"	= "Assistant d'installation iMazing « Apple Drivers »"; // Dialog box title
+"LatestAppleDriversNeeded_Info"			= "iMazing nécessite les derniers pilotes Apple.\nInstallez ou mettez iTunes à jour maintenant.";
+"LatestAppleDriversInstallNow_Info"		= "iMazing nécessite les derniers pilotes Apple.\nVoulez-vous que iMazing télécharge et installe les composants nécessaires ?\n\n- Assistance applications Apple\n- Assistance périphérique mobile Apple\n- Apple Bonjour";
+"AppleDriversInstallSuccess_Info"  		= "L'installation des éléments Apple s'est bien déroulée.\niMazing va maintenant s'arrêter et redémarrer.";
+
+"RestartMobileDevice_Info"				= "En cas de problèmes de connexion :";
+"RestartMobileDevice_UserAction"		= "Relancer les services de l'appareil mobile"; // Do not translate Mobile Device Services, max chars: 40
+"ReinstallMobileDevice_UserAction"		= "Réinstaller l'assistance périphérique mobile Apple"; // Do not translate Mobile Device Services max chars: 40
+
+"RestartMobileDeviceSuccess_Title"		= "Services de l'appareil mobile relancés";
+"RestartMobileDeviceSuccess_Info"		= "Services de l'appareil mobile relancés.\n\niMazing va maintenant se fermer et redémarrer. Si les problèmes de connexion persistent, redémarrez votre ordinateur, vos périphériques et le routeur.";
+"RestartMobileDeviceFailure_Title"		= "Impossible de relancer les services de téléphonie mobile";
+"RestartMobileDeviceFailure_Info"		= "Une erreur s'est produite. Pensez à redémarrer votre ordinateur.";
+
+"QuicktimeNotInstalled_Title"			= "QuickTime n'est pas installé"; // Dialog box title
+"QuicktimeNotInstalled_Info"			= "Vous devez installer QuickTime pour lire ce format de fichier.\nSouhaitez-vous le télécharger maintenant ?";
+
+"DownloadiTunes_UserAction"				= "Télécharger depuis le site Web iTunes"; // User action
+"InstallAppleDrivers_UserAction"		= "Installer les pilotes Apple"; // User action
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Clear Cache and Forget Devices
+ */
+ 
+"ClearIMazingCache_Info"		= "Retirer toutes les données du cache de iMazing :";
+"ClearIMazingCache_UserAction"	= "Vider le cache iMazing"; // user action, max chars: 50
+"ClearCache_UserAction"			= "Vider le cache"; // User action
+"CacheRemoved_Title"			= "Cache vidé"; // Dialog box title
+"CacheRemoved_Info"				= "Le cache de iMazing ne contient plus aucune donnée.";
+
+"Forget_UserAction"				= "Ignorer"; // user action to forget a connected iOS device: will remove it from iMazing's cache
+"Remove_UserConfirmation"		= "Supprimer"; // user confirmation: for confirming removing device from iMazing cache after Forget
+"ForgetDeviceX_Title"			= "Ignorer {devicename}"; // dialog box title
+"ForgetDeviceX_Info"			= "Voulez-vous que iMazing ignore {devicename} ?\n\nChoisir « Ignorer » entraînera la suppression de l'appareil du cache de iMazing et de la liste des appareils.\n\nCochez « Désynchroniser » pour supprimer également l'association entre votre ordinateur et cet appareil, de sorte que vous deviez saisir son code lors dès sa prochaine connexion.";
+
+"ForgetDeviceXSuccess_Title"	= "{devicename} a été retiré"; // dialog box title
+"ForgetDeviceXSuccess_Info"		= "{devicename} a été retiré de iMazing.";
+
+"RemoveDeviceXFromCache_Title"	= "Retirer {devicename} du cache";// dialog box title
+"RemoveDeviceXFromCache_Info"	= "Voulez-vous vraiment retirer {devicename} du cache de iMazing ?";
+"RemoveFromCacheSuccess_Info"	= "{devicename} a été retiré du cache de iMazing.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Connection & Pairing
+ */
+
+"WifiConnectionNeediOS5_Info"       		= "{devicename} requiert l'installation de l'iOS 5 ou d'une version ultérieure pour activer la connexion Wi-Fi.";
+"ConnectViaUSBToModifiyWiFiSettings_Info"	= "Vous devez connecter votre appareil via le port USB pour modifier ses réglages Wi-Fi.";
+
+"LookingForDeviceX_Info"		= "Recherche de {devicename}..."; // iMazing is searching for the iOS device over the WiFi network
+"CannotConnectToDeviceX_Title"	= "Impossible de se connecter à {devicename}"; 
+"CannotConnectToDeviceX_Info"	= "Impossible de se connecter à {devicename}.";
+
+"CannotDisconnectFromDeviceX_Info"	= "Impossible de se déconnecter de {devicename}.";
+"CannotReachDeviceX_Info"			= "{devicename} introuvable sur le réseau.\nVeuillez connecter votre câble USB.";
+"DeviceXIsNotReachable_Info"		= "{devicename} est introuvable.\nConnectez votre câble USB.";
+
+"DeviceConnectionPasscodeLocked_Info"		= "Votre appareil est bloqué par un code. Veuillez le débloquer, le déconnecter puis le reconnecter.";
+"DeviceConnectionDeviceNotActivated_Info"	= "Pour utiliser ce {devicename} avec iMazing, vous devez l'activer. Pour cela, veuillez insérer votre carte SIM ; débloquez-la si nécessaire avec votre code PIN, connectez-la à Internet par Wi-Fi, 3G ou 4G et suivez les instructions sur l'appareil pour l'activer.";
+
+"PleaseActivateYourDeviceX_Info"	= "Veuillez activer votre {devicename}";
+"UnlockDevice_Title"				= "Veuillez déverrouiller {devicename}";
+"UnlockDevice(iOS)_Info"			= "{devicename} est verrouillé.\nSaisissez votre code/mot de passe ou déverrouillez-le du doigt et cliquez sur OK.";
+
+"TrustComputer_Title"	= "Faire confiance à cet ordinateur sur votre {idevice}"; // When first connecting an iOS device to iMazing, the user needs to respond to a prompt on the device, asking him to 'Trust' the computer.
+"TrustComputer_Info1"	= "Souhaitez-vous autoriser cet ordinateur à accéder aux informations contenues sur « {devicename} » ?\n\nSans cette autorisation, vous ne pourrez pas gérer ou synchroniser votre {idevice} avec cet ordinateur.";
+"TrustComputer_Info2"	= "Pour autoriser l'accès, veuillez répondre sur votre {idevice}...";
+
+"EnableWiFiConnection_Title"			= "Activer la Connexion Wi-Fi"; // Dialog box title
+"DisableWiFiConnection_Title"			= "Désactiver la Connexion Wi-Fi"; // Dialog box title
+"WiFiConnectionUnsupported(iOS)_Info"	= "Votre appareil requiert l'installation de l'iOS 5 ou d'une version ultérieure pour autoriser la connexion Wi-Fi.";
+"EnableWiFiConnectionSuccess_Info"		= "Wi-Fi activé.\n\nPour qu'iMazing accède automatiquement à cet appareil, celui-ci doit être connecté au même réseau Wi-Fi que l'ordinateur.\n\nLe câble USB peut être connecté ou déconnecté à tout moment pendant un transfert. iMazing bascule automatique de l'USB au Wi-Fi, et inversement.";
+
+"RemovePairing_Title"				= "Désynchroniser"; // Dialog box title
+"ConnectViaUSBToUnpairDevice_Info"	= "Vous devez connecter votre appareil via le port USB pour le désynchroniser.";
+"RunITunesOnce_Info"				= "Exécutez iTunes en connectant l'appareil au moins une fois.";
+
+/* dialog box title */
+
+"CrashReportAlert_Title"	= "Données de plantage détectées"; // dialog box title
+"CrashDataFound_Info"		= "iMazing semble avoir planté précédemment. Voulez-vous nous envoyer un rapport de plantage anonyme pour nous aider à résoudre le problème ?";
+"CrashReportComment_Label"	= "Commentaire (facultatif) :";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Errors
+ */
+ 
+"DBNotSupported(iOS)_Info"	= "Base de données non prise en charge. L'appareil doit fonctionner sous iOS 4 ou une version ultérieure.";
+
+"CannotCopyToComputerDetails_Info"	= "Copie sur l'ordinateur impossible.\n\nDétails :\n"; 
+"CannotCopyToDeviceDetails_Info"	= "Copie sur l'appareil impossible.\n\nDétails :\n"; 
+"CannotConnectToDevice_Info"		= "Impossible de se connecter à l'appareil. Veuillez vérifier que celui-ci est bien monté dans l'explorateur Windows. Essayez de vous reconnecter si le problème persiste.";
+
+"NoResponseFromDevice_Info"			= "Aucune réponse de l'appareil.";
+"InvalidResponseFromDevice_Info"	= "Réponse invalide de l'appareil.";
+
+"iOSVersionNotSupported_Info"         		= "L'iOS {osversion} n'est pas encore pris en charge complètement. Assurez-vous que vous disposez de la dernière version d'iMazing et effectuez une mise à jour si nécessaire.";
+"DeviceConnectionTooManyConnections_Info"	= "Trop de connexions simultanées. Réessayez plus tard ou, en cas d'échec, redémarrez votre appareil et quittez iMazing.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+
+"iMazingHelp_Label"	= "Aide iMazing";
+
+/* dialog box title */
+ 
+"USBIsFaster_Title"				= "L'USB est plus rapide"; // dialog box title
+"WiFiCopyFileLoadingHint_Info"	= "Le chargement par Wi-Fi peut s'avérer long. Connectez votre câble USB pour accélérer l'opération.";
+"USBIsFaster_Info"              = "{devicename} est connecté en Wi-Fi. Accélérez la copie en connectant le câble USB à tout moment pendant l'opération.";
+
+"QuitIMazingWithOpInProgressWarning_Info"	= "Des opérations sont en cours. Voulez-vous les annuler et quitter ?";
+"QuitIMazingWithOpInProgressDetails_Info"	= "Si vous quittez maintenant, les opérations en cours seront annulées.";
+
+"TryToRestartComputerAndDevice_Info"	= "Essayez de redémarrer votre appareil et votre ordinateur.";
+"PleaseRestartiMazing_Info"				= "Redémarrez iMazing et réessayez.";
+
+"DeviceIsBusy_Title"		= "L'appareil est occupé"; // dialog box title
+"DeviceIsBusy_Info"			= "{deviceName} est actuellement occupé. Souhaitez-vous continuer quand même ?";
+
+"iPodIsMacFormatted_Title"	= "Votre iPod est formaté pour Mac"; // dialog box title
+"iPodIsMacFormatted_Info"	= "Votre iPod est formaté pour Mac.\n\nPour y accéder avec iMazing pour PC, vous devez installer un logiciel tiers appelé « MacDrive » de Mediafour.\n\nVous pouvez installer la version d'essai gratuite de MacDrive.\n(http://www.mediafour.com/products/macdrive)";
+
+
+/* iOS device disk use */
+
+"DiskUseAudio_Label"		= "Audio :"; // iOS device disk use
+"DiskUseVideo_Label"		= "Vidéo :"; // iOS device disk use
+"DiskUsePodcasts_Label"		= "Podcasts :"; // iOS device disk use
+"DiskUsePhotos_Label"		= "Photos :"; // iOS device disk use
+"DiskUseApps_Label"			= "Applications :"; // iOS device disk use
+"DiskUseBooks_Label"		= "Livres :"; // iOS device disk use
+"DiskUseDocuments_Label"	= "Documents et Données :"; // iOS device disk use, exactly as it appears in iTunes. See screenshot.
+"DiskUseOther_Label"		= "Autre :"; // iOS device disk use,3 See screenshot.
+
+"ChangeName(iDevice)_UserAction"	= "Renommer"; // User action. Change the name of an iOS device ( John's iPhone for example )
+"AppleSupportCoverage_UserAction"	= "Assistance Apple"; // Links to web page
+"ExportRawData_UserAction"			= "Exporter données brutes"; // Export iDevice Raw Data
+"ExportRawData_Title"               = "Exporter les données brutes de {devicename}"; // Dialog box title
+
+"Name(Device)_Label"			= "Nom"; // name of iOS device ( John's iPhone, for example )
+"DeviceName_Label"				= "Nom de l'appareil";
+"Model(Device)_Label"			= "Modèle"; // model of iOS device: iPhone 6, iPad Air 2, iPod Touch etc...
+"DeviceModel_Label"				= "Modèle d'appareil"; 
+"iOSVersion_Label"				= "Version iOS"; // The iOS version the connected device is currently running
+"PasscodeLocked(Status)_Label"	= "Code bloqué"; // status label: yes or no
+"Carrier(Phone)_Label"			= "Opérateur"; // Current carrier of connected iOS device
+"DeviceUDID_Label"				= "UDID de l'appareil"; // Do not translate UDID.
+
+"Disconnected(Status)_Label"		= "Déconnecté"; // connection status of iOS device: the iOS device is not connected to iMazing
+"ConnectedViaUSB(Status)_Label"		= "Connecté en USB"; // connection status of iOS device: the iOS device is connected to iMazing via USB
+"ConnectedViaWiFi(Status)_Label"	= "Connecté en Wi-Fi"; // connection status of iOS device: the iOS device is connected to iMazing via WiFi
+"WiFiSleep(Status)_Label"			= "Veille Wi-Fi"; // connection status of iOS device: device is reachable by WiFi, but currently sleeping
+"LookingForDevice(Status)_Label"	= "Recherche de l'appareil..."; // iMazing is looking for a device on the WiFi network
+
+"CannotSetDeviceName_Info"	= "Impossible de changer le nom de l'appareil.";
+
+"ChangeDeviceName_Title"	= "Renommer"; // dialog box title
+"ChangeDeviceName_Info"		= "Saisir un nouveau nom";
+
+"AppleID_Label"				= "Identifiant Apple"; // see glossary.
+"AppleIDFirstName_Label"	= "Prénom de l'identifiant Apple";
+"AppleIDLastName_Label"		= "Nom de l'identifiant Apple";
+"AppleIDPersonID_Label"		= "Person ID de l'identifiant Apple"; // Internal Identifier for Apple IDs( a number ). Do not translate.
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		License, Registration and Commercial
+ */
+ 
+"RegisterIMazing_Title"			= "Enregistrement iMazing";
+"PurchaseIMazing_UserAction"	= "Acheter iMazing";
+
+"iMazingNotActivated_Title"	= "iMazing n'est pas enregistré";
+"iMazingNotActivated_Info"	= "Vous devez enregistrer iMazing et l'acheter pour utiliser cette fonction.";
+
+"iMazingInTrialMode_Title"				= "La version de iMazing en cours d'exécution est une version d'évaluation";
+"iMazingInTrialMode(Media)_Info"		= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} éléments média gratuitement. L'export ou la prévisualisation d'un nombre illimité d'éléments est soumis à l'achat d'une licence.";
+"iMazingInTrialMode(Photos)_Info"		= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} photos ou vidéos. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(Messages)_Info"		= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} messages. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(Contacts)_Info"		= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} contacts. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(Notes)_Info"		= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} notes. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(VoiceMemos)_Info"	= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} mémos vocaux. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(Voicemail)_Info"	= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} messages vocaux. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingInTrialMode(CallHistory)_Info"	= "La version d'évaluation de iMazing permet de copier gratuitement jusqu'à {maxitems} appels. L'export ou la prévisualisation d'un nombre illimité d'éléments sont soumis à l'achat d'une licence.";
+"iMazingTrialLimitExceeded(Generic)_Info"	= "Votre sélection excède la restriction de la version d'évaluation de iMazing. iMazing traitera les {remainingitems} premiers éléments pour que vous puissiez les prévisualiser. Veuillez acheter une licence pour supprimer la limite.";
+
+"iMazingTrialNoItemsLeft(Generic)_Info" = "Vous avez dépassé le nombre maximal d'éléments que vous pouvez transférer pour cet ensemble de données ({maxitems}). Veuillez penser à acheter une licence pour bénéficier de transferts illimités.";
+
+"NotRegisteredHint_Info"	= "Certaines fonctions ne sont pas accessibles si iMazing n'est pas enregistré. Cliquez sur « Enregistrer » pour acheter iMazing et les débloquer.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+
+"LoadingICloud000_Label"	= "Chargement d'iCloud...";
+"iMazing_Label"				= "iMazing"; // do not translate
+
+/* Do not translate PicsAid */
+
+"InstallPicsAid_Title"			= "Installer PicsAid"; // Do not translate PicsAid
+"InstallPicsAid_Info"			= "Il n'y a aucune photo en pleine résolution sur votre iPod.\nVous pouvez essayer d'installer PicsAid pour extraire vos photos depuis les fichiers de vignettes  « Apple ITHMB ».\n\n(https://imazing.com/picsaid)";
+
+"FileAppWelcomeBubble_Info"		= "Bienvenue dans le client FileApp !\n\nCliquez ici pour parcourir et transférer vos fichiers vers FileApp."; // Do not translate FileApp
+"GetFileApp_UserAction"			= "Obtenir FileApp";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Preferences
+ */
+
+"iMazingPreferences_Title"				= "Préférences iMazing";
+"General(Preferences)_Label"			= "Général"; // Section of preferences, max chars: 15
+"Storage(Preferences)_Label"			= "Stockage"; // Section of preferences, max chars: 15
+"Media(Preferences)_Label"				= "Médias"; // Section of preferences, max chars: 15
+"OtherData(Preferences)_Label"			= "Autres données"; // Section of preferences, max chars: 15
+"International(Preferences)_Label"		= "International"; // Section of preferences, max chars: 15
+"Backup(Preferences)_Label"				= "Sauvegarder"; // Section of preferences, max chars: 15
+
+"AnalyticsDescription_Info"				= "Aidez-nous à améliorer iMazing ! Analyses nous permet de mieux comprendre vos besoins et d'y répondre.\nNous n'accédons à aucune donnée personnelle, ne procédons à aucun transfert d'aucune sorte. L'anonymat est total.";
+
+"ResetFactorySettings_Info"				= "Réinitialiser complètement iMazing (enregistrement, préférences, etc) :";
+"ResetFactorySettings_UserAction"		= "Rétablir les réglages d'usine"; // max chars: 40
+"ResetFactorySettingsWarning_Info"		= "Voulez-vous vraiment réinitialiser les réglages d'usine de iMazing ? Votre enregistrement et toutes vos préférences personnelles seront perdues.";
+"ResetFactorySettingsConfirmation_Info"	= "Les réglages d'usine de iMazing ont réinitialisés.\n\niMazing va maintenant s'arrêter et redémarrer.";
+
+"iMazingRestartNeededMessage_Info"		= "iMazing doit être redémarré pour que le changement soit effectif. Redémarrer iMazing maintenant ?"; // Needs retranslation
+
+/* A user created shortcut to a precise location in iMazing */
+ 
+"Shortcut_Label"               		= "Raccourci"; // A user created shortcut to a precise location in iMazing
+/* See previous label: not keyboard shortcuts, but shortcuts to specific locations in iMazing's file system */
+"Shortcuts_Label"					= "Raccourcis";
+
+"NewShortcut_UserAction"			= "Nouveau raccourci"; // User action
+"RemoveShortcut_UserAction"			= "Supprimer raccourci"; // User action
+"RenameShortcut_UserAction"			= "Renommer raccourci"; // User action
+"DeleteShortcut_UserAction"			= "Supprimer raccourci"; // User action
+"CreateShortcut_Title"				= "Créer un raccourci"; // Title of dialog box
+"CreateShortcut_Info"				= "Saisir le nom du raccourci";
+
+"OverwriteShortcut_Info"   			= "Ce répertoire contient déjà un raccourci nommé « {itemname} ». Voulez-vous remplacer le raccourci ?";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Social Media 
+ */
+ 
+"VisitUsOnFacebook_UserAction"                  = "Retrouvez-nous sur Facebook";
+"VisitOurTwitter_UserAction"                    = "Suivez notre fil Twitter";
+"TweetAboutIMazing_UserAction"                  = "Tweeter sur iMazing";
+"VisitUsOnGoogle_UserAction"                    = "Retrouvez-nous sur Google+";
+"ShareIMazing(Social)_UserAction"               = "Partager iMazing"; // Share on social network
+"ShareIMazingOnGoogle(Social)_UserAction"       = "Partager iMazing sur Google+";
+"ShareIMazingOnFacebook(Social)_UserAction"     = "Partager iMazing sur Facebook";
+
+
+
+

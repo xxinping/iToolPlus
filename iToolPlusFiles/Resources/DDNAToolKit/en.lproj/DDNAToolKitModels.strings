@@ -1,0 +1,218 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            DDANToolKitLabels.strings
+ * @author          Jérôme Bédat <jbedat@digidna.net>
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+/*
+ No need to translate this files !!!
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Models (general use)
+ */
+
+/*
+ * iPhone
+ */
+"iPhone1,1-Model"               = "iPhone (Original)";
+"iPhone1,1-ModelDetails"        = "iPhone 2G (GSM)";
+"iPhone1,1-black-Icon"          = "com.apple.iphone";
+"iPhone1,1-white-Icon"          = "com.apple.iphone";
+
+"iPhone1,2-Model"               = "iPhone 3G";
+"iPhone1,2-ModelDetails"        = "iPhone 3G (GSM)";
+"iPhone1,2-black-Icon"          = "com.apple.iphone-3g";
+"iPhone1,2-white-Icon"          = "com.apple.iphone-3g";
+
+"iPhone1,2*-Model"              = "iPhone 3G";
+"iPhone1,2*-ModelDetails"       = "iPhone 3G (China/No Wi-Fi)";
+"iPhone1,2*-black-Icon"         = "com.apple.iphone-3g";
+"iPhone1,2*-white-Icon"         = "com.apple.iphone-3g";
+
+"iPhone2,1-Model"               = "iPhone 3GS";
+"iPhone2,1-ModelDetails"        = "iPhone 3GS (GSM)";
+"iPhone2,1-black-Icon"          = "com.apple.iphone-3g";
+"iPhone2,1-white-Icon"          = "com.apple.iphone-3g";
+
+"iPhone2,1*-Model"              = "iPhone 3GS";
+"iPhone2,1*-ModelDetails"       = "iPhone 3GS (China/No Wi-Fi)";
+"iPhone2,1*-black-Icon"         = "com.apple.iphone-3g";
+"iPhone2,1*-white-Icon"         = "com.apple.iphone-3g";
+
+"iPhone3,1-Model"               = "iPhone 4";
+"iPhone3,1-ModelDetails"        = "iPhone 4 (GSM)";
+"iPhone3,1-black-Icon"          = "com.apple.iphone-4-black";
+"iPhone3,1-white-Icon"          = "com.apple.iphone-4-white";
+
+"iPhone3,2-Model"               = "iPhone 4";
+"iPhone3,2-ModelDetails"        = "iPhone 4 (GSM Rev A)";
+"iPhone3,2-black-Icon"          = "com.apple.iphone-4-black";
+"iPhone3,2-white-Icon"          = "com.apple.iphone-4-white";
+
+"iPhone3,3-Model"               = "iPhone 4";
+"iPhone3,3-ModelDetails"        = "iPhone 4 (CDMA)";
+"iPhone3,3-black-Icon"          = "com.apple.iphone-4-cdma-black";
+"iPhone3,3-white-Icon"          = "com.apple.iphone-4-cdma-white";
+
+"iPhone4,1-Model"               = "iPhone 4S";
+"iPhone4,1-ModelDetails"        = "iPhone 4S (GSM/CDMA)";
+"iPhone4,1-black-Icon"          = "com.apple.iphone-4-cdma-black";
+"iPhone4,1-white-Icon"          = "com.apple.iphone-4-cdma-white";
+
+"iPhone5,1-Model"               = "iPhone 5";
+"iPhone5,1-ModelDetails"        = "iPhone 5 (GSM)";
+"iPhone5,1-black-Icon"          = "com.apple.iphone-5-black";
+"iPhone5,1-white-Icon"          = "com.apple.iphone-5-white";
+
+"iPhone5,2-Model"               = "iPhone 5";
+"iPhone5,2-ModelDetails"        = "iPhone 5 (GSM/CDMA)";
+"iPhone5,2-black-Icon"          = "com.apple.iphone-5-black";
+"iPhone5,2-white-Icon"          = "com.apple.iphone-5-white";
+
+"iPhone5,3-Model"               = "iPhone 5c";
+"iPhone5,3-ModelDetails"        = "iPhone 5c";
+"iPhone5,3-Icon"                = "com.apple.iphone-5c-";
+
+"iPhone5,4-Model"               = "iPhone 5c";
+"iPhone5,4-ModelDetails"        = "iPhone 5c";
+"iPhone5,4-Icon"                = "com.apple.iphone-5c-";
+
+"iPhone6,1-Model"               = "iPhone 5s";
+"iPhone6,1-ModelDetails"        = "iPhone 5s";
+"iPhone6,1-Icon"                = "com.apple.iphone-5s-";
+
+"iPhone6,2-Model"               = "iPhone 5s";
+"iPhone6,2-ModelDetails"        = "iPhone 5s";
+"iPhone6,2-Icon"                = "com.apple.iphone-5s-";
+
+
+/*
+ * iPad
+ */
+"iPad1,1-Model"                 = "iPad (Original)";
+"iPad1,1-ModelDetails"          = "iPad (No Cellular)";
+"iPad1,1-black-Icon"            = "com.apple.ipad";
+
+"iPad1,2-Model"                 = "iPad 3G (Original)";
+"iPad1,2-ModelDetails"          = "iPad (GSM)";
+"iPad1,2-black-Icon"            = "com.apple.ipad";
+
+"iPad2,1-Model"                 = "iPad 2";
+"iPad2,1-ModelDetails"          = "iPad 2 (No Cellular)";
+"iPad2,1-black-Icon"            = "com.apple.ipad-2-black";
+"iPad2,1-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad2,2-Model"                 = "iPad 2 3G";
+"iPad2,2-ModelDetails"          = "iPad 2 (GSM)";
+"iPad2,2-black-Icon"            = "com.apple.ipad-2-black";
+"iPad2,2-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad2,3-Model"                 = "iPad 2 3G";
+"iPad2,3-ModelDetails"          = "iPad 2 (CDMA)";
+"iPad2,3-black-Icon"            = "com.apple.ipad-2-black";
+"iPad2,3-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad2,4-Model"                 = "iPad 2";
+"iPad2,4-ModelDetails"          = "iPad 2 (iPad2,4)";
+"iPad2,4-black-Icon"            = "com.apple.ipad-2-black";
+"iPad2,4-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad2,5-Model"                 = "iPad Mini";
+"iPad2,5-ModelDetails"          = "iPad Mini (No Cellular)";
+"iPad2,5-black-Icon"            = "com.apple.ipad-mini-black-wifi";
+"iPad2,5-white-Icon"            = "com.apple.ipad-mini-white-wifi";
+
+"iPad2,6-Model"                 = "iPad Mini 3G";
+"iPad2,6-ModelDetails"          = "iPad Mini (GSM)";
+"iPad2,6-black-Icon"            = "com.apple.ipad-mini-black-3g";
+"iPad2,6-white-Icon"            = "com.apple.ipad-mini-white-3g";
+
+"iPad2,7-Model"                 = "iPad Mini 3G";
+"iPad2,7-ModelDetails"          = "iPad Mini (GSM+CDMA)";
+"iPad2,7-black-Icon"            = "com.apple.ipad-mini-black-3g";
+"iPad2,7-white-Icon"            = "com.apple.ipad-mini-white-3g";
+
+"iPad3,1-Model"                 = "iPad 3";
+"iPad3,1-ModelDetails"          = "iPad 3 (No Cellular)";
+"iPad3,1-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,1-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad3,2-Model"                 = "iPad 3 4G";
+"iPad3,2-ModelDetails"          = "iPad 3 4G (GSM+CDMA)";
+"iPad3,2-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,2-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad3,3-Model"                 = "iPad 3 4G";
+"iPad3,3-ModelDetails"          = "iPad 3 4G (GSM)";
+"iPad3,3-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,3-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad3,4-Model"                 = "iPad 4";
+"iPad3,4-ModelDetails"          = "iPad 4 (No Cellular)";
+"iPad3,4-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,4-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad3,5-Model"                 = "iPad 4 4G";
+"iPad3,5-ModelDetails"          = "iPad 4 4G (GSM)";
+"iPad3,5-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,5-white-Icon"            = "com.apple.ipad-2-white";
+
+"iPad3,6-Model"                 = "iPad 4 4G";
+"iPad3,6-ModelDetails"          = "iPad 4 4G (GSM+CDMA)";
+"iPad3,6-black-Icon"            = "com.apple.ipad-2-black";
+"iPad3,6-white-Icon"            = "com.apple.ipad-2-white";
+
+
+/*
+ * iPod touch
+ */
+"iPod1,1-Model"                 = "iPod touch 1G";
+"iPod1,1-ModelDetails"          = "iPod touch 1st Gen";
+"iPod1,1-black-Icon"            = "com.apple.ipod-touch";
+
+"iPod2,1-Model"                 = "iPod touch 2G";
+"iPod2,1-ModelDetails"          = "iPod touch 2nd Gen";
+"iPod2,1-black-Icon"            = "com.apple.ipod-touch-2";
+
+"iPod3,1-Model"                 = "iPod touch 3G";
+"iPod3,1-ModelDetails"          = "iPod touch 3rd Gen";
+"iPod3,1-black-Icon"            = "com.apple.ipod-touch-2";
+
+"iPod4,1-Model"                 = "iPod touch 4G";
+"iPod4,1-ModelDetails"          = "iPod touch 4th Gen";
+"iPod4,1-black-Icon"            = "com.apple.ipod-touch-4-black";
+"iPod4,1-white-Icon"            = "com.apple.ipod-touch-4-white";
+
+"iPod5,1-Model"                 = "iPod touch 5G";
+"iPod5,1-ModelDetails"          = "iPod touch 5th Gen";
+"iPod5,1-blue-Icon"             = "com.apple.ipod-touch-5-blue";
+"iPod5,1-pink-Icon"             = "com.apple.ipod-touch-5-pink";
+"iPod5,1-red-Icon"              = "com.apple.ipod-touch-5-red";
+"iPod5,1-slate-Icon"            = "com.apple.ipod-touch-5-slate";
+"iPod5,1-white-Icon"            = "com.apple.ipod-touch-5-white";
+"iPod5,1-black-Icon"            = "com.apple.ipod-touch-5-slate";
+"iPod5,1-yellow-Icon"           = "com.apple.ipod-touch-5-yellow";
+"iPod5,1-sparrow-Icon"          = "com.apple.ipod-touch-5-sparrow";
+"iPod5,1-silver-Icon"           = "com.apple.ipod-touch-5-silver";
+
+/*
+ * Apple TV
+ */
+"AppleTV2,1-Model"              = "Apple TV (2nd Gen)";
+"AppleTV2,1-ModelDetails"       = "Apple TV 2nd Gen";
+"AppleTV2,1-black-Icon"         = "com.apple.apple-tv";
+
+"AppleTV3,1-Model"              = "Apple TV (3rd Gen)";
+"AppleTV3,1-ModelDetails"       = "Apple TV 3rd Gen";
+"AppleTV3,1-black-Icon"         = "com.apple.apple-tv";
+
+
+/*
+ * Apple TV
+ */

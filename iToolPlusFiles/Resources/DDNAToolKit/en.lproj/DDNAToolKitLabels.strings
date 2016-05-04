@@ -1,0 +1,61 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            DDANToolKitLabels.strings
+ * @author          Stéphane Cherpit <stephane@digidna.net>
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Filesystem Operations
+ */
+
+"FSOperationTitleGetDeviceInfos"                = "Get Device Infos";
+"FSOperationTitleCreateSymlink"                 = "Create Symlink";
+"FSOperationTitleCreateSymlinks"                = "Create Symlinks";
+"FSOperationTitleSetItemModificationTime"       = "Set Item Modification Times";
+"FSOperationTitleSetItemModificationTimes"      = "Set Item Modification Times";
+"FSOperationTitleOpen"                          = "Open File";
+"FSOperationTitleDeleteItem"                    = "Delete Item";
+"FSOperationTitleDeleteItems"                   = "Delete Items";
+"FSOperationTitleDeletedItem"                   = "{itemname} Deleted";
+"FSOperationTitleDeletedItems"                  = "{itemname} and others Deleted";
+"FSOperationTitleRenameItem"                    = "Rename Item";
+"FSOperationTitleRenameItems"                   = "Rename Items";
+"FSOperationTitleRenamedItem"                   = "{itemname} Renamed";
+"FSOperationTitleRenamedItems"                  = "{itemname} and others Renamed";
+"FSOperationTitleMovedItem"                     = "{itemname} Moved";
+"FSOperationTitleMovedItems"                    = "{itemname} and others Moved";
+"FSOperationTitleGetItemSize"                   = "Get Item Size";
+"FSOperationTitleGetItemsSizes"                 = "Get Item Sizes";
+"FSOperationTitleCreateDirectory"               = "Create Folder";
+"FSOperationTitleCreateDirectories"             = "Create Folders";
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * iOS App Operations
+ */
+
+"iOSAppOperationStatusTakingInstallLock"            = "Taking install lock";
+"iOSAppOperationStatusEmptyingApplication"          = "Emptying application";
+"iOSAppOperationStatusArchivingApplication"         = "Archiving application";
+"iOSAppOperationStatusRemovingApplication"          = "Removing application";
+"iOSAppOperationStatusPreflightingTransfer"         = "Preflighting transfer";
+"iOSAppOperationStatusTransferringPackage"          = "Transferring package";
+"iOSAppOperationStatusCopyingFile"                  = "Copying file";
+"iOSAppOperationStatusCreatingStagingDirectory"     = "Creating staging directory";
+"iOSAppOperationStatusExtractingPackage"            = "Extracting package";
+"iOSAppOperationStatusInspectingPackage"            = "Inspecting package";
+"iOSAppOperationStatusPreflightingApplication"      = "Preflighting application";
+"iOSAppOperationStatusVerifyingApplication"         = "Verifying application";
+"iOSAppOperationStatusCreatingContainer"            = "Creating container";
+"iOSAppOperationStatusInstallingApplication"        = "Installing application";
+"iOSAppOperationStatusInstallingEmbeddedProfile"    = "Installing embedded profile";
+"iOSAppOperationStatusPostflightingApplication"     = "Postflighting application";
+"iOSAppOperationStatusSandboxingApplication"        = "Sandboxing application";
+"iOSAppOperationStatusGeneratingApplicationMap"     = "Generating application map";
+"iOSAppOperationStatusCopyingAppData"               = "Copying application data";
+"iOSAppOperationStatusDeviceRebooting"              = "Device rebooting";

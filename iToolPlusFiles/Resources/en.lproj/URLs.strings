@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            URLs.strings
+ * @author          Jean-David Gadina - www.digidna.net
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+
+"HTTPLinkDigiDNAIMazingBuy"                 = "https://imazing.com/store";
+"HTTPLinkDigiDNAIMazingBuyConfirmed"        = "https://imazing.com/store/thank-you";
+"HTTPLinkIMazingRegister"                   = "http://com.digidna.imazing/register";
+"HTTPLinkIMazingClose"                      = "http://com.digidna.imazing/close";
+"HTTPLinkIMazingActivateWiFi"               = "http://com.digidna.imazing/activatewifi";
+"HTTPLinkAppStoreFileApp"                   = "http://itunes.apple.com/us/app/fileapp-documents-files-reader/id297804694?mt=8";
+"HTTPLinkAppStorefileAppPro"                = "http://itunes.apple.com/us/app/fileapp-pro/id359580470?mt=8";
+
+"URLFacebookVisit"                          = "https://www.facebook.com/DigiDNA";
+"URLFacebookShare"                          = "https://www.facebook.com/sharer.php?s=100&p[url]=http%3A%2F%2Fimazing.com&p[images][0]=http%3A%2F%2Fimazing.com%2Fwp-content%2Fuploads%2FiMazing128.png&p[title]=Manage%20Your%20iPhone,%20Simply.%20Get%20iMazing%20today.&p[summary]=iPhone%20Music%20Transfer,%20Your%20Way";
+"URLTwitterVisit"                           = "https://twitter.com/DigiDNA";
+"URLTwitterShare"                           = "https://twitter.com/share?url=http%3A%2F%2Fimazing.com&text=Manage%20Your%20iPhone,%20Simply.%20Get%20iMazing%20today%3A";
+"URLGoogle+Visit"                           = "https://plus.google.com/+DigidnaNetOfficial";
+"URLGoogle+Share"                           = "https://plus.google.com/share?url=http://imazing.com";
+
+"URLAppleSelfSolve"                         = "https://checkcoverage.apple.com/?sn=";

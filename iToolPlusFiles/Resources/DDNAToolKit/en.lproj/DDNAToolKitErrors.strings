@@ -1,0 +1,121 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2012, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            DDANToolKitErrors.strings
+ * @author          Stéphane Cherpit <stephane@digidna.net>
+ * @copyright       (c) 2011-2012, DigiDNA
+ */
+
+/*
+ No need to translate this files !!!
+*/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Error (general use)
+ */
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Device connection
+ */
+"ErrorCannotConnectTitle"                               = "Connot Connect";
+"ErrorInvalidAMDevice"                                  = "Cannot connect to device because AMDevice is invalid.";
+"ErrorCannotConnectAMDevice"                            = "Cannot connect to device for an unknown reason.";
+"ErrorCannotStartService"                               = "Cannot start service {domain} on {device}.";
+"ErrorDeviceConnectionParingNotValid"                   = "Pairing is not valid.";
+"ErrorDeviceConnectionStartSessionFailed"               = "Start session failed.";
+"ErrorDeviceConnectionStopSessionFailed"                = "Stop session failed.";
+"ErrorCannotStartServiceAppBundleIDNotSet"              = "Cannot not start service because the App Bundle ID is not set.";
+"ErrorCannotStartServiceToConnectToApp"                 = "Cannot not start service to connect to app {appname}.";
+"ErrorCannotGetConnectionSocket"                        = "Cannot get connection socket.";
+"ErrorCannotGetSecureIOContext"                         = "Cannot get secure IO context";
+"ErrorCannotCreateAFCConnection"                        = "Cannot create AFC connection.";
+"ErrorCannotSetConnectionContext"                       = "Cannot set connection context.";
+"ErrorCannotConnectToAFC2ADD"                           = "Your device is jailbroken but iMazing cannot connect to \"AFC2\".\n\nYou need to install the \"Apple File Conduit 2\" (or \"afc2add\") package from Cydia to access the entire filesystem.";
+"ErrorCannotConnectToHouseArrestServiceFix"             = "Your device is jailbroken but iMazing cannot connect to {appname}'s container.\n\nYou need to install the \"House Arrest Fix\" package from Cydia to browse this app.";
+"ErrorAMDeviceIsInvalid"                                = "AMDevice is invalid.";
+"ErrorServiceNotAvailable"                              = "Service {service} is unavailable.";
+"ErrorCannotSendMessageToService"                       = "Cannot send message to service {service}.";
+"ErrorCannotReceiveMessageFromService"                  = "Cannot receive message from service {service}.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Backup
+ */
+"ErrorBackupCannotFindBackupLocationTitle"              = "iMazing cannot find your backup location";
+"ErrorBackupCannotFindBackupLocationMessage"            = "If you are using an external drive make sure it's connected to your computer, otherwise go to iMazing Preferences and change your backup location to the folder of your choice.";
+"ErrorBackupCannotFindOldBackupLocationTitle"           = "iMazing cannot find your iOS Backups";
+"ErrorBackupCannotFindOldBackupLocationMessage"         = "If you are using an external drive make sure it's connected to your computer, otherwise iMazing will not be able to move your current iOS backups to the new location.";
+"ErrorBackupCannotCopyFilesExtractedFromBackup"         = "Cannot copy files extracted from backup.\n\nDetails: ";
+"ErrorBackupCannotAddItemToBackup"                      = "Cannot add item to backup.\n\nDetails: ";
+"ErrorBackupCannotRemoveItemFromBackup"                 = "Cannot remove item from backup.\n\nDetails: ";
+"ErrorBackupCannotRemoveFilesExtractedFromBackup"       = "Cannot not remove files extracted from backup.\n\nDetails: ";
+"ErrorBackupCannotFindFilesExtractedFromBackup"         = "Cannot not find files extracted from backup.";
+"ErrorBackupCannotBackupDevice"                         = "Cannot backup or restore your device.\n\nDetails: ";
+"ErrorBackupCannotRestoreDeviceWrongManifest"           = "Cannot restore your device. Manifest from computer is invalid.\n\nDetails: ";
+"ErrorBackupCannotChangeBackupPassword"                 = "Cannot change backup password.\n\nDetails: ";
+"ErrorBackupCannotReadMBDBFile"                         = "Cannot create backup database.";
+"ErrorBackupCannotReadMBDBFile"                         = "Cannot read backup database.";
+"ErrorBackupCannotWriteMBDBFile"                        = "Cannot write backup database.";
+"ErrorBackupCannotReadInfoPlistFile"                    = "Cannot read info file.";
+"ErrorBackupMBDBFileDoesntExists"                       = "Backup database doesn't exists.";
+"ErrorBackupCannotCreateSymlink"                        = "Cannot create symlink to the new backup location.\n\nDetails: ";
+"ErrorBackupCannotBrowseBackupLocation"                 = "Cannot browse backup location.\n\nDetails: ";
+"ErrorBackupCannotLoadiMazingBackupFile"                = "iMazing cannot load this backup file, it seems corrupted.\n\nDetails: ";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Local File system
+ */
+
+"ErrorLocalFSCannotGetFileSystemTotalBytes"             = "Cannot get file system total bytes.\n\nDetails: ";
+"ErrorLocalFSCannotGetFileSystemFreeBytes"              = "Cannot get file system free bytes.\n\nDetails: ";
+
+"ErrorLocalFSCannotGetDirectoryChildren"                = "Cannot get directory children.\n\nDetails: ";
+"ErrorLocalFSCannotGetFileInfos"                        = "Cannot get file infos.\n\nDetails: ";
+"ErrorLocalFSManagerIsNULL"                             = "LocalFSManager variable is NULL.";
+"ErrorLocalFSCannotProcessOperation"                    = "Cannot process file system operation\n\nDetails: ";
+
+"ErrorLocalFSCannotReadFile"                            = "Cannot read local file: ";
+"ErrorLocalFSCannotWriteFile"                           = "Cannot write local file: ";
+"ErrorLocalFSCannotCreateFolder"                        = "Cannot create local folder: ";
+"ErrorLocalFSCannotCreateFileCFData"                    = "Cannot create local file CFData: ";
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * iOS File system
+ */
+"ErroriOSFSManagerIsNULL"                               = "iOSFSManager variable is NULL.";
+"ErroriOSFSManagerCannotCreateOperation"                = "Cannot create operation.";
+"ErroriOSFSManagerCannotProcessOperation"               = "Cannot process operation on {itempath}.\n\nDetails: ";
+"ErroriOSFSManagerAFCOperationUnexpectedResultType"     = "Unexpected result type from AFC Operation.";
+"ErroriOSFSManagerFileSharingIsDisabled"                = "{appname} has not enabled file sharing. Since iOS 8.3, this is required to browse an app's content.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * iOS Apps
+ */
+"ErroriOSAppCannotGetList"                              = "Cannot get application list.";
+"ErroriOSAppCannotStartSprinboardService"               = "Cannot start springboard service.";
+"ErroriOSAppCannotSendMessageToSpringBoardService"      = "Cannot send message to springboard service.";
+"ErroriOSAppCannotReceiveMessageFromSpringBoardService" = "Cannot receive message from springboard service.";
+"ErroriOSAppCannotReadMessageFromSpringBoardService"    = "Cannot read message from springboard service.";
+"ErroriOSAppCannotGetCFData"                            = "Cannot get CFData.";
+"ErroriOSAppCannotReadCFData"                           = "Cannot read CFData.";
+"ErroriOSAppCannotWriteIcon"                            = "Cannot write icon data to file.";
+"ErroriOSAppCannotStartInstallationService"             = "Cannot start installation service.";
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Datasets
+ */
+"ErrorCannotOpenDB"                                     = "Cannot open database: {dbpath}.";
+"ErrorCannotOpenAppleDB"                                = "Instance of iTDB var is null. iTunesDB file is probably corrupted.";
+"ErrorDBNotSupported"                                   = "\n\nDB not supported. Details: ";
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Services
+ */
+"ErrorServiceNotAvailable"                              = "The service {servicename} is unavailable.";
+"ErrorServiceRequestError"                              = "The service returned an invalid response: ";

@@ -1,0 +1,847 @@
+/* Short for Applications. Labelizes sections of iMazing which display apps on the device, or in a backup. */
+ 
+"Apps_Label"				= "应用程序"; // Short for Applications. Labelizes sections of iMazing which display apps on the device, or in a backup.
+"ManageApps_UserAction"		= "管理应用程序"; // User Action
+"UninstallApp_UserAction"	= "卸载应用程序"; // User Action
+"InstallApp_UserAction"		= "恢复应用程序"; // User Action
+"ExtractApp_UserAction"		= "提取应用程序"; // User Action
+
+"AppExtraction_Title"		= "应用程序提取"; // Dialog box title
+"AppExtractionWhat_Info"	= "您想提取什么？\n\n选择“应用程序和数据”将导出一个与 Apple ID {appleid} 关联的“{filextension}”文件。如果计划与其他用户共享导出的文件，请选择“仅数据”。"; // Refers to extracting app only, or app and app data
+
+"AppInstall_Title"				= "应用程序安装"; // Title of dialog box
+"AppRestore_Title"				= "应用程序恢复"; // Title of dialog box
+"AppInstallWhat_Info"			= "您想传输什么？"; // Refers to restoring app to the device: app only, or app and app data.
+"InstallAppOrAppAndData_Info" 	= "您要安装哪些内容？\n\n如果选择应用程序及数据，则设备将在安装完毕后重新启动。"; // Refers to restoring app to the device: app only, or app and app data.
+
+// "ExtractAppIOS9_Info"			= "As of iOS 9, only app data can be extracted. iMazing will create an .imazingapp file, which when reinstalled will redownload the app on your device and restore app data.";
+"RestoreAppAndReboot_Info"		= "iMazing 将恢复应用程序数据并重新启动您的设备。是否立即恢复？";
+"OverwriteAppData_Info"			= "应用程序数据即将被覆盖。iMazing 可完全替换数据（较安全），也可合并数据（速度快很多）。多数游戏可选“快速”，包含用户文稿和数据的应用程序最好选择“安全”。";
+/* User reply to dialog: Safe or Fast restore of application data? */
+"Fast(Restore)_UserReply"		= "快速";
+/* User reply to dialog: Safe or Fast restore of application data? */
+"Safe(Restore)_UserReply"		= "安全";
+
+"AppDataExtraction_Info"		= "iMazing 即将提取应用程序数据。\n\n如果您要转移重要数据，请务必先做试验，再删除要转移的数据。少数应用程序将数据存储在不可访问的位置：iMazing 可能无法完整地恢复此类数据。";
+
+"AppRestoreRebootLongReboot_Info"       = "您的设备正在重新启动。请耐心等候，可能需要几分钟时间。\n\n当您的设备重新开启后，您需要执行以下步骤：\n\n1. 轻按“继续”\n2. 选择 Wi-Fi 网络\n3. 输入 Apple ID 密码\n4. 选择是否需要启用“查找我的 {deviceclass}”";
+"AppRestoreReboot(ShortMessage)_Info" 	= "{devicename} 正在重新启动。请稍候…";
+"AppAndData_UserReply"                  = "应用程序和数据"; // User Reply in dialog box. When installing or extracting an app, app only or app and data?
+"DataOnly_UserReply"                    = "仅数据"; // User Reply in dialog box. When installing or extracting an app, app and app data, or only data?
+// "AppOnly_UserReply"                   = "App Only"; // User Reply in dialog box. When installing or extracting an app, app only or app and data?
+"AppsData_Label"                        = "应用程序数据"; // Labelizes wether to include data of applications in operation.
+
+"AppInstallMissingApp_Info"					= "在您的设备上安装 {appname} 后，方可恢复其数据。请从 App Store 下载。";
+"AppInstallAppleIDMismatchWarning_Info"		= "您即将安装 {appname}，该应用程序所关联的 Apple ID 与您的设备不一致。\n\n{appname} Apple ID：{appappleid}\n设备 Apple ID：{deviceappleid}。\n\n如果安装此应用程序，您需要登录 {appappleid}。\n\n是否仍然安装？";
+
+"ShowAllApps_UserAction"					= "显示所有应用程序"; // By opposition to 'Only show sharing enabled Apps' below.
+"ShowSharingAppsOnly_UserAction"			= "仅显示启用共享的应用程序";
+"ShowAppsRootContainer_UserAction"			= "显示应用程序的根容器"; // By opposition to 'Only show Apps Documents folder' below
+"OnlyShowAppsDocumentsFolder_UserAction"	= "仅显示应用程序的文档文件夹";
+
+
+"iOSAppDataNotAvailable_Info"			= "截至 iOS 8.3，仅启用了“文件共享”的应用程序的“文稿”文件夹可以访问。iMazing 将仅提取或安装应用程序本身，不包括关联数据。";
+"DocumentsFolderIsNotAccessible_Info"	= "{appname} 的“文稿”文件夹无法访问。\n自 iOS 8.3 起，仅可访问启用“文件共享”的应用程序的“文稿”文件夹。";
+
+"CannotConnectToApp_Info"					= "无法连接到此应用程序。";
+"CannotInstallAppInvalidFile_Info"			= "无法恢复应用程序。\n\n文件类型无效。请选择 .zip 和 .ipa 文件或 .app 文件夹。";
+"CannotInstallIMazingApp_Info"				= ".imazingapp 文件仅可安装于 iOS 9 或更高版本。";
+
+"InstallingXofYApps_Info"		= "正在恢复 {processeditems} / {totalitems} 个应用程序 - {status}";
+"UninstallingXofYApps_Info"		= "正在卸载 {processeditems} / {totalitems} 个应用程序 - {status}";
+
+"ExtractingAppX_Info"			= "正在提取 {appName}"; // Extracting application from device
+"ExtractingXofYApps_Info"		= "正在提取 {processeditems} / {totalitems} 个应用程序 - {status}";
+"AppXExtracted_Info"			= "已提取 {itemname}"; // Application was successfully extracted
+"AppXAndOthersExtracted_Info"	= "已提取 {itemname} 等";
+
+/* iOS Contacts App, exactly as Apple translates it */
+
+"Contacts(App)_Label"			= "通讯录"; // iOS Contacts App, exactly as Apple translates it
+"Contacts(Dataset)_Label"		= "通讯录"; // The dataset, not necessarily the iOS apps. Refers to te content of the Contacts app.
+"Contact_Label"					= "联系方式"; // Contact as in entry in address book
+"DefaultFileNameContact_Label"	= "联系方式"; // When exporting a single contact, the root name of the exported file. 'Contact - John Smith.vcf' for example.
+"DefaultFileNameContacts_Label"	= "通讯录"; // When exporting a single contact to a single vcard, the root name of the exported file. 'Contacts - 2005-08-12.vcf' would be the full file name, for example.
+
+"PersonTitle_Label"			= "标题"; // Title as in Mr, Madam, Professor etc...
+"FirstName_Label"			= "名";
+"LastName_Label"			= "姓";
+"NoName(Contact)_Label"		= "无名称"; // Displayed if the contact record does not have enough info to display a name ( no first name, last name, company etc.. ).
+"Company_Label"				= "公司"; // Field in contact card
+"NotesOnContact_Label"		= "备注"; // Field in contact card: notes on the contact
+
+"PhoneNumber_Label"			= "电话号码";
+"Number(Phone)_Label"		= "号码"; // short for phone number
+
+"ExportContactsAsSingleVCard_Info"  = "将联系人导出为单个 VCard"; // User action
+"ExportToVCard_UserAction"			= "导出至 VCard"; // User action, export contact to VCard
+"ExportToContacts_UserAction"		= "导出至通讯录"; // User action, export from device to desktop Contacts app
+"ImportFromContacts_UserAction"		= "从通讯录导入"; // User action, import from desktop Contacts app to device
+"ImportFromVCard_UserAction"		= "从 VCard 导入"; // import contact from VCard file to device
+
+"LoadingContacts000_Info"			= "正在加载通讯录...";
+
+"CopyContact_Title"					= "拷贝通讯录"; // Title of dialog box
+"CopyContacts_Title"				= "拷贝通讯录"; // Title of dialog box
+"DeletingContacts_Title"			= "正在删除联系人"; // Title of dialog box
+
+"ChooseContactsFromAddressBook_Info"	= "选择要从通讯录拷贝的联系人："; // Select contacts from the OS X Contacts app to copy to iOS device
+"OrCopyContactsFromFile_Info"			= "或者从文件拷贝联系人："; // Select a .vcf file to copy to the device
+
+"DuplicateContact_Title"			= "重复联系人"; // Dialog box title: duplicate contact found.
+"ContactXAlreadyOnDevice_Info"		= "您的设备已存在名为“{name}”的联系人。请选择要执行的操作。";
+"ContactXAlreadyInICloud_Info"		= "您的 iCloud 帐户已存在名为“{name}”的联系人。请选择要执行的操作。";
+"ContactXAlreadyInFacebook_Info"	= "您的 Facebook 帐户已存在名为“{name}”的联系人。请选择要执行的操作。";
+
+"PreparingToCopyContacts_Info"			= "正在准备拷贝联系人...";
+"GettingContactsChangesOnDevice_Info"	= "正在获取设备的变化..."; // Before pushing new contacts to a device, retrieving latest information on the Contacts database
+"CopyingContacts000_Info"       		= "正在拷贝联系人...";
+"CopyingContactsDetails000_Info"		= "正在拷贝联系人详细信息...";
+"FinalizingContactsCopy000_Info"		= "正在完成联系人拷贝...";
+ 
+/* Dialog box title: the selected destination folder cannot be written to */
+ 
+"NotWritable_Title"								= "不可写"; // Dialog box title: the selected destination folder cannot be written to
+
+"WritePermissionDenied(ProtectedItem)_Info"		= "“{itemname}”为受保护项目。解锁设备可能会获得访问授权。"; // protected item: protected by encryption or iOS security.
+"EditPermissionDenied(General)_Info"			= "\"{itemname}\" 为只读，无法修改。"; // item can be a file or a folder
+"ModificationsOnlyForAdvancedUsers_Info"		= "对 {itemname} 进行更改应十分谨慎，此操作仅适合开发人员或高级用户使用。"; // Changes in current location in file system are dangerous!
+
+"NotReadable_Title"						= "不可读"; // Dialog box title
+"ReadPermissionDenied(General)_Info" 	= "“{itemname}”不可读。"; // item can be a file or a folder.
+
+"CannotCopyFileDoesNotExist_Info"	= "无法拷贝此文件，因为其不存在于设备中。";
+"CannotCopyFileFromDevice_Info"		= "无法从设备拷贝此文件。";
+
+"CannotConnectToRoot_Info"			= "无法连接到根文件夹。"; // iOS devices are very secure: not all folders in the file system are accessible. The root folder is not accessible on non jailbroken devices. See 'Rooting' vocabulary in jailbreak or hacking circles.
+
+"LocalModifications_Title"	= "本地修改"; // Dialog box title
+"LocalModifications_Info"	= "文件 {filename} 进行了本地修改。是否要将其传回至您的设备？"; 
+
+"RefreshX_UserAction"		= "刷新“{location}”"; // user action: reload the displayed file system location from the device
+ 
+/* iBooks iOS app name, exactly as Apple translates it. */
+ 
+"iBooks(App)_Label"	= "iBooks"; // iBooks iOS app name, exactly as Apple translates it. 
+
+/* iOS Messages App, exactly as translated by Apple */
+ 
+"Messages(App)_Label"               = "信息"; // iOS Messages App, exactly as translated by Apple
+"Messages(Dataset)_Label"			= "信息"; // the contents of the Messages app
+"Message_Label"                     = "信息"; // a single message in the Messages app
+
+"DateXFromSenderY_Info"             = "{messagedatetime} 发自 {sender}"; // In iMazing's Messages View, each message is preceded by 'dateReceived from contactName' or ( see next phrase )
+"DateXToRecipientY_Info"           	= "{messagedatetime} 发给 {recipients}"; // 'dateSent to conatctName'
+"ExportAttachments_UserAction"		= "导出附件"; // Export attachments of SMS and iMessages: VCards, photos, audio, videos...
+"GroupByDate_Label"             	= "群组（按日期）"; // Conversation as in messaging Conversation, sorted by date. Used in iMazing's Messages view, see screenshot.
+
+"LoadingMessages000_Info"					= "正在加载信息..."; // Messages as in messages of the Messages app ( SMS, MMS and iMessage )
+"GeneratingAttachmentThumbnails000_Info"	= "正在生成附件缩略图..."; // Generating thumbnails for visual media sent or received by MMS or iMessage.
+
+"CopyMessage_Title"					= "拷贝信息"; // Title of copy operation of a single message
+"CopyMessages_Title"				= "拷贝信息"; // Title of copy operation of a multiple messages
+"DefaultFileNameMessages_Label"		= "信息"; // When exporting messages from an iPhone, the root of the exported file name: 'Messages - 2013-02-07.pdf' would be the full file name for example.
+
+/* labelizes itmes which are locally available on the user's iOS device - as opposed to stored in the cloud. Can apply to different data: Notes, Contacts... */
+ 
+"OnMyDevice_Label"							= "我的 {deviceclass} 上"; // labelizes itmes which are locally available on the user's iOS device - as opposed to stored in the cloud. Can apply to different data: Notes, Contacts...
+"Calendars(Dataset)_Label"					= "日历"; // 
+"SafariBookmarks(Dataset)_Label"			= "Safari 书签"; // Safari the Apple web navigator, not animal sight seeing ;) As translated by Apple.
+"OtherDataAndPreferences(Dataset)_Label"	= "其他数据和偏好设置"; 
+
+/* iOS Notes App, as translated by Apple */
+ 
+"Notes(App)_Label"                  = "备忘录"; // iOS Notes App, as translated by Apple
+"Notes(Dataset)_Label"				= "备忘录"; // Contents of the notes app: notes
+"DefaultFileNameNote_Label"			= "备忘录"; // When exporting a single note of the notes app, the root of the exported filename: 'Note - 2015-11-08.txt' for example
+"NewNote_UserAction"				= "新备忘录"; // as in create new note in Notes app
+"LoadingNotes000_Info"				= "正在加载备忘录..."; // loading contents of the Notes app
+"CopyNote_Title"					= "拷贝备忘录"; // title of operation
+"CopyNotes_Title"					= "拷贝备忘录"; // title of operation
+
+/* iOS Phone App, exactly as traslated by Apple */
+ 
+"Phone(App)_Label"					= "电话"; // iOS Phone App, exactly as traslated by Apple
+ 
+/* Call log of the iPhone. Phrase used as title. */
+"CallHistory_Title"					= "通话记录"; // Call log of the iPhone. Phrase used as title.
+"CallHistory_Label"					= "通话记录"; // Call log of the iPhone. Phrase used as label.
+"DefaultFileNameCallHistory_Label"	= "通话记录"; // Root of filename of exported call history file: 'Call History - 2015-12-11.csv' for example
+"Blocked(Call)_Label"				= "已阻止"; // Displayed in call history in place of contact name or phone number if the call was received by a private number( number withheld )
+"LoadingCallHistory000_Info"		= "正在加载通话记录...";
+"CopyCallHistory_Title"             = "拷贝通话记录"; // Used as operation title
+
+"Missed(Call)_Label"			= "未接来电"; // retranslate, labelizes a missed phone call
+"Refused(Call)_Label"			= "已拒接"; // retranslate, labelizes a call which was purposefuly refused by the receiver
+
+"Incoming(Call)_Label"			= "来电"; // Incoming phone call: used in call history export to spreadsheet format to labelize call direction
+"Outgoing(Call)_Label"			= "去电"; // Outcoming phone call: used in call history export to spreadsheet format to labelize call direction
+ 
+/* Tab in iOS Phone app, exactly as translated by Apple. See screenshot... */
+"VoiceMail(PhoneApp)_Label"			= "语音信箱"; // Tab in iOS Phone app, exactly as translated by Apple. See screenshot...
+"Voicemail(Dataset)_Label"			= "语音信箱"; // All voicemail messages on the device: the voicemail dataset. Translate with the plural if applicable.
+"DefaultFileNameVoicemail_Label"	= "语音信箱"; // Root of exported voicemail file: 'Voicemail - 2015-03-01 - John Doe.amr' would be the full filename for example
+
+"LoadingVoicemail000_Info"			= "正在加载语音信箱...";
+"CopyVoicemail_Title"				= "拷贝语音信箱"; // Dialog box title when copying a single voicemail recording.
+"CopyVoicemails_Title"				= "拷贝语音信箱"; // Dialog box title when copying multiple voicemail recordings. Translate with the plural if applicable.
+ 
+/* Mac OS Photos app, as translated by Apple */
+ 
+"Photos(App)_Label"					= "照片"; // iOS / Mac OS Photos app, as translated by Apple
+"Photos(Dataset)_Label"				= "照片"; // As in Photos dataset: the contents of the
+"Camera(App)_Label"					= "相机"; // iOS Camera app, as translated by Apple
+"PhotoLibrary_Label"				= "照片图库";
+"NoPhotoLibrary_Title"				= "照片图库为空"; // dialog box title
+"NoPhotoLibrary_Info"				= "没有照片与此设备同步。";
+"DeletePhoto_Title"					= "删除照片"; // dialog box title
+"DeletePhotosFailLocked_Info"		= "部分照片因锁定而未删除：";
+
+"LoadingPhotos000_Info"				= "正在加载照片...";
+"LoadingPhotosThumbnails000_Info"	= "正在加载照片缩略图...";
+"DeletingPhotos000_Info"			= "正在删除照片...";
+"ConnectUSBToDeletePhotos_Info"		= "请连接您的 USB 线缆来删除照片。";
+"ConnectUSBToViewCameraRoll_Info"	= "要查看您的相机胶卷缩略图，请使用 USB 连接您的设备。若已启用 Wi-Fi 连接，您可以在“存储”项浏览您的相机胶卷。";
+"PhotoDBNotSupported_Info"			= "不支持照片数据库。请确保您设备安装的至少是 iOS 5。";
+"nLivePhotosNotDeleted_Info"		= "iMazing 无法删除 Live Photos。部分照片（{numitems}）未从您的设备删除。\n\nLive Photos 可从“照片”应用程序直接删除。"; // Message at the end of a delete operation informing the user.
+
+/* Get from Mac OS Photos app: smart album containing photos with tagged faces */
+"AllPhotos(PhotoAlbum)_Label"           = "全部照片"; //Get from Mac OS Photos app: smart album containing photos with tagged faces
+"Faces(PhotoAlbum)_Label"               = "面孔"; // Get from Mac OS Photos app: smart album containing photos with tagged faces
+"Panoramas(PhotoAlbum)_Label"           = "全景照片";	// Get from Mac OS Photos app: smart album containg photos done with the panorama feature of iOS Camera
+"SloMo(PhotoAlbum)_Label"               = "慢动作"; // Get from Mac OS Photos app: smart album containing slow motion videos shot on the device
+"Bursts(PhotoAlbum)_Label"              = "连拍"; // Get from Mac OS Photos app : smart album containing of photos taken on the device
+"TimeLapse(PhotoAlbum)_Label"           = "延时摄影"; // Get from Mac OS Photos app: smart album containing time-lapse videos shot on the device
+"Favorites(PhotoAlbum)_Label"           = "收藏夹"; // Get from Mac OS Photos app: smart album containing favorite pictures
+"Selfies(PhotoAlbum)_Label"             = "自拍"; // Get from Mac OS Photos app: smart album containing selfie pictures
+"Screenshots(PhotoAlbum)_Label"         = "截图"; // Get from Mac OS Photos app: smart album containing screenshots
+"LivePhotos(PhotoAlbum)_Label"          = "Live Photos"; // Get from Mac OS Photos app: smart album containing live photos (new iPhone 6s live photo mode)
+"HDR(PhotoAlbum)_Label"                 = "HDR"; // Get from Mac OS Photos app: smart album containing HDR photos (High Dynamic Range)
+"Hidden(PhotoAlbum)_Label"              = "隐藏"; // Get from Mac OS Photos app: smart album containing photos hidden by the user
+"RecentlyDeleted(PhotoAlbum)_Label"     = "最近删除"; // Get from Mac OS Photos app: smart album containing photos recently deleted by the user
+"iCloudPhotoLibrary(PhotoAlbum)_Label"  = "iCloud 照片图库"; // Get from Mac OS Photos app: smart album containing photos stored on "iCloud Photo Library"
+"FilteredOriginals(PhotoAlbum)_Label"	= "带滤镜照片原始版本"; // Photos that has been modified with filters by the user and their original versions
+"Events(PhotoAlbum)_Label"              = "事件"; // Get from Mac OS Photos app: smart album containing photos relating to events
+
+/* See glossary */ 
+"iCloudPhotoLibrary_Label"	= "iCloud 照片图库"; //See glossary
+"MyPhotoStream_Label"		= "我的照片流"; // See glossary
+"PhotoStream_Label"			= "照片流"; // See glossary
+"MyPhotos_Label"			= "我的照片"; // Photo album title
+"UploadPhotos_Label"		= "上传照片"; // Photo album title, not user action
+"SharedPhotos_Label"		= "共享照片"; // Photo album title
+"SharedByPersonX_Label"		= "分享者：{personname}";
+
+"CannotDeleteICloudPhotoLibrary_Info"	= "由于您已启用 iCloud 照片图库，无法从您的设备删除照片。"; 
+"PhotoXInICloudCannotProcess_Info"		= "照片 {item} 存储在 iCloud 上而非您的设备上。是否仍要继续？";
+"SelectedPhotoInICloudCannotCopy_Info"	= "所选照片无法拷贝，因为它是存储在 iCloud 上而非您的设备上。";
+
+"DeletePhotos_Title"		= "删除照片"; // dialog box title
+"DeletePhotosNotOnXP_Info"	= "Windows XP 上无法删除照片。请升级您的系统以使用此功能。";
+
+
+/* iOS Voice Memos app, as translated by Apple */
+ 
+"VoiceMemos(App)_Label"				= "语音备忘录"; // iOS Voice Memos app, as translated by Apple
+"VoiceMemos(Dataset)_Label"			= "语音备忘录"; // Contents of the Voice Memos app
+"DefaultFileNameVoiceMemo_Label"	= "语音备忘录"; // Root filename of exported voice memo: 'Voice Memo - 2015-11-10 - Memo Label.mp3' for example
+
+"VoiceMemoLabel_Label"			= "标签"; // Voice Memos Apple iOS app: every recording has a user settable label ( name... )
+"LoadingVoiceMemos000_Info"		= "正在加载语音备忘录...";
+"CopyVoiceMemo_Title"			= "拷贝语音备忘录"; // Operation title for copying a single voice memo file
+"CopyVoiceMemos_Title"			= "拷贝语音备忘录"; // Operation title for copying multiple voice memo files
+
+/* noun */
+"Podcast(Noun)_Label"		= "播客"; //noun
+"Interview(Noun)_Label"		= "采访"; // noun
+"Lecture(Noun)_Label"		= "演讲"; // As in College Lecture, noun
+"Idea_Label"				= "想法";  
+"Meeting(Noun)_Label"		= "会议"; // noun
+"Memo(VoiceMemo)_Label"		= "备忘录"; 
+ 
+ /* Designates the iTunes media library: not only music, also podcasts, movies etc... */
+ 
+"Library(Media)_Label"             	= "资料库"; // Designates the iTunes media library: not only music, also podcasts, movies etc... 
+"Library(Media)nItems_Label"   		= "资料库 ({nbItems})";
+
+"Music(App)_Label"					= "音乐"; // iOS Music App, as it appears on the device
+"Music(nItems)_Label"				= "音乐 ({nbItems})";
+
+"iCloudMusicLibrary_LabelOS"		= "iCloud 音乐库"; // See Glossary
+
+"ExportToITunes_UserAction"		= "导出至 iTunes"; // Export media from iOS device to the computer's iTunes Library
+"ExportToFolder_UserAction"		= "导出至文件夹"; // Export media from iOS device to a folder on the computer
+
+"ImportFromITunes_UserAction"	= "从 iTunes 导入"; // Import media from the computer's iTunes Library to an iOS device
+"ImportFromFolder_UserAction"	= "从文件夹导入"; // Import media from a folder on the computer to an iOS device
+
+/* Media duration, applicable to music, podcasts, films... */
+ 
+"Duration(Media)_Label"		= "持续时间"; // Media duration, applicable to music, podcasts, films...
+"Album(Music)_Label"		= "专辑"; // Music Album, not Photo Album
+"All_n_Albums_Label"		= "全部（{nbAlbums} 专辑）";
+"Artist(Music)_Label"		= "表演者"; // Music artist (performer)
+"All_n_Artists_Label"		= "全部（{nbArtists} 表演者）";
+"Genre(Music)_Label"		= "风格"; // Rock, Pop, Electronica, Classic...
+"All_n_Genres_Label"		= "全部（{nbGenres} 风格）"; 
+"BPM(Music)_Label"			= "BPM"; // Tempo in beats per minute
+"Comments_Label"			= "注释"; // User comments on the media item
+"Composer(Music)_Label"		= "作曲者"; // Composer of a piece of music
+"Rating_Label"				= "评分"; // rating for media item, generally 1 to 5
+"Ratings_Label"				= "评分";
+"DiscNumber_Label"			= "光盘编号"; // CD number, used for albums which have more than 1 CD
+"TrackNumber_Label"			= "曲目编号"; // Track number of an album
+"LastPlayed_Label"			= "上次播放时间"; // last date at which media was played
+"LastSkipped_Label"			= "上次跳过日期"; // last date at which media was skipped
+"PlayCount_Label"			= "播放次数"; // number of times the media was played
+"SkipsCount_Label"			= "跳过次数"; // number of times the media was skipped
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Options
+ */
+ 
+/* Media Browser Options 
+ */
+"MediaBrowser_Label"		= "媒体浏览器"; 
+"ColumnBrowser_iTunesLabel"	= "分栏浏览器"; // See screenshot, comes from iTunes View menu
+"ShowColumns_iTunesLabel"	= "显示分栏"; // See screenshot, comes from iTunes View->View Options
+
+"OnlyShowLocalMusic_Label"	= "隐藏离线的音乐"; // purchases and Apple Music tracks not available on the device will be hidden
+"ShowAllMusic_Label"		= "显示全部音乐"; // Show all music, including cloud items. Opposite of previous phrase.
+
+/* media was tracks */
+"AutoDetectTracksMode_Info"					= "自动检测已经在 iTunes 中的媒体："; //media was tracks
+"AutoDetectTracksModeDisabled_Label"		= "已禁用"; // automatic detection of media duplicates disabled
+"AutoDetectTracksModeStrictMatching_Label"	= "严格匹配"; // automatic detection of media duplicates matches items which are perfectly identical only.
+"AutoDetectTracksModeFuzzyMatching_Label"	= "模糊匹配"; // automatic detection of media duplicates matches items which are very similar, not necessarily identical
+
+/* Title of the media copy window */
+"MediaCopyWizard_Title"			= "媒体拷贝向导"; //Title of the media copy window
+"WhereToCopy(Media)_Info"		= "您想要拷贝到哪里？"; // Copying media from iOS device to computer
+"ToITunes_UserReply"			= "至 iTunes"; 
+"ToUserFolder_UserReply"		= "至所选的文件夹";
+
+"OrganizeInFolders(Media)_Label"	= "整理到文件夹："; // album
+"ImportLibraryData(Media)_Label"	= "导入资料库数据："; // Import data of iTunes Media Library
+"iTunesDestinationFolderNote_Info"	= "iMazing 将拷贝您的媒体文件至 iTunes Media 文件夹。您可以在 iTunes 的高级偏好设置中更改 iTunes Media 文件夹的位置。";
+
+"MediaCopyLogs_Title"				= "媒体拷贝日志"; // Title of the window displaying the report on the last media copy operation
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Operations Reporting ( Except Playlists )
+ */
+ 
+"LoadingMediaLibrary000_Info"		= "正在加载媒体库...";
+"LoadingDeviceTracks000_Info"		= "正在加载媒体曲目..."; // Media was Tracks
+"CheckingTracksInItunes000_Info" 	= "正在检查 iTunes 已有的媒体..."; // Media was Tracks
+
+"CopyMediaItem_Title"	= "拷贝媒体曲目"; // needs retranslate
+"CopyMediaItems_Title"	= "拷贝媒体曲目"; // needs retranslate
+
+"WaitingForDeviceToAcknowledge_Info"	= "正在等待设备确认更改..."; 
+
+"ErrorImportingToITunes_Title"		= "导入文件至 iTunes 时出错";
+"CannotImportInITunes_Info" 		= "无法在 iTunes 中导入此文件。";
+
+"CopyingMediaToDeviceX_Info"		= "正在拷贝媒体至 {deviceName}..."; // Media was Tracks
+"ErrorCopyingMediaToDeviceX_Info"	= "拷贝媒体至 {deviceName} 时出错"; // Media was Tracks
+
+"ImportingMediaToDeviceX_Info"		= "正在导入媒体至 {deviceName}..."; // Media was Tracks
+"ErrorImportingToDeviceX_Info"		= "导入媒体至 {deviceName} 时出错"; // Media was Tracks
+
+"DeletingMediaFromDeviceX_Info"		= "正在从 {deviceName} 删除媒体..."; // Media was Tracks
+"MediaDeletedFromDeviceX_Info"		= "媒体已从 {deviceName} 删除"; // Media was Tracks
+"ErrorDeletingMediaOnDeviceX_Info"	= "从 {deviceName} 删除媒体时出错"; // Media was Tracks
+
+/* Needs retranslation(items was tracks ) */
+ 
+"ItemsAlreadyInItunes:_Label"	= "iTunes 已有项目："; //Needs retranslation(items was tracks )
+"AlreadyInITunes_Label"			= "已在 iTunes 中"; // Labelizes count of media items already in iTunes ( duplicates )
+"AlreadyInItunes:_Label"		= "已在 Tunes 中："; // Labelizes count of media items already in iTunes ( duplicates )
+"AlreadyInFolder_Label"			= "已在文件夹中"; // Labelizes count of media items already in target folder ( duplicates )
+"DuplicateMedia_Title"			= "重复的媒体"; // media was tracks. Not the verb, labellizes a media duplicate.
+"DuplicateMediaFound_Info"		= "您的媒体库已存在名称为 {name} 的项。您要如何操作？";
+
+/* Music playlists */
+ 
+"Playlist_Label"                   	= "播放列表"; // Music playlists
+"CreateNewPlaylist_UserAction"     	= "创建新播放列表";
+"NewPlaylist_Title"					= "新播放列表"; // Title of dialog box
+"NewPlaylist_Info"					= "请为新播放列表输入名称。";
+"CreatingPlaylistOnDeviceX_Info"	= "正在 {deviceName} 上创建播放列表..."; // iMazing is creating a playlist on the iOS device directly
+"NewPlaylistSuccess_Info"			= "已在 {deviceName} 上创建播放列表“{playlistName}”";
+"NewPlaylistError_Info"				= "在 {deviceName} 上创建播放列表时出错";
+
+"DeletePlaylist_UserAction"        	= "删除播放列表";
+"RemovingPlaylists_Info"			= "正在移除播放列表...";
+"RemovingPlaylistsSuccess_Info"		= "已从 {deviceName} 删除播放列表";
+"RemovingPlaylistsError_Info"		= "从 {deviceName} 删除播放列表时出错";
+
+"RenamePlaylist_UserAction"        	= "重命名播放列表"; // User action
+"RenamePlaylist_Title"				= "重命名播放列表"; // Title of dialog box
+"RenamePlaylist_Info"				= "请为播放列表输入新的名称。";
+"RenamingPlaylist_Info"				= "正在重命名播放列表...";
+"RenamePlaylistSuccess_Info"		= "已为 {deviceName} 上的播放列表 {playlistName} 重命名";
+"RenamePlaylistError_Info"			= "为 {deviceName} 上的播放列表 {playlistName} 重命名时出错";
+
+"AddingTracksToPlaylistX_Info"			= "正在添加曲目至 {playlistName}...";
+"AddingTracksToPlaylistXSuccess_Info"	= "曲目已添加至 {playlistName}...";
+"AddingTracksToPlaylistXError_Info"		= "添加曲目至 {playlistName} 时出错...";
+
+"RemovingTracksFromPlaylistX_Info"			= "正在从 {playlistName} 移除曲目...";
+"RemovingTracksFromPlaylistXSuccess_Info"	= "曲目已从 {playlistName} 移除";
+"RemovingTracksFromPlaylistXError_Info"		= "从 {playlistName} 移除曲目时出错";
+
+"ImportingPlaylistsInITunes000_Info"		= "正在 iTunes 中导入播放列表...";
+"PlaylistsCannotModifyIfCloud_Info"			= "设备启用 iCloud 音乐库时无法更改播放列表。";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Warnings and Generic Errors
+ */
+ 
+"iTunesLibraryNotAvailable_Title"	= "iTunes 资料库不可用";
+"iTunesLibraryNotAvailable_Info"	= "iMazing 无法访问 iTunes 资料库。如果您在 iTunes “高级”偏好设置中关闭了“与其他应用程序共享 iTunes 资料库 XML”选项，请将其打开并重新启动 iMazing。";
+
+"iTunesNotResponding_Title"			= "iTunes 没有响应"; 
+"iTunesNotResponding_Info"			= "在 iTunes 中有一个打开的信息框或设置窗口阻止了 iMazing 进行操作。\n\n1. 如果 iTunes 要“抹掉并同步”您的设备，请先点击“取消”。\n2. 关闭任何其他的 iTunes 消息框或窗口。\n3. 点击“好”关闭此消息，然后重新开始。";
+
+"PleaseQuitITunes_Title"			= "请退出 iTunes";
+"PleaseQuitITunesDetails_Info"		= "iTunes 正在电脑上运行。请退出 iTunes，然后继续。";
+
+"ErrorCommunicatingWithDevice_Info"	= "与设备通信时出错。如果问题仍然存在，请尝试重启设备和电脑。";
+
+"iCloudMusicLibraryWarning_Title"	= "iCloud 音乐库警告";
+"iCloudMusicLibraryWarning_Info"	= "{deviceName} 检测到 iCloud 音乐库。iMazing 的一些功能（例如播放列表创建和编辑）可能无法正常工作。如果您遇到意外的结果，请关闭 iCloud 音乐库。";
+
+"MediaLibraryEmpty_Info"			= "您的媒体库貌似是空的。";
+"MediaDBNotSupported_Info"			= "媒体数据库不受支持。"; // incompatible media database detected on the device
+
+/* exact name of iOS Videos app */
+ 
+"Videos(App)_Label"					= "视频"; //exact name of iOS Videos app
+
+"Movies(iTunes)_Label"				= "影片"; // see in iTunes, screenshot
+"Movies(nItems)_Label"				= "影片 ({nbItems})";
+
+"HomeVideos(iTunes)_Label"			= "家庭视频"; // see in iTunes, screenshot
+"HomeVideos(nItems)_Label"			= "家庭视频（{nbItems}）";
+
+"TVShows(iTunes)_Label"				= "电视节目"; // see in iTunes, screenshot
+"TVShows(nItems)_Label"				= "电视节目 ({nbItems})";
+
+"MusicVideos(iTunes)_Label"			= "音乐视频";
+"MusicVideos(nItems)_Label"			= "音乐视频 ({nbItems})";
+
+"Audiobooks(iTunes)_Label"			= "有声读物"; // see in iTunes, screenshot
+"AudioBooks(nItems)_Label"			= "有声读物 ({nbItems})";
+
+"Podcasts(iTunes)_Label"			= "播客"; // see in iTunes, screenshot
+"Podcasts(nItems)_Label"			= "播客 ({nbItems})";
+
+"iTunesU(iTunes)_Label"				= "iTunes U"; // see in iTunes, screenshot
+"iTunesU(nItems)_Label"				= "iTunes U ({nbItems})";
+
+"VideoFormat_Title"					= "视频格式"; // 3...
+"VideoFormatNotSupported_Info"		= "部分影片的视频格式可能与您的设备不兼容。是否仍要继续？";
+
+/* The backup itself, not the action of backing up! */
+ 
+"Backup(Noun)_Label"			= "备份"; //The backup itself, not the action of backing up!
+"Backups_Title"					= "备份"; // Section of iMazing displaying all backups.
+"iCloudBackup_Title"			= "iCloud 备份";
+"EnableICloudBackup_UserAction"	= "启用 iCloud 备份";
+ 
+"LatestBackup(Date)_Label"	= "最新备份"; // Labelizes the date at which the iOS device was last backed up
+"Encrypted(Status)_Label"	= "已加密"; // No field: is the backup encrypted?
+ 
+"DeleteBackup_Title"		= "删除备份"; // Title for backup deletion confirmation dialog box
+"DeleteBackup_Info"			= "是否确定要删除 {devicename} 的备份？\n\n下次访问设备的数据（信息和通讯录等）将需要更长的加载时间。";
+
+"BrowseContent(Backup)_UserAction"	= "浏览内容"; // Browse the contents of a backup
+
+/* The verb: backup now! */
+
+"Backup_UserAction"					= "备份"; // The verb: backup now!
+"BackupWizard_Title"				= "您想进行哪种备份？"; // see the 4 phrases after this one: simple backup or backup and archive
+"StandardBackup_Label"				= "标准备份"; // Backup Noun, not action
+"StandardBackupDescription_Info"	= "每部设备在电脑上仅保存一份备份。";
+"BackupAndArchive_Label"			= "备份并导出为 iMazing 文件"; // Export to File was Archive
+"BackupAndArchiveDescription_Info"  = "如果您想存储或保存特定的版本，可以将备份导出为文件。";
+"BackupOptions_Label"				= "备份选项：";
+"BackupApps_Label"					= "备份应用程序"; // not an action: labelizes an option which can be enabled. Do you want to backup apps as well?
+"EncryptBackupDescription_Info"		= "加密备份（AES 256 位）"; // not an action: labelizes an option which can be enabled. Should the next backup be encrypted?
+"EncryptBackupEnablesMore_Info"		= "这将允许帐户密码和健康数据亦进行备份。"; 
+"AutoBackupDescription_Info"		= "检测到此设备时进行自动备份"; // not an action: labelizes an option. Should a backup be triggered automatically every time the device is detected by iMazing?
+"AutoBackupWhenDeviceDetected_Info"	= "检测到设备时进行自动备份"; // see previous phrase, shorter.
+"BackupLocationDescription_Info"	= "备份存储在此位置：";
+"ChangeBackupLocationHint_Info"		= "您可以在 iMazing 的偏好设置中更改备份位置。";
+"ForceFullBackup_Label"				= "强制完全备份"; // not an action: labelizes an option. Forcing a full backup by opposition to an incremental backup. Full backup takes much longer!
+
+"DeviceXBackup_Title"				= "{devicename} 备份"; // Backup Process, not the actual backup. Title for dialog boxes displayed during a backup operation.
+
+"PreparingBackupOfDeviceX_Info"		= "正在准备 {devicename} 的备份..."; // preparing the backup operation
+"BackingUpDeviceXData_Info"			= "正在备份 {devicename} 的数据..."; 
+"BackingUpDeviceXApps_Info"			= "正在备份 {devicename} 的应用程序...";
+"CleaningBackupOfDeviceX_Info"		= "正在清理 {devicename} 的备份...";
+"BackingUpDeviceXSuccess_Info"		= "成功备份 {devicename}。";
+
+"BackupRestoreFailed_Info"			= "备份或恢复失败。请尝试刷新，若仍然无法正常工作，请重启您的设备和电脑。";
+"BackupFailedNotEnoughSpace_Info"	= "由于您的电脑没有足够的可用空间，iMazing 无法备份{devicename}。";
+ 
+/* User action. Restore a backup to an iOS device. */
+ 
+"RestoreABackup_UserAction"				= "恢复备份"; // User action. Restore a backup to an iOS device.
+"Restore(Backup)_UserAction"			= "恢复"; // User action. Restore a backup to an iOS device.
+"RestoreToDevices(Backup)_UserAction"	= "恢复至设备"; // User action. Restore a backup to one or more iOS devices
+
+"RestoreBackupOnDeviceX_Title"		= "恢复 {devicename} 的备份"; // Title of wizard
+"RestoreBackupXToDevices_Title"		= "恢复 {devicename} 至您所选择的设备"; // Title of wizard
+
+"SelectBackupToRestore_Label"		= "选择要恢复的备份："; // Label in wizard
+"SelectTargetDevices_Label"			= "选择目标设备："; // Label in wizard
+"SelectRestoreItems_Label"			= "选择要恢复的项目："; // Label in wizard
+
+"PreserveSettings(Restore)_Label"	= "保留设置"; // When restoring a backup, option to preserve settings on the target device
+"RestoreSystemFiles_Label"			= "恢复系统文件"; // Should the system files be restored in a restore operation?
+"DuplicateRestoredBackup_Label"		= "恢复后复制备份（较安全）";
+
+"DeviceXRestore_Title"		= "{devicename} 恢复"; // Title of dialog box regarding a Restore Operation
+
+"PreparingRestoreOfDeviceX_Info"		= "正在准备恢复 {devicename}..."; 
+"RestoringDeviceXData_Info"				= "正在从备份中恢复 {devicename} 的数据...";
+"RestoringDeviceXApps_Info"				= "正在从备份中恢复 {devicename} 的应用程序...";
+"RestoringDeviceXSuccess_Info"			= "成功恢复 {devicename}。";
+"RestoringData_Info"					= "正在恢复数据…";
+"FinalizingRestore_Info"                = "正在完成恢复…";
+
+"RestoreDeviceX_Title"			= "恢复 {devicename}"; // Title of dialog box regarding a Restore Operation
+"RestoreConfirmation_Title"		= "确认恢复"; // Title of dialog box
+"RestoreConfirmation_Info"		= "是否确定要恢复{sourceDeviceName}的备份至{targetDeviceName}？\n\n警告！这将会清除{targetDeviceName}的所有当前数据。如果您需要保留{targetDeviceName}的数据，请务必对其进行备份。";
+"RestoreHealthDataWarning_Info"	= "警告！您的健康数据和本地钥匙串不会被恢复。要包含这些项目，请先对您的设备进行加密备份：\n\n1. 从 iMazing 的左边栏选择您的设备\n2. 点击底部工具栏中的“备份”\n3. 在备份向导中勾选“加密备份”并设置密码\n4. 切勿丢失密码，否则您将无法读取备份文件。";
+
+"RestoreSuccess_Title"			= "恢复成功"; // Title of dialog box
+"RestoreXToYSuccess_Info"		= "{sourceDeviceName} 成功恢复至 {targetDeviceName}。您的设备正在重新启动，很快就会恢复在线。";
+
+
+"RestoreFailedNotEnoughSpace_Info"			= "由于您的 {deviceclass} 没有足够的可用空间，iMazing 无法恢复 {devicename}。在恢复您的 {deviceclass} 之前，请先删除一些应用程序、媒体或其他内容。";
+"DisableFindMyiPhone_Info"					= "若要恢复 {devicename}，您必须先关闭“查找我的 {deviceclass}”。\n\n在恢复您的 {deviceclass} 之前，请先在您 {deviceclass} 的 iCloud 设置中关闭“查找我的 {deviceclass}”。";
+"CannotStopRestore_Info"  					= "您无法停止恢复操作。";
+"CannotRestoreHigherIOSVersionNeeded_Info"  = "由于 {devicename} 的 iOS 版本比源设备的 iOS 版本低，无法对其进行恢复，\n\n{devicename}的 iOS 版本是 {targetiosversion}，您至少需要 iOS {sourceiosversion}。\n\n在进行恢复前，请先更新 {devicename} 的 iOS。";
+ 
+/* Clone an iOS device to another one */
+ 
+"Clone_UserAction"					= "克隆"; //Clone an iOS device to another one
+"CloneDeviceXToDevices_Title"		= "克隆 {devicename} 至您所选择的设备：";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Managing Archives and backup files
+ */
+ 
+"LoadIMazingFile(Backup)_UserAction"		= "导入 iMazing 文件";
+"ExportAsIMazingFile(Backup)_UserAction"	= "导出为 iMazing 文件";
+
+"iMazingFileLocation_Label"			= "iMazing 文件位置："; // location in file system
+"ExtractingDataFromFile000_Info"	= "正在从 iMazing 文件中提取数据…";
+"FinalizingBackupOfDeviceX_Info"	= "正在创建 {devicename} 的备份文件..."; // Creating backup file of "My iPhone" for example
+
+"ArchiveBackup_Title"		= "存档备份"; // Title of dialog box
+"ArchiveBackup_Info"		= "是否确定要存档 {devicename} 的备份？";
+"ErrorArchivingBackup_Info"	= "存档本地备份时出错。";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Extracting data from a backup / Refreshing a backup
+ */
+
+"ExtractingDataFromBackup000_Info"		= "正在从备份提取数据...";
+"DataNeedsRefreshHint(Backup)_Info"		= "正在显示来自您最新备份 ({latestbackuptime}) 的数据。\n请连接您的设备，然后单击顶部工具栏的“刷新”来进行更新。"; // needs retranslate
+"DataNeedsRefreshHint(Cache)_Info"		= "正在显示最近一次加载（{lastloadtime}）的数据。\n请连接您的设备，然后单击顶部工具栏的“刷新”来进行更新。";
+"USBBackupLoadingHint_Info"				= "iMazing 需要备份您的整个设备以从中提取数据，用时可能较长。";
+"WiFiBackupLoadingHint_Info"			= "iMazing 需要备份您的整个设备以从中提取数据。通过 Wi-Fi 用时可能较长，连接 USB 线缆可加快速度。";
+"BackupNeededToAccessData_Info"	 		= "待 iMazing 备份 {devicename} 后，您才能访问此数据。是否立即备份？";
+
+"RefreshData(Backup)_Title"				= "刷新数据"; // Title of dialog box.
+"RefreshDataFromBackup_Info"			= "若要提取您的最新数据，iMazing 需要备份您的设备。这将覆盖您在 {latestbackuptime} 完成的当前 iMazing 或 iTunes 的备份。";
+"BackupNow_UserReply"					= "立即备份"; // User reply in dialog box. Backup Now, or View from Current Backup...
+"ViewFromCurrentBackup_UserReply"		= "从当前备份查看"; // User reply in dialog box. View data from latest backup.
+
+"ExtractAppData_Title"					= "提取应用程序数据"; // Title of dialog box
+"ExtractFromCurrentBackup_UserReply"	= "从当前备份提取"; // User reply in dialog box. Extract Application data from current backup opposed to backup now to get the latest app data from the device.
+
+/* labelizes the default location in the file system of both iTunes and iMazing backups. */
+ 
+"DefaultBackupLocation:_Label"			= "默认备份位置："; // labelizes the default location in the file system of both iTunes and iMazing backups.
+"ChangeDefaultBackupFolder_Title"		= "更改默认备份文件夹"; // Title of dialog box
+"DefaultBackupLocationChange_Info"		= "请注意，这将改变 iTunes 的备份位置，并将当前备份移动至新位置。";
+"ChangeBackupLocation_Info"				= "警告，iMazing 将移动包括 iTunes 备份在内的所有备份。此过程可能耗时较长，请不要在操作结束前退出 iMazing。";
+"MovingBackups_Info"					= "正在移动备份至新的位置...";
+"ChangeDefaultBackupFolderSuccess_Info"	= "备份文件夹移动成功。";
+"DefaultBackupLocationReset_UserAction"	= "重置为默认位置"; // Resets the target folder of backup operations to the default iTunes backup folder.
+"BackupLocationCreateEmptyFolder_Info"	= "无法将备份位置改为 {targetpath}。请创建一个空文件夹，并将其选为备份位置。";
+
+/* user action */
+ 
+"ChangeBackupPassword_UserAction"		= "更改备份密码"; // user action
+"BackupPassword_Title"					= "备份密码"; // Dialog box title
+"BackupPassword(Setting)_Info"			= "输入密码以保护此设备的所有备份。\n\n警告：此设置将保护 {targetDeviceName} 的所有备份，包括 iTunes 备份。请务必将您的密码另存一份在安全的地方：密码丢失无法恢复，并将永远把您锁在您的数据之外。";
+"InvalidBackupPassword(Setting)_Info"	= "旧密码无效！请重新输入您的旧密码。\n\n如果您并未使用 iMazing 创建此备份，请尝试您的 iTunes 备份加密密码。";
+"BackupPasswordNeeded_Info"				= "iMazing 需要访问到您设备的备份以继续。请输入您在启用 {deviceName} 的加密功能时设置的特定备份密码。\n\n如果您并未使用 iMazing 创建此备份，试尝试您的 iTunes 备份加密密码。";
+"BackupEncryptedDeviceNeeded_Info"		= "此备份已加密，您需要将使用 iOS {backupiosversion} 或更高版本的设备连接至您的电脑才能读取。";
+
+/* Dialog box title */
+ 
+"iMazingAppleDriversInstaller_Title"	= "iMazing“Apple 驱动程序”安装程序"; // Dialog box title
+"LatestAppleDriversNeeded_Info"			= "iMazing 要求使用最新的 Apple 驱动程序。\n请立即安装或更新 iTunes。";
+"LatestAppleDriversInstallNow_Info"		= "iMazing 要求使用最新的 Apple 驱动程序。\n您是否希望让 iMazing 为您下载并安装所需的组件？\n\n- Apple 应用程序支持\n- Apple 移动设备支持\n- Apple Bonjour";
+"AppleDriversInstallSuccess_Info"  		= "Apple 组件成功安装。\niMazing 现在将退出并重新启动。";
+
+"RestartMobileDevice_Info"				= "如果您遇到连接问题：";
+"RestartMobileDevice_UserAction"		= "重启移动设备服务"; // Do not translate Mobile Device Services, max chars: 40
+"ReinstallMobileDevice_UserAction"		= "重新安装移动设备服务"; // Do not translate Mobile Device Services max chars: 40
+
+"RestartMobileDeviceSuccess_Title"		= "移动设备服务已重启";
+"RestartMobileDeviceSuccess_Info"		= "移动设备服务已成功重启。\n\niMazing 现在将退出并重新启动。如果您仍然遇到连接问题，请重启您的电脑、设备和路由器。";
+"RestartMobileDeviceFailure_Title"		= "无法重启移动设备服务";
+"RestartMobileDeviceFailure_Info"		= "发生错误。请考虑重新启动电脑。";
+
+"QuicktimeNotInstalled_Title"			= "QuickTime 未安装"; // Dialog box title
+"QuicktimeNotInstalled_Info"			= "安装 QuickTime 方可播放此格式的文件。\n您要现在下载吗？";
+
+"DownloadiTunes_UserAction"				= "从 iTunes 网站下载"; // User action
+"InstallAppleDrivers_UserAction"		= "安装 Apple 驱动程序"; // User action
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Clear Cache and Forget Devices
+ */
+ 
+"ClearIMazingCache_Info"		= "彻底删除 iMazing 缓存数据：";
+"ClearIMazingCache_UserAction"	= "清除 iMazing 缓存"; // user action, max chars: 50
+"ClearCache_UserAction"			= "清除缓存"; // User action
+"CacheRemoved_Title"			= "缓存已删除"; // Dialog box title
+"CacheRemoved_Info"				= "所有数据都已从 iMazing 缓存中删除。";
+
+"Forget_UserAction"				= "忘记"; // user action to forget a connected iOS device: will remove it from iMazing's cache
+"Remove_UserConfirmation"		= "删除"; // user confirmation: for confirming removing device from iMazing cache after Forget
+"ForgetDeviceX_Title"			= "忘记 {devicename}"; // dialog box title
+"ForgetDeviceX_Info"			= "是否确定希望 iMazing 忘记 {devicename} ?\n\n如果点击“忘记”，则设备将从 iMazing 的缓存和设备列表中删除。\n\n勾选“删除配对”亦将删除电脑和设备之间配对，并且在下一次连接时您必须输入密码。";
+
+"ForgetDeviceXSuccess_Title"	= "{devicename} 已删除"; // dialog box title
+"ForgetDeviceXSuccess_Info"		= "{devicename} 已成功从 iMazing 删除。";
+
+"RemoveDeviceXFromCache_Title"	= "从缓存中删除 {devicename}";// dialog box title
+"RemoveDeviceXFromCache_Info"	= "您确定要从 iMazing 缓存中删除 {devicename} 吗？";
+"RemoveFromCacheSuccess_Info"	= "{devicename} 已成功从 iMazing 缓存中删除。";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Connection & Pairing
+ */
+
+"WifiConnectionNeediOS5_Info"       		= "要启用 Wi-Fi 连接，{devicename} 至少需要安装 iOS 5。";
+"ConnectViaUSBToModifiyWiFiSettings_Info"	= "您需要通过 USB 连接您的设备以修改其 Wi-Fi 设置。";
+
+"LookingForDeviceX_Info"		= "正在查找 {devicename}..."; // iMazing is searching for the iOS device over the WiFi network
+"CannotConnectToDeviceX_Title"	= "无法连接到 {devicename}"; 
+"CannotConnectToDeviceX_Info"	= "无法连接到 {devicename}。";
+
+"CannotDisconnectFromDeviceX_Info"	= "无法断开与 {devicename} 的连接。";
+"CannotReachDeviceX_Info"			= "无法通过网络连接 {devicename}。\n请连接您的 USB 线缆。";
+"DeviceXIsNotReachable_Info"		= "无法访问 {devicename}。\n请连接您的 USB 线缆。";
+
+"DeviceConnectionPasscodeLocked_Info"		= "您的设备有密码锁定。请解除锁定，断开连接，然后重新连接。";
+"DeviceConnectionDeviceNotActivated_Info"	= "若要使用 iMazing 连接这部 {devicename}，您需要进行激活。请插入您的 SIM 卡，根据需要使用 PIN 码解锁，然后通过 Wi-Fi、3G 或 4G 连接至互联网，并按照设备上提供的说明进行激活。";
+
+"PleaseActivateYourDeviceX_Info"	= "请激活您的 {devicename}";
+"UnlockDevice_Title"				= "请解锁 {devicename}";
+"UnlockDevice(iOS)_Info"			= "{devicename} 已锁定。\n请输入您的密码或使用指纹解锁，然后点按“好”。";
+
+"TrustComputer_Title"	= "在您的 {idevice} 中选择信任这台电脑"; // When first connecting an iOS device to iMazing, the user needs to respond to a prompt on the device, asking him to 'Trust' the computer.
+"TrustComputer_Info1"	= "是否要允许这台电脑来访问“{devicename}”上的信息？\n\n若未提供访问授权，您将无法使用这台电脑管理或同步您的 {idevice}。";
+"TrustComputer_Info2"	= "若允许访问，请在您的 {idevice} 中响应...";
+
+"EnableWiFiConnection_Title"			= "启用 Wi-Fi 连接"; // Dialog box title
+"DisableWiFiConnection_Title"			= "禁用 Wi-Fi 连接"; // Dialog box title
+"WiFiConnectionUnsupported(iOS)_Info"	= "要启用 Wi-Fi 连接，您的设备至少需要安装 iOS 5 系统。";
+"EnableWiFiConnectionSuccess_Info"		= "Wi-Fi 已激活。\n\n为使 iMazing 自动访问此设备，其必须连接到与电脑相同的 Wi-Fi 网络。\n\n您可以在传输过程中随时连接或断开 USB 线缆，iMazing 会自动在 USB 和 Wi-Fi 之间进行切换。";
+
+"RemovePairing_Title"				= "删除配对"; // Dialog box title
+"ConnectViaUSBToUnpairDevice_Info"	= "您需要通过 USB 连接您的设备以取消配对。";
+"RunITunesOnce_Info"				= "请确保连接设备后至少运行 iTunes 一次。";
+
+/* dialog box title */
+
+"CrashReportAlert_Title"	= "发现崩溃数据"; // dialog box title
+"CrashDataFound_Info"		= "貌似 iMazing 崩溃了。您是否愿意为我们提供匿名的崩溃报告，以便我们解决这个问题？";
+"CrashReportComment_Label"	= "备注（可选）：";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Errors
+ */
+ 
+"DBNotSupported(iOS)_Info"	= "不支持数据库。请确保您的设备至少安装了 iOS 4。";
+
+"CannotCopyToComputerDetails_Info"	= "无法拷贝至电脑。\n\n详情：\n"; 
+"CannotCopyToDeviceDetails_Info"	= "无法拷贝至设备。\n\n详情：\n"; 
+"CannotConnectToDevice_Info"		= "无法连接至设备。请检查其是否已装载至 Windows Explorer。如果问题仍然存在，请尝试重新连接。";
+
+"NoResponseFromDevice_Info"			= "设备没有响应。";
+"InvalidResponseFromDevice_Info"	= "设备响应无效。";
+
+"iOSVersionNotSupported_Info"         		= "iOS {osversion} 尚未完全支持。请确保您的 iMazing 版本为最新，如有需要请更新。";
+"DeviceConnectionTooManyConnections_Info"	= "并发连接过多。请稍后再试，如果仍然无法正常工作，请重启您的设备，并退出 iMazing。";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+
+"iMazingHelp_Label"	= "iMazing 帮助";
+
+/* dialog box title */
+ 
+"USBIsFaster_Title"				= "USB 速度更快"; // dialog box title
+"WiFiCopyFileLoadingHint_Info"	= "通过 Wi-Fi 加载可能需要一些时间。连接 USB 线缆可加快速度。";
+"USBIsFaster_Info"              = "{devicename} 使用的是 Wi-Fi 连接。若要加快拷贝速度，您可以随时插入 USB 线缆。";
+
+"QuitIMazingWithOpInProgressWarning_Info"	= "您当前有正在运行的操作。是否要取消这些操作并退出？";
+"QuitIMazingWithOpInProgressDetails_Info"	= "如果您现在退出，正在运行的操作将中止。";
+
+"TryToRestartComputerAndDevice_Info"	= "请尝试重启您的设备和电脑。";
+"PleaseRestartiMazing_Info"				= "请重启 iMazing 并再试一次。";
+
+"DeviceIsBusy_Title"		= "设备正忙"; // dialog box title
+"DeviceIsBusy_Info"			= "{deviceName} 目前正忙。您仍要继续吗？";
+
+"iPodIsMacFormatted_Title"	= "您的 iPod 使用 Mac 格式化"; // dialog box title
+"iPodIsMacFormatted_Info"	= "您的 iPod 使用了 Mac 进行格式化。\n\n如需使用 PC 版的 iMazing 来对其进行访问，请安装 Mediafour 开发的“MacDrive”第三方软件。\n\n您可以安装 MacDrive 的免费试用版。\n(http://www.mediafour.com/products/macdrive)";
+
+
+/* iOS device disk use */
+
+"DiskUseAudio_Label"		= "音频："; // iOS device disk use
+"DiskUseVideo_Label"		= "视频："; // iOS device disk use
+"DiskUsePodcasts_Label"		= "播客："; // iOS device disk use
+"DiskUsePhotos_Label"		= "照片："; // iOS device disk use
+"DiskUseApps_Label"			= "应用程序："; // iOS device disk use
+"DiskUseBooks_Label"		= "书籍："; // iOS device disk use
+"DiskUseDocuments_Label"	= "文稿与数据："; // iOS device disk use, exactly as it appears in iTunes. See screenshot.
+"DiskUseOther_Label"		= "其他："; // iOS device disk use,3 See screenshot.
+
+"ChangeName(iDevice)_UserAction"	= "更改名称"; // User action. Change the name of an iOS device ( John's iPhone for example )
+"AppleSupportCoverage_UserAction"	= "Apple 支持范围"; // Links to web page
+"ExportRawData_UserAction"			= "导出原始数据"; // Export iDevice Raw Data
+"ExportRawData_Title"               = "导出 {devicename} 原始数据"; // Dialog box title
+
+"Name(Device)_Label"			= "名称"; // name of iOS device ( John's iPhone, for example )
+"DeviceName_Label"				= "设备名称";
+"Model(Device)_Label"			= "型号"; // model of iOS device: iPhone 6, iPad Air 2, iPod Touch etc...
+"DeviceModel_Label"				= "设备型号"; 
+"iOSVersion_Label"				= "iOS 版本"; // The iOS version the connected device is currently running
+"PasscodeLocked(Status)_Label"	= "密码锁定"; // status label: yes or no
+"Carrier(Phone)_Label"			= "运营商"; // Current carrier of connected iOS device
+"DeviceUDID_Label"				= "设备 UDID"; // Do not translate UDID.
+
+"Disconnected(Status)_Label"		= "已断开"; // connection status of iOS device: the iOS device is not connected to iMazing
+"ConnectedViaUSB(Status)_Label"		= "已通过 USB 连接"; // connection status of iOS device: the iOS device is connected to iMazing via USB
+"ConnectedViaWiFi(Status)_Label"	= "已通过 Wi-Fi 连接"; // connection status of iOS device: the iOS device is connected to iMazing via WiFi
+"WiFiSleep(Status)_Label"			= "Wi-Fi 睡眠"; // connection status of iOS device: device is reachable by WiFi, but currently sleeping
+"LookingForDevice(Status)_Label"	= "正在查找设备..."; // iMazing is looking for a device on the WiFi network
+
+"CannotSetDeviceName_Info"	= "无法设置设备名称。";
+
+"ChangeDeviceName_Title"	= "更改名称"; // dialog box title
+"ChangeDeviceName_Info"		= "输入新名称";
+
+"AppleID_Label"				= "Apple ID"; // see glossary.
+"AppleIDFirstName_Label"	= "Apple ID 名字";
+"AppleIDLastName_Label"		= "Apple ID 姓氏";
+"AppleIDPersonID_Label"		= "Apple ID Person ID"; // Internal Identifier for Apple IDs( a number ). Do not translate.
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		License, Registration and Commercial
+ */
+ 
+"RegisterIMazing_Title"			= "注册 iMazing";
+"PurchaseIMazing_UserAction"	= "购买 iMazing";
+
+"iMazingNotActivated_Title"	= "iMazing 未激活";
+"iMazingNotActivated_Info"	= "您需要购买并激活 iMazing 以使用这项功能。";
+
+"iMazingInTrialMode_Title"				= "iMazing 当前以试用模式运行";
+"iMazingInTrialMode(Media)_Info"		= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 首媒体。若要导出或预览数量无限的项目，请购买许可证。";
+"iMazingInTrialMode(Photos)_Info"		= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 项照片或视频。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(Messages)_Info"		= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 条信息。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(Contacts)_Info"		= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 个联系人。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(Notes)_Info"		= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 条备忘录。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(VoiceMemos)_Info"	= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 条语音备忘录。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(Voicemail)_Info"	= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 封语音邮件。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingInTrialMode(CallHistory)_Info"	= "在试用模式下运行时，iMazing 最多允许免费拷贝 {maxitems} 条通话。若要导出或预览数量不限的项目，请购买许可证。";
+"iMazingTrialLimitExceeded(Generic)_Info"	= "您选定的项目数量多于 iMazing 免费试用版允许的数量。iMazing 将处理前 {remainingitems} 项用于预览，请购买许可证以解除限制。";
+
+"iMazingTrialNoItemsLeft(Generic)_Info" = "您已超过可为此数据集传输的最大项目数（{maxitems}）。请考虑通过购买许可证来解除该限制。";
+
+"NotRegisteredHint_Info"	= "iMazing 未注册版本无法使用某些功能。请点击“注册”购买 iMazing 以进行解锁。";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+
+"LoadingICloud000_Label"	= "正在加载 iCloud...";
+"iMazing_Label"				= "iMazing"; // do not translate
+
+/* Do not translate PicsAid */
+
+"InstallPicsAid_Title"			= "安装 PicsAid"; // Do not translate PicsAid
+"InstallPicsAid_Info"			= "您的 iPod 未存储全分辨率照片。\n您可以尝试安装 PicsAid 来从“Apple ITHMB”缩略图文件中提取您的照片。\n\n(https://imazing.com/picsaid)";
+
+"FileAppWelcomeBubble_Info"		= "欢迎使用 FileApp 的客户端！\n\n点击此处以浏览并传输文件至 FileApp。"; // Do not translate FileApp
+"GetFileApp_UserAction"			= "获取 FileApp";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Preferences
+ */
+
+"iMazingPreferences_Title"				= "iMazing 偏好设置";
+"General(Preferences)_Label"			= "通用"; // Section of preferences, max chars: 15
+"Storage(Preferences)_Label"			= "存储"; // Section of preferences, max chars: 15
+"Media(Preferences)_Label"				= "媒体"; // Section of preferences, max chars: 15
+"OtherData(Preferences)_Label"			= "其他数据"; // Section of preferences, max chars: 15
+"International(Preferences)_Label"		= "国际"; // Section of preferences, max chars: 15
+"Backup(Preferences)_Label"				= "备份"; // Section of preferences, max chars: 15
+
+"AnalyticsDescription_Info"				= "请帮助我们改进 iMazing！我们使用 Analytics 来更好地了解和满足您的需求。\n此服务不会访问或传输您的个人数据，并且完全匿名。";
+
+"ResetFactorySettings_Info"				= "完全重置 iMazing（注册信息、偏好设置等）：";
+"ResetFactorySettings_UserAction"		= "重置为出厂设置"; // max chars: 40
+"ResetFactorySettingsWarning_Info"		= "是否确定要将 iMazing 重置为出厂状态？您的注册信息和个人偏好设置将丢失。";
+"ResetFactorySettingsConfirmation_Info"	= "iMazing 已重置为出厂状态。\n\nniMazing 现在将退出并重新启动。";
+
+"iMazingRestartNeededMessage_Info"		= "iMazing 需要重新启动以使更改生效。是否立即重启 iMazing？"; // Needs retranslation
+
+/* A user created shortcut to a precise location in iMazing */
+ 
+"Shortcut_Label"               		= "快捷方式"; // A user created shortcut to a precise location in iMazing
+/* See previous label: not keyboard shortcuts, but shortcuts to specific locations in iMazing's file system */
+"Shortcuts_Label"					= "快捷方式";
+
+"NewShortcut_UserAction"			= "新快捷方式"; // User action
+"RemoveShortcut_UserAction"			= "移除快捷方式"; // User action
+"RenameShortcut_UserAction"			= "重命名快捷方式"; // User action
+"DeleteShortcut_UserAction"			= "删除快捷方式"; // User action
+"CreateShortcut_Title"				= "创建快捷方式"; // Title of dialog box
+"CreateShortcut_Info"				= "输入快捷方式名称";
+
+"OverwriteShortcut_Info"   			= "此位置已存在命名为“{itemname}”的快捷方式。是否要替换它？";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Social Media 
+ */
+ 
+"VisitUsOnFacebook_UserAction"                  = "访问我们的 Facebook 主页";
+"VisitOurTwitter_UserAction"                    = "访问我们的 Twitter 订阅源";
+"TweetAboutIMazing_UserAction"                  = "发布 iMazing 推文";
+"VisitUsOnGoogle_UserAction"                    = "访问我们的 Google+ 主页";
+"ShareIMazing(Social)_UserAction"               = "分享 iMazing"; // Share on social network
+"ShareIMazingOnGoogle(Social)_UserAction"       = "分享 iMazing 至 Google+";
+"ShareIMazingOnFacebook(Social)_UserAction"     = "分享 iMazing 至 Facebook";
+
+
+
+

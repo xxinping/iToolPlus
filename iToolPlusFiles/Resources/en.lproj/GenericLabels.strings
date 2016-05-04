@@ -1,0 +1,612 @@
+/*******************************************************************************
+ * Copyright (c) 2011-2015, DigiDNA
+ * All rights reserved
+ ******************************************************************************/
+
+/*!
+ * @file            GenericLabels.strings
+ * @author          Gregorio Zanon <gzanon@digidna.net>
+ * @copyright       (c) 2011-2015, DigiDNA
+ */
+ 
+/* 
+	* * * Description * * *
+		
+	This sub-project covers all labels which may be commonly found in desktop utility software. 
+	Translations should stick as close as possible to Mac OS / Windows tone.
+	
+	* * * Rule * * *
+	
+	Only add to this file if the label is generic enough for re-use in another 
+	utility application.
+	
+	Do not add to this document if the phrase or word relates to:
+		* specific non desktop devices ( iOS, Android... ) 
+		* specific software or drivers ( iTunes, Mobile Device... )
+		* specific media ( music, photos... ) 
+		* specific cloud services ( iCloud, iTunes Match... )
+		* the application ( iMazing, FileApp... )
+		
+	* * * Sections * * *
+	
+	1) Finder and Explorer labels
+		As in Finder or Explorer exactly, all with screenshots
+		
+	2) Common Utility Tasks
+		Copying, Printing, Choosing etc...
+		
+	3) Common Utility Labels
+		Sorting Labels, Errors, Help...
+		
+	4) Unsorted
+		Insert here when adding labels
+*/
+
+ 
+
+/*******************************************************************************
+ *						*** 1 ***
+ * 				Finder and Explorer labels
+ *			As in Finder or Explorer exactly
+ *		Easier for translators to get them all in one block
+ *
+ * * * - Standard OS X Main Menu - * * *
+ *
+ * - Application Menu
+ * - File Menu
+ * - Edit Menu
+ * - View Menu
+ * - Window Menu
+ * - Help Menu
+ * 
+ * * * - Finder/Explorer Standard Labels - * * *
+ *
+ * - View Types
+ * - Sorting
+ * - Duplicate Handling
+ *
+ ******************************************************************************/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Standard OS X Main Menu
+ */
+
+/* Application Menu 
+ */
+"AboutIMazing(Finder)_Label"		= "About iMazing"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "Preferences..."; //standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "Services"; //standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "Quit iMazing"; //standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "Hide iMazing"; //standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "Hide Others"; //standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "Show All"; //standard Finder menu item, see screenshot
+
+/* File Menu
+ */
+"File(Finder)_Label"      			= "File"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "New Folder"; //standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "Open"; //standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "Open With"; //standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "Quick Look \"{fileName}\""; //standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "Quick Look"; 
+"CloseWindow(Finder)_UserAction"	= "Close Window"; //standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "Get Info"; //standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "Get Info on \"{itemName}\"";
+
+/* Edit Menu
+ */
+"Edit(Finder)_Label"             		= "Edit"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "Undo"; //standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "Redo"; //standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "Copy"; //standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "Paste"; //standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "Select All"; //standard Finder menu item, see screenshot
+
+/* View Menu 
+ */
+"View(Finder)_Label"             		= "View"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "Show Toolbar"; //standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "Hide Toolbar"; //standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "Customize Toolbar..."; //standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "Flexible Space"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* Window Menu 
+ */
+"Window(Finder)_Label"            		= "Window"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "Minimize"; //standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "Zoom"; //standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "Bring All to Front"; //standard Finder menu item, see screenshot
+
+/* Help Menu 
+ */
+"Help(Finder)_Label"	= "Help"; //standard Finder menu item, see screenshot
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Finder/Explorer Standard Labels
+ */
+ 
+/* View Types 
+ */
+"Icons(Explorer)_Label"          	= "Icons"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "Large icons"; //Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "Tiles"; //Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "Details"; //Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "List"; //Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "Show items as icons, in a list or in columns"; //Tooltip from Finder, see screenshot
+
+/* Sorting
+ */
+"DateModified(Finder)_Label"		= "Date Modified"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "Date Created"; //Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "Last opened"; //Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "Size"; //as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "Created"; //as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "Modified"; //as displayed in Finder->Get Info,see screenshot
+
+/* Duplicate Handling
+ */
+"KeepBoth(Finder)_UserReply"		= "Keep Both"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "Stop"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "Replace"; //Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "Skip"; //Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "Apply to All"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "Merge"; //Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "Destination folder:";
+"FileName:_Label"				= "File name:";
+"Destination(Folder)_Label"		= "Destination"; // Destination folder
+"Choose000_UserAction"			= "Choose..."; //Choose a destination or source folder
+"Choose_UserConfirmation"		= "Choose"; //Confirms choice of source/destination folder/items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "Copying {itemname}"; 
+"CopyToX_UserAction"			= "Copy to \"{location}\""; // to location in file system
+"CopyToMac_UserAction"			= "Copy to Mac"; 
+"CopyToPC_UserAction"			= "Copy to PC";
+"CopyToDevice_UserAction"		= "Copy to Device"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "Starting copy...";
+"ItemsToCopyN_Label"       		= "Items to copy:"; //Needs retranslation
+"CopyItem_Title"				= "Copy Item";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "Copy Items";
+"Copied(MediaItem)_Label"		= "Copied"; // status of a single media item
+"ItemXCopied_Info"				= "{itemname} Copied"; 
+"ItemXAndOthersCopied_Info"		= "{itemname} and others Copied";
+"CopyingItemX000_Info"			= "Copying {itemname}...";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Creating
+ */
+ 
+"CreateFolder_UserConfirmation"	= "Create Folder"; // Confirm folder creation
+"NewFolderName_Info"			= "Enter new folder name";
+"CreatingFolder_Info"			= "Creating Folder {itemname}";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Deleting
+ */
+ 
+"Delete_UserAction"				= "Delete"; //Standard delete action
+"ConfirmItemDelete_Info"		= "Are you sure you want to delete \"{itemname}\" ?";
+"DeletingItemX_Info"			= "Deleting {itemname}";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Downloading
+ */
+
+"Download_UserAction"			= "Download"; // the action, not the noun
+"DownloadingX_Info"				= "Downloading {componentname}..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "File already exists:"; 
+"ItemAlreadyExists_Info"		= "An item named \"{itemname}\" already exists in this location. Do you want to replace it ?";
+"Duplicate(Noun)_Label"        	= "Duplicate"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "Duplicates";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Exporting
+ */
+ 
+"Export_UserAction"            	= "Export"; // Export generic data
+"ExportToPDF_UserAction"		= "Export to PDF";
+"ExportToText_UserAction"		= "Export to Text";
+"ExportToCSV_UserAction"		= "Export to CSV";
+"ExportInfo_UserAction"			= "Export Info"; // User action to export information, not information regarding an export process!
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Importing
+ */
+ 
+"Import_UserAction"             = "Import"; // Import data
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Installing
+ */
+ 
+"InstallingX_Info"						= "Installing..."; //Installing software
+"InstallingAppX_Info"					= "Installing {appName}";
+"AppXInstalled_Info"					= "{itemname} Installed";
+"AppXAndOthersInstalled_Info"			= "{itemname} and others Installed";
+"UninstallingAppX_Info"					= "Uninstalling {appName}";
+"AppXUninstalled_Info"					= "{itemname} Uninstalled";
+"AppXAndOthersUninstalled_Info"			= "{itemname} and others Uninstalled";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc Common User Actions
+ */
+ 
+"Quit_UserAction"               		= "Quit"; // Quit the application
+"Refresh_UserAction"            		= "Refresh"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "Reveal \"{name}\""; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "Save"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "Search"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 	Moving
+ */
+ 
+"MovingItemX_Info"				= "Moving {itemname}"; //Moving file from one location to another
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 	Opening
+ */
+ 
+"OpenX_UserAction"				= "Open \"{fileName}\""; //Open file
+"OpenItem_Title"				= "Open Item"; //Item as in media item or file
+"OpenItems_Title"				= "Open Items"; 
+"ItemXOpened_Info"				= "{itemname} Opened";
+"ItemXAndOthersOpened_Info"		= "{itemname} and others Opened";
+"OpeningItemX_Info"				= "Opening {itemname}";
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Password handling
+ */
+ 
+"OldPassword_Label"					= "Old password:"; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "New password:"; //password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "Verify:"; //password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "New Password and Verify are different! Please verify your new password.";
+"RememberPassword_Label"			= "Remember Password"; //the application should remember the user's password
+"InvalidPassword_Title"				= "Invalid password!";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Printing
+ */
+ 
+"Print_UserAction"				= "Print"; // Generic print action
+"PrintToPdfFile_Label"			= "Print to PDF File...";
+"GenericPrinter_Label"			= "Generic Printer...";
+"Paper(Printing)_Label"			= "Paper"; 
+"PaperSize_Info"				= "{paperWidth} by {paperHeight} {sizeUnit}"; //Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "Margins"; 
+"Left(Margin)_Label"			= "Left"; 
+"Top(Margin)_Label"				= "Top";
+"Right(Margin)_Label"			= "Right";
+"Bottom(Margin)_Label"			= "Bottom";
+"Orientation(Printing)_Label"	= "Orientation"; //Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{pageNumber} of {totalPages}"; //The current viewed page
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Processing
+ */
+
+"Processed:n_Label"           	= "Processed:"; // processed items count follows
+"Remaining:n_Label"    			= "Remaining:"; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "{processeditems} of {totalitems} item"; // used when processing a single item
+"ItemsCountXofY_Info"			= "{processeditems} of {totalitems} items";
+"ItemsCountXof1Success_Info"	= "{processeditems} of {totalitems} item successfully processed."; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "{processeditems} of {totalitems} items successfully processed.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Renaming
+ */
+ 
+"Rename_UserAction"				= "Rename"; //Standard rename file action
+"RenamingItemX_Info"			= "Renaming {itemname}";
+"Renaming000_Info"				= "Renaming..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Repairing
+ */
+
+"Repair_UserAction"             = "Repair"; // The verb: repair!
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Selection Handling
+ */
+
+"Select_UserConfirmation"       = "Select"; // Confirm current selection
+"Selection(Process)_Label"		= "Selection"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "Confirm selection"; //Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "What would you like to copy?"; //All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "Only selected items";
+"AllItems_UserReply"           	= "All items";
+"SelectedItemsN_Info"       	= "Selected items:"; 
+"SelectedItemsCount_Info"		= "{nbSelectedItems} of {nbDisplayedItems} selected";
+"ItemsCount_Info"				= "{nbDisplayedItems} items";
+"MySelection(nItems)_Info"     	= "My selection ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "Preparing transfer, please wait...";
+"Transfer(Process)_Label"	= "Transfer"; // The process of transferring data, not the verb.
+
+/*******************************************************************************
+ *					*** 3 ***
+ * 			Common Utility Labels
+ *
+ * -  Errors
+ * -  General Info: status and reports
+ * -  General Terminology
+ * -  Help
+ * -  Loading and reporting progress
+ * -  Misc
+ * -  Navigation
+ * -  Operations
+ * -  Options
+ * -  Sleep Restart Quit Shut Down
+ * -  Sorting and Metadata
+ * -  Trial, Registration and Updates
+ * -  Units
+ * -  User Replies and Confirmations
+ *
+ ******************************************************************************/
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Errors
+ */
+ 
+
+"Error_Label"                	= "Error"; // Software error
+"Errors_Label"                 	= "Errors"; // Labelizes error count
+"UnknownError_Info"				= "Unknown error";
+"ErrorCopyingFile_Title"		= "File Copy Error";
+"IgnoreFurtherErrors_UserReply"	= "Ignore further errors";
+"UnableToLoadData_Info"			= "Unable to Load Data"; 
+"FileOrFolderDoesNotExist_Info"	= "The file or folder doesn't exist: {filename}"; 
+
+"NotEnoughSpace_Title"			= "Insufficient Space";  // not enough space on target storage 
+"NotEnoughSpace(Copy)_Info"		= "There is not enough space to process the copy.\n\nWould you like to proceed anyway ?\n\nAvailable: {availablespace}\nRequired: {requiredspace}";
+"NotEnoughSpace_Info"			= "There is not enough available disk space.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Info: status and reports
+ */
+ 
+"AdvancedInfo_Title"			= "Advanced Info"; //Needs Jé Input
+"Details_Label"               	= "Details"; //Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "No";  //Status Label, as in Connected: No
+"None(Neutral)_Label"			= "None"; //If applicable, gender neutral. Details: None 
+"Report(Noun)_Label"			= "Report"; //A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "Show Logs";
+"SizeFree_Info"					= "{diskSpaceFree} free"; //example: 20 GB free
+"Statistics(Report)_Label"    	= "Statistics:"; //Statistics of transfer operation
+"Status(Connection)_Label"		= "Status"; //Labellizes connection status
+"Status(Item)_Label"           	= "Status"; //Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "This folder is empty.";
+"UnknownType_Label"      		= "Unknown"; //Unknown file type
+"Yes_Label"                   	= "Yes"; //Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "File System";
+"FileBrowser_Title"				= "File Browser"; //Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "Folder"; //Folder of file system
+"Documents_Label"				= "Documents"; //Documents as in electronic documents
+"Developer_Label"				= "Developer"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "Get Help";
+"Help(Noun)_Label"						= "Help"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "Send feedback or bug report";
+"PrintJobWindow_Title"					= "Assistant"; // As in software wizard window
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Loading and reporting progress
+ */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSize} of {dataSizeTotal}"; // 35 KB of 1 GB for example
+"Loading000_Info"			= "Loading..."; 
+"ItCanTakeAWhile_Info"		= "It can take a while, please be patient...";
+"PleaseWait_Info"			= "Please wait...";
+"NoDataAvailable000_Info"	= "No data available...";
+"CalculatingSize_Info"		= "Calculating Size..."; //Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "Terms & Conditions";
+"AboutDigiDNA_Label"		= "About DigiDNA";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Navigation
+ */
+ 
+"Back(Navigation)_UserAction"		= "Back"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "Next";  //In navigation context
+"Previous(Navigation)_UserAction"	= "Previous"; //In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "Path"; //As in file path
+"NavigationButtons_Info"			= "See folders you viewed previously";
+"ShowHistory_UserAction"			= "Show history"; //Browsing history
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Operations
+ */
+
+"Operations_Label"					= "Operations"; //As in data processing or transfer operations
+"NoOperation_Label"					= "No Operations"; 
+"OperationAborted_Info"				= "Operation aborted.";
+"OperationFailed_Title"				= "Operation Failed";
+"OperationFailed_Info"				= "Operation failed";
+"StopOperationX_UserAction"			= "Stop operation: {name}"; 
+"Stopping000_Label"					= "Stopping...";
+"PauseResumeOperationX_UserAction"	= "Pause/Resume operation: {name}";
+"Success(Status)_Label"				= "Success"; // Operation success
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Options
+ */
+ 
+"Options_Label"					= "Options"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "Advanced options";
+"FileBrowserOptions:_Label"		= "File browser options:";
+"BrowserOptions_Label"			= "Browser options"; //Refers to file browser
+"Configuration(Process)_Label"	= "Configuration"; //The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "Show hidden files and folders";
+"HideHiddenFiles_Label"			= "Hide hidden files and folders";
+
+"Analytics_Title"				= "Analytics"; //Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "Don't show hints"; 
+
+"DataExportDelimiterSetting:_Info"	= "Data export delimiter (CSV, Tab-separated value):"; //When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "Tab";
+"Comma(Char)_Label"           		= "Comma";
+"Semicolon(Char)_Label"       		= "Semicolon";
+
+"InterfaceLanguage_Label"	= "Interface language"; // Language of the app
+"SystemLanguage_Label"		= "System language"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "Language changed";
+
+"OptionsPresetForBestResult_Info"	= "These options are pre-set for best results, you may change them if you wish.";
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Sleep Restart Quit Shut Down
+ */
+ 
+"Restart(Computer)_UserAction"			= "Restart"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "Relaunch"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "Shut Down"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "Sleep"; //Triggers computer or mobile device sleep mode
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Sorting and Metadata
+ */
+ 
+"All(Filter)_Label"             = "All"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "Date"; 
+"DateAdded_Label"            	= "Date Added"; //Labelizes the date at which an item was added
+"Kind(File)_Label"				= "Kind"; //Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "Modified: %@"; //%@ replaced by file modification date
+"Name(Item)_Label"				= "Name"; //File name, item name, NOT person name
+"Size(Data)_Label"				= "Size"; //File size
+"Time_Label"                    = "Time"; //Time of the day
+"Type(File)_Label"				= "Type"; //JPG, MOV, TXT, MP3
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Trial, Registration and Updates
+ */
+ 
+"TrialPeriodNDaysLeft_Info"			= "Trial period: {nDays} days remaining"; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "Trial period: last day to register!";
+"TrialPeriodExpired_Info"			= "Trial period expired";
+"CheckForUpdates_UserAction"  		= "Check for Updates"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "Purchase"; // The action, not the noun.
+"License(Noun)_Label"				= "License"; // As in software license
+"LostKey_UserAction"          		= "Lost Key?"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "Buy Now";
+"Activate(License)_UserAction"		= "Activate"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "Deactivate"; // Deactivate the license to allow activating on another computer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Units
+ */
+
+"SizeBytesShort_Label"		= "B";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "KB"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "MB"; 
+"SizeGigaBytesShort_Label"	= "GB";
+"SizeTeraBytesShort_Label"	= "TB";
+"SizePetaBytesShort_Label"	= "PB";
+"SizeExaBytesShort_Label"	= "EB";
+"SizeZettaBytesShort_Label"	= "ZB";
+"SizeYottaBytesShort_Label"	= "YB";
+"SizeKibiBytesShort_Label"	= "KiB";
+"SizeMebiBytesShort_Label"	= "MiB";
+"SizeGibiBytesShort_Label"	= "GiB";
+"SizeTebiBytesShort_Label"	= "TiB";
+"SizePebiBytesShort_Label"	= "PiB";
+"SizeExbiBytesShort_Label"	= "EiB";
+"SizeZebiBytesShort_Label"	= "ZiB";
+"SizeYobiBytesShort_Label"	= "YiB";
+
+"Hour(Duration)_Label"		= "Hour";
+"Hours(Duration)_Label"		= "Hours";
+"Minute(Duration)_Label"	= "Minute";
+"Minutes(Duration)_Label"	= "Minutes";
+"Second(Duration)_Label"	= "Second";
+"Seconds(Duration)_Label"	= "Seconds";
+
+"LengthUnitMilimeterShort_Label"	= "mm"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "in"; // Inch unit abbreviation
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		User Replies and Confirmations
+ */
+ 
+"Cancel_UserAction"			= "Cancel"; // Standard Cancel Button
+"Clear_UserAction"			= "Clear"; //Clear list of items
+"Close_UserAction"			= "Close"; // Close file folder
+"Continue_UserReply"		= "Continue"; // Continue after interruption
+"Done_UserConfirmation"		= "Done"; // Leave current context
+"DontShowAgain_Label"		= "Don't show again"; // Don't show the current message again
+"Ignore_UserReply"			= "Ignore"; //Ignore warning and go ahead 
+"Later_UserReply"			= "Later"; // User reply to application suggestion
+"More_UserAction"			= "More"; //Display extra options
+"No_UserReply"				= "No";  
+"NoThanks_UserReply"		= "No Thanks!";
+"NotNow_UserReply"			= "Not now";
+"OK_UserReply"				= "OK"; 
+"Retry_UserReply"			= "Retry"; // retry current action
+"Yes_UserReply"				= "Yes"; 
+
+/*******************************************************************************
+ *						*** 4 ***
+ * 						Unsorted
+ *			Insert here when adding to this document
+ ******************************************************************************/
+ 
+ 

@@ -1,0 +1,444 @@
+/* standard Finder menu item, see screenshot */
+"AboutIMazing(Finder)_Label"		= "Об iMazing"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "Настройки..."; // standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "Службы"; // standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "Выйти из iMazing"; // standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "Скрыть iMazing"; // standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "Скрыть другие"; // standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "Показать все"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"File(Finder)_Label"      			= "Файл"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "Создать папку"; // standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "Открыть"; // standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "Открыть с пом."; // standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "Быстр. просмотр \"{fileName}\""; // standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "Быстр. просмотр"; 
+"CloseWindow(Finder)_UserAction"	= "Закрыть окно"; // standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "Подробнее"; // standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "Подробнее о \"{itemName}\"";
+
+/* standard Finder menu item, see screenshot */
+"Edit(Finder)_Label"             		= "Правка"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "Отменить"; // standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "Вернуть"; // standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "Копировать"; // standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "Вставить"; // standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "Выбрать все"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"View(Finder)_Label"             		= "Вид"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "Показать панель инстр."; // standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "Скрыть панель инстр."; // standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "Настройка панели инстр...."; // standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "Гибкое пространство"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Window(Finder)_Label"            		= "Окно"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "Свернуть"; // standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "Увеличить"; // standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "Все на передний план"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Help(Finder)_Label"	= "Справка"; //standard Finder menu item, see screenshot
+
+
+/* Windows Explorer View option, see screenshot */
+"Icons(Explorer)_Label"          	= "Значки"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "Крупные значки"; // Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "Плитка"; // Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "Подробности"; // Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "Список"; // Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "Показывать элементы в виде значков, списка или столбцов"; // Tooltip from Finder, see screenshot
+
+/* Finder sorting options, see screenshot */
+"DateModified(Finder)_Label"		= "Дата изменения"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "Дата создания"; // Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "Посл. открытие"; // Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "Размер"; // as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "Создано"; // as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "Изменено"; // as displayed in Finder->Get Info,see screenshot
+
+/* If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates. */
+"KeepBoth(Finder)_UserReply"		= "Оставить оба"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "Остановить"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "Заменить"; // Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "Пропустить"; // Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "Применить ко всем"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "Объединить"; // Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "Целевая папка:";
+"FileName:_Label"				= "Имя файла:";
+"Destination(Folder)_Label"		= "Назначение"; // Destination folder
+
+/* Choose a destination or source folder */
+"Choose000_UserAction" = "Выбрать...";
+"Choose_UserConfirmation"		= "Выбрать"; // items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "Копирование {itemname}"; 
+"CopyToX_UserAction"			= "Копирование в \"{location}\"..."; // to location in file system
+"CopyToMac_UserAction"			= "Копировать на Mac"; 
+"CopyToPC_UserAction"			= "Копировать на PC";
+"CopyToDevice_UserAction"		= "Копировать на устр-во"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "Начало копирования...";
+"ItemsToCopyN_Label"       		= "Дорожки для копир-я:"; // Needs retranslation
+"CopyItem_Title"				= "Копир-ть элем.";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "Копир-ть элем-ы";
+"Copied(MediaItem)_Label"		= "Скопир-но"; // status of a single media item
+"ItemXCopied_Info"				= "Скопировано: {itemname}"; 
+"ItemXAndOthersCopied_Info"		= "Скопировано: {itemname} и другие";
+"CopyingItemX000_Info" = "Копирование {itemname}...";
+/* Confirm folder creation */
+ 
+"CreateFolder_UserConfirmation"	= "Создать папку"; // Confirm folder creation
+"NewFolderName_Info"			= "Введите имя новой папки";
+"CreatingFolder_Info"			= "Создание папки {itemname}";
+
+/* Standard delete action */
+ 
+"Delete_UserAction"				= "Удалить"; //Standard delete action
+"ConfirmItemDelete_Info"		= "Вы действительно хотите удалить \"{itemname}\" ?";
+"DeletingItemX_Info"			= "Удаление {itemname}";
+
+/* the action, not the noun */
+
+"Download_UserAction"			= "Загрузка"; // the action, not the noun
+"DownloadingX_Info"				= "Загрузка {componentname}..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "Файл уже существует:"; 
+"ItemAlreadyExists_Info"		= "В этой папке уже содержится элемент \"{itemname}\". Заменить его?";
+"Duplicate(Noun)_Label"        	= "Дублировать"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "Дубликаты";
+
+/* Export generic data */
+ 
+"Export_UserAction"            	= "Экспорт"; // Export generic data
+"ExportToPDF_UserAction"		= "Экспорт в PDF";
+"ExportToText_UserAction"		= "Экспорт в текст";
+"ExportToCSV_UserAction"		= "Экспорт в CSV";
+"ExportInfo_UserAction"			= "Экспорт данных"; // User action to export information, not information regarding an export process!
+
+/* Import data */
+ 
+"Import_UserAction"             = "Импорт"; // Import data
+
+/* Installing software */
+ 
+"InstallingX_Info"						= "Установка..."; //Installing software
+"InstallingAppX_Info"					= "Установка {appName}";
+"AppXInstalled_Info"					= "{itemname} установлено";
+"AppXAndOthersInstalled_Info"			= "{itemname} и другие элементы установлены";
+"UninstallingAppX_Info"					= "Удаление {appName}";
+"AppXUninstalled_Info"					= "{itemname} удалено";
+"AppXAndOthersUninstalled_Info"			= "{itemname} и другие элементы удалены";
+
+/* Quit the application */
+ 
+"Quit_UserAction"               		= "Выйти"; // Quit the application
+"Refresh_UserAction"            		= "Обновить"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "Показать \"{name}\""; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "Сохранить"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "Поиск"; 
+
+/* Moving file from one location to another */
+ 
+"MovingItemX_Info"				= "Перемещение {itemname}"; //Moving file from one location to another
+
+/* Open file */
+ 
+"OpenX_UserAction"				= "Открыть \"{fileName}\""; //Open file
+"OpenItem_Title"				= "Откр. элемент"; // Item as in media item or file
+"OpenItems_Title"				= "Откр. элементы"; 
+"ItemXOpened_Info"				= "Открыто: {itemname}";
+"ItemXAndOthersOpened_Info"		= "Открыто: {itemname} и другие";
+"OpeningItemX_Info"				= "Открытие {itemname}";
+ 
+/* password change: the user enters the current password after this label */
+ 
+"OldPassword_Label"					= "Старый пароль:"; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "Новый пароль:"; // password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "Подтвердить:"; // password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "Новый пароль и подтверждение пароля не совпадают. Подтвердите новый пароль.";
+"RememberPassword_Label"			= "Запомнить пароль"; // the application should remember the user's password
+"InvalidPassword_Title"				= "Неверный пароль!";
+
+/* Generic print action */
+ 
+"Print_UserAction"				= "Печать"; // Generic print action
+"PrintToPdfFile_Label"			= "Распечатать как PDF-файл...";
+"GenericPrinter_Label"			= "Универсальный принтер...";
+"Paper(Printing)_Label"			= "Бумага"; 
+"PaperSize_Info"				= "{paperWidth} х {paperHeight} {sizeUnit}"; // Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "Поля"; 
+"Left(Margin)_Label"			= "Левое"; 
+"Top(Margin)_Label"				= "Верхнее";
+"Right(Margin)_Label"			= "Правое";
+"Bottom(Margin)_Label"			= "Нижнее";
+"Orientation(Printing)_Label"	= "Ориентация"; // Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{pageNumber} из {totalPages}"; // The current viewed page
+
+/* processed items count follows */
+
+"Processed:n_Label"           	= "Обработано:"; // processed items count follows
+"Remaining:n_Label"    			= "Осталось:"; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "Элементов: {processeditems} из {totalitems}"; // used when processing a single item
+"ItemsCountXofY_Info"			= "Элементов: {processeditems} из {totalitems}";
+"ItemsCountXof1Success_Info"	= "Обработано элементов: {processeditems} из {totalitems}."; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "Обработано элементов: {processeditems} из {totalitems}.";
+
+/* Standard rename file action */
+ 
+"Rename_UserAction"				= "Переим-ть"; //Standard rename file action
+"RenamingItemX_Info"			= "Переименование {itemname}";
+"Renaming000_Info" = "Переименование...";
+/* Confirm current selection */
+
+"Select_UserConfirmation"       = "Выбрать"; // Confirm current selection
+"Selection(Process)_Label"		= "Выбор"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "Подтвердить выбор"; // Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "Что необходимо скопировать?"; // All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "Только выбранные элементы";
+"AllItems_UserReply"           	= "Все элементы";
+/* Needs retranslate, items where tracks */
+"SelectedItemsN_Info"       	= "Выбранные элементы:"; 
+"SelectedItemsCount_Info"		= "Выбрано: {nbSelectedItems} из {nbDisplayedItems}";
+"ItemsCount_Info"				= "{nbDisplayedItems} элем.";
+"MySelection(nItems)_Info"     	= "Выбранные файлы ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "Подготовка передачи, подождите...";
+"Transfer(Process)_Label"	= "Передача"; // The process of transferring data, not the verb.
+
+/* Software error */
+ 
+
+"Error_Label"                	= "Ошибка"; // Software error
+"Errors_Label"                 	= "Ошибки"; // Labelizes error count
+"UnknownError_Info"				= "Неизвестная ошибка";
+"ErrorCopyingFile_Title"		= "Ошибка копиров-я файла";
+"IgnoreFurtherErrors_UserReply"	= "Пропускать дальнейшие ошибки";
+"UnableToLoadData_Info"			= "Не удалось загрузить данные"; 
+"FileOrFolderDoesNotExist_Info"	= "Файл или папка не существует: {filename}"; 
+
+"NotEnoughSpace_Title"			= "Недостаточно места";  // not enough space on target storage
+"NotEnoughSpace(Copy)_Info"		= "Недостаточно места для обработки копии.\n\nВсе равно обработать?\n\nДоступно: {availablespace}\nТребуется: {requiredspace}";
+"NotEnoughSpace_Info"			= "Недостаточно места на диске.";
+
+/* Needs Jé Input */
+ 
+"AdvancedInfo_Title"			= "Доп. сведения"; //Needs Jé Input
+"Details_Label"               	= "Подробности"; // Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "Нет";  // Status Label, as in Connected: No
+"None(Neutral)_Label"			= "Нет"; // If applicable, gender neutral. Details: None
+"Report(Noun)_Label"			= "Готово"; // A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "Пок-ть журналы";
+"SizeFree_Info"					= "Свободно: {diskSpaceFree}"; // example: 20 GB free
+"Statistics(Report)_Label"    	= "Статистика:"; // Statistics of transfer operation
+"Status(Connection)_Label"		= "Состояние"; // Labellizes connection status
+"Status(Item)_Label"           	= "Состояние"; // Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "Эта папка пуста.";
+"UnknownType_Label"      		= "Нет данных"; // Unknown file type
+"Yes_Label"                   	= "Да"; // Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "Файловая система";
+"FileBrowser_Title"				= "Браузер файлов"; // Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "Папка"; // Folder of file system
+"Documents_Label"				= "Документы"; // Documents as in electronic documents
+"Developer_Label"				= "Разработчик"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "Справка";
+"Help(Noun)_Label"						= "Справка"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "Отправить комментарий или отчет об ошибке";
+"PrintJobWindow_Title"					= "Помощник"; // As in software wizard window
+ 
+/* 35 KB of 1 GB for example */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSize} из {dataSizeTotal}"; // 35 KB of 1 GB for example
+
+"Loading000_Info" = "Загрузка...";
+"ItCanTakeAWhile_Info"		= "Это может занять пару минут. Пожалуйста, подождите...";
+"PleaseWait_Info"			= "Подождите...";
+"NoDataAvailable000_Info" = "Данные недоступны...";
+"CalculatingSize_Info"		= "Вычисление размера..."; // Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "Условия использования";
+"AboutDigiDNA_Label"		= "О DigiDNA";
+
+/* In navigation context, as in a file browser or an internet browser */
+ 
+"Back(Navigation)_UserAction"		= "Назад"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "Далее";  // In navigation context
+"Previous(Navigation)_UserAction"	= "Назад"; // In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "Путь"; // As in file path
+"NavigationButtons_Info"			= "Показать папки, просмотренные ранее";
+"ShowHistory_UserAction"			= "Показать журнал"; // Browsing history
+
+/* As in data processing or transfer operations */
+
+"Operations_Label"					= "Операции"; //As in data processing or transfer operations
+"NoOperation_Label"					= "Нет операций"; 
+"OperationAborted_Info"				= "Операция прервана.";
+"OperationFailed_Title"				= "Сбой операции";
+"OperationFailed_Info"				= "Сбой операции";
+"StopOperationX_UserAction"			= "Остановить операцию: {name}"; 
+"Stopping000_Label" = "Остановка...";
+"PauseResumeOperationX_UserAction"	= "Приостановить/Продолжить операцию: {name}";
+"Success(Status)_Label"				= "Выполнено"; // Operation success
+
+/* In a menu, reveals extra options */
+ 
+"Options_Label"					= "Параметры"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "Дополнительные параметры";
+"FileBrowserOptions:_Label"		= "Параметры браузера файлов:";
+"BrowserOptions_Label"			= "Параметры браузера"; // Refers to file browser
+"Configuration(Process)_Label"	= "Параметры"; // The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "Показывать скрытые файлы и папки";
+"HideHiddenFiles_Label"			= "Не показывать скрытые файлы и папки";
+
+"Analytics_Title"				= "Аналитика"; // Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "Не показывать подсказки"; 
+
+"DataExportDelimiterSetting:_Info"	= "Разделитель экспортир. данных (CSV, значения с разделителем-табуляцией):"; // When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "Табуляция";
+"Comma(Char)_Label"           		= "Запятая";
+"Semicolon(Char)_Label"       		= "Точка с запятой";
+
+"InterfaceLanguage_Label"	= "Язык интерфейса"; // Language of the app
+"SystemLanguage_Label"		= "Язык системы"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "Язык изменен";
+
+"OptionsPresetForBestResult_Info"	= "Для оптимальной работы используются параметры по умолчанию. При необходимости их можно изменить.";
+
+/* Like reboot computer, not restart app. */
+ 
+"Restart(Computer)_UserAction"			= "Перезагрузка"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "Перезапуск"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "Завершение работы"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "Сон"; // Triggers computer or mobile device sleep mode
+
+/* In a filtering context, all unfiltered data: all messages, all contacts, etc... */
+ 
+"All(Filter)_Label"             = "Все"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "Дата"; 
+"DateAdded_Label"            	= "Дата добавления"; // Labelizes the date at which an item was added
+"Kind(File)_Label"				= "Тип"; // Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "Изменено: %@"; // %@ replaced by file modification date
+"Name(Item)_Label"				= "Имя"; // File name, item name, NOT person name
+"Size(Data)_Label"				= "Размер"; // File size
+"Time_Label"                    = "Время"; // Time of the day
+"Type(File)_Label"				= "Вид"; // JPG, MOV, TXT, MP3
+
+/* Limit chars, used in button */
+ 
+"TrialPeriodNDaysLeft_Info"			= "Пробный период: осталось {nDays} дн."; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "Пробный период: последний день регистрации!";
+"TrialPeriodExpired_Info"			= "Пробный период истек";
+"CheckForUpdates_UserAction"  		= "Проверить на обновления"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "Купить"; // The action, not the noun.
+"License(Noun)_Label"				= "Лицензия"; // As in software license
+"LostKey_UserAction"          		= "Потеряли ключ?"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "Купить";
+"Activate(License)_UserAction"		= "Активировать"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "Деактивировать"; // Deactivate the license to allow activating on another computer
+
+/* Byte Unit abbreviation */
+
+"SizeBytesShort_Label"		= "Б";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "КБ"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "МБ"; 
+"SizeGigaBytesShort_Label"	= "ГБ";
+"SizeTeraBytesShort_Label"	= "ТБ";
+"SizePetaBytesShort_Label"	= "ПБ";
+"SizeExaBytesShort_Label"	= "ЭБ";
+"SizeZettaBytesShort_Label"	= "ЗБ";
+"SizeYottaBytesShort_Label"	= "ЙБ";
+"SizeKibiBytesShort_Label"	= "КиБ";
+"SizeMebiBytesShort_Label"	= "МиБ";
+"SizeGibiBytesShort_Label"	= "ГиБ";
+"SizeTebiBytesShort_Label"	= "ТиБ";
+"SizePebiBytesShort_Label"	= "ПиБ";
+"SizeExbiBytesShort_Label"	= "ЭиБ";
+"SizeZebiBytesShort_Label"	= "ЗиБ";
+"SizeYobiBytesShort_Label"	= "ЙиБ";
+
+"Hour(Duration)_Label"		= "ч";
+"Hours(Duration)_Label"		= "ч";
+"Minute(Duration)_Label"	= "мин";
+"Minutes(Duration)_Label"	= "мин";
+"Second(Duration)_Label"	= "с";
+"Seconds(Duration)_Label"	= "с";
+
+"LengthUnitMilimeterShort_Label"	= "мм"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "\""; // Inch unit abbreviation
+
+/* Standard Cancel Button */
+ 
+"Cancel_UserAction"			= "Отмена"; // Standard Cancel Button
+"Clear_UserAction"			= "Очистить"; // Clear list of items
+"Close_UserAction"			= "Закрыть"; // Close file folder
+"Continue_UserReply"		= "Продолжить"; // Continue after interruption
+"Done_UserConfirmation"		= "Готово"; // Leave current context
+"DontShowAgain_Label"		= "Не показывать снова"; // Don't show the current message again
+"Ignore_UserReply"			= "Пропустить"; // Ignore warning and go ahead
+"Later_UserReply"			= "Позже"; // User reply to application suggestion
+"More_UserAction"			= "Подробнее"; // Display extra options
+"No_UserReply"				= "Нет";  
+"NoThanks_UserReply"		= "Нет, спасибо!";
+"NotNow_UserReply"			= "Не сейчас";
+"OK_UserReply"				= "ОК"; 
+"Retry_UserReply"			= "Повторить"; // retry current action
+"Yes_UserReply"				= "Да"; 
+

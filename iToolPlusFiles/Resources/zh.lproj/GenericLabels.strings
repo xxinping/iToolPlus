@@ -1,0 +1,444 @@
+/* standard Finder menu item, see screenshot */
+"AboutIMazing(Finder)_Label"		= "关于 iMazing"; //standard Finder menu item, see screenshot
+"Preferences(Finder)_UserAction"	= "偏好设置..."; // standard Finder menu item, see screenshot
+"Services(Finder)_Label"            = "服务"; // standard Finder menu item, see screenshot
+"QuitIMazing(Finder)_UserAction"	= "退出 iMazing"; // standard Finder menu item, see screenshot
+"HideIMazing(Finder)_UserAction"	= "隐藏 iMazing"; // standard Finder menu item, see screenshot
+"HideOthers(Finder)_UserAction"		= "隐藏其他"; // standard Finder menu item, see screenshot
+"ShowAll(Finder)_UserAction"		= "全部显示"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"File(Finder)_Label"      			= "文件"; //standard Finder menu item, see screenshot
+"NewFolder(Finder)_UserAction"		= "新建文件夹"; // standard Finder menu item, see screenshot
+"Open(Finder)_UserAction"			= "打开"; // standard Finder menu item, see screenshot
+"OpenWith(Finder)_UserAction"		= "打开方式"; // standard Finder menu item, see screenshot
+"QuickLookX(Finder)_UserAction"		= "快速查看“{fileName}”"; // standard Finder menu item, see screenshot
+"QuickLook(Finder)_UserAction"		= "快速查看"; 
+"CloseWindow(Finder)_UserAction"	= "关闭窗口"; // standard Finder menu item, see screenshot
+"GetInfo(Finder)_UserAction"		= "显示简介"; // standard Finder menu item, see screenshot
+"GetInfoOnX(Finder)_UserAction"		= "显示“{itemName}”简介";
+
+/* standard Finder menu item, see screenshot */
+"Edit(Finder)_Label"             		= "编辑"; //standard Finder menu item, see screenshot
+"Undo(Finder)_UserAction"				= "撤销"; // standard Finder menu item, see screenshot
+"Redo(Finder)_UserAction"				= "重做"; // standard Finder menu item, see screenshot
+"CopyToPasteboard(Finder)_UserAction" 	= "拷贝"; // standard Finder menu item, see screenshot
+"Paste(Finder)_UserAction"				= "粘贴"; // standard Finder menu item, see screenshot
+"SelectAll(Finder)_UserAction"			= "全选"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"View(Finder)_Label"             		= "显示"; //standard Finder menu item, see screenshot
+"ShowToolbar(Finder)_UserAction"      	= "显示工具栏"; // standard Finder menu item, see screenshot
+"HideToolbar(Finder)_UserAction"       	= "隐藏工具栏"; // standard Finder menu item, see screenshot
+"CustomizeToolbar(Finder)_UserAction"  	= "自定工具栏..."; // standard Finder menu item, see screenshot
+"FlexibleSpace(Finder)_UserAction"		= "弹性空白"; // standard Finder->View->Customize Toolbar, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Window(Finder)_Label"            		= "窗口"; //standard Finder menu item, see screenshot
+"Minimize(Finder)_UserAction"    		= "最小化"; // standard Finder menu item, see screenshot
+"Zoom(Finder)_UserAction"				= "缩放"; // standard Finder menu item, see screenshot
+"BringAllToFront(Finder)_UserAction"   	= "前置全部窗口"; // standard Finder menu item, see screenshot
+
+/* standard Finder menu item, see screenshot */
+"Help(Finder)_Label"	= "帮助"; //standard Finder menu item, see screenshot
+
+
+/* Windows Explorer View option, see screenshot */
+"Icons(Explorer)_Label"          	= "图标"; //Windows Explorer View option, see screenshot
+"LargeIcons(Explorer)_Label"		= "大图标"; // Windows Explorer View option, see screenshot
+"Tiles(Explorer)_Label"				= "平铺"; // Windows Explorer View option, see screenshot
+"Details(Explorer)_Label"			= "详细信息"; // Windows Explorer View option, see screenshot
+"List(Explorer)_Label"				= "列表"; // Windows Explorer View option, see screenshot
+"ViewTypeTooltip(Finder)_Info"		= "以图标、列表或分栏方式显示项目"; // Tooltip from Finder, see screenshot
+
+/* Finder sorting options, see screenshot */
+"DateModified(Finder)_Label"		= "修改日期"; //Finder sorting options, see screenshot
+"DateCreated(Finder)_Label"			= "创建日期"; // Finder sorting options, see screenshot
+"LastOpened(Finder)_Label"			= "上次打开时间"; // Finder sorting options, see screenshot
+"FileSize(Finder)_Label"			= "大小"; // as displayed in Finder->Get Info,see screenshot
+"Created(Finder)_Label"				= "创建时间"; // as displayed in Finder->Get Info,see screenshot
+"Modified(Finder)_Label"			= "修改时间"; // as displayed in Finder->Get Info,see screenshot
+
+/* If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates. */
+"KeepBoth(Finder)_UserReply"		= "全部保留"; //If a duplicate is detected, keep both versions. Get from move or copy of multiple items in Finder, with duplicates.
+"Stop(Finder)_UserReply"			= "停止"; // Stop the current multi item operation. Get from move or copy of multiple items in Finder, with duplicates.
+"Replace(Finder)_UserReply"			= "替换"; // Overwrite old file with new one. Get from move or copy of multiple items in Finder, with duplicates.
+"Skip(Finder)_UserReply"			= "跳过"; // Skip copy of item in copy operation. May translate as Ignore in some languages. Get from move or copy of multiple items in Finder, with duplicates, and press options ( alt )
+"ApplyToAll(Finder)_Label"			= "全部应用"; // Apply Keep Both or Replace or Skip duplicate handling behaviour to all items. Get from move or copy of multiple items in Finder, with duplicates.
+"Merge(Finder)_UserReply"			= "合并"; // Merge the contents of 2 folders. Get by moving or copying with the Finder a folder where another one with the same name already exists.
+
+/*******************************************************************************
+ *				*** 2 ***
+ * 			Common Utility Tasks
+ *
+ * - Choosing a Destination Folder
+ * - Copying 
+ * - Creating
+ * - Deleting
+ * - Downloading 
+ * - Duplicates Handling
+ * - Exporting
+ * - Importing 
+ * - Installing
+ * - Misc Common User Actions 
+ * - Moving
+ * - Opening
+ * - Password Handling
+ * - Printing
+ * - Processing
+ * - Renaming
+ * - Selection Handling
+ * - Transferring
+ *
+ ******************************************************************************/
+ 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Choosing a Destination Folder
+ */
+ 
+"DestinationFolder:_Label"		= "目标文件夹：";
+"FileName:_Label"				= "文件名称：";
+"Destination(Folder)_Label"		= "目标"; // Destination folder
+
+/* Choose a destination or source folder */
+"Choose000_UserAction" = "选择...";
+"Choose_UserConfirmation"		= "选择"; // items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Copying 
+ */
+ 
+"CopyingItemX_Info"				= "正在拷贝{itemname}"; 
+"CopyToX_UserAction"			= "拷贝至“{location}”..."; // to location in file system
+"CopyToMac_UserAction"			= "拷贝至 Mac"; 
+"CopyToPC_UserAction"			= "拷贝至 PC";
+"CopyToDevice_UserAction"		= "拷贝至设备"; // device as in mobile device: phone, tablet, media player...
+"StartingCopy_Info"        		= "开始拷贝...";
+"ItemsToCopyN_Label"       		= "拷贝项目："; // Needs retranslation
+"CopyItem_Title"				= "拷贝项目";	// Item can be a file or a media item, generic...
+"CopyItems_Title"				= "拷贝项目";
+"Copied(MediaItem)_Label"		= "已拷贝"; // status of a single media item
+"ItemXCopied_Info"				= "{itemname}已拷贝"; 
+"ItemXAndOthersCopied_Info"		= "{itemname}等文件已拷贝";
+"CopyingItemX000_Info" = "正在拷贝{itemname}...";
+/* Confirm folder creation */
+ 
+"CreateFolder_UserConfirmation"	= "创建文件夹"; // Confirm folder creation
+"NewFolderName_Info"			= "请输入新的文件夹名称";
+"CreatingFolder_Info"			= "正在创建文件夹{itemname}";
+
+/* Standard delete action */
+ 
+"Delete_UserAction"				= "删除"; //Standard delete action
+"ConfirmItemDelete_Info"		= "是否确定要删除“{itemname}”？";
+"DeletingItemX_Info"			= "正在删除{itemname}";
+
+/* the action, not the noun */
+
+"Download_UserAction"			= "下载"; // the action, not the noun
+"DownloadingX_Info"				= "正在下载 {componentname}..."; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ *		Duplicates handling
+ */
+ 
+"FileAlreadyExists:_Label"		= "文件已存在："; 
+"ItemAlreadyExists_Info"		= "此位置已存在命名为“{itemname}”的项目。是否要替换它？";
+"Duplicate(Noun)_Label"        	= "重复"; // Refers to a single duplicate item
+"Duplicates(Noun)_Label"		= "重复文件";
+
+/* Export generic data */
+ 
+"Export_UserAction"            	= "导出"; // Export generic data
+"ExportToPDF_UserAction"		= "导出至 PDF";
+"ExportToText_UserAction"		= "导出至文本";
+"ExportToCSV_UserAction"		= "导出至 CSV";
+"ExportInfo_UserAction"			= "导出信息"; // User action to export information, not information regarding an export process!
+
+/* Import data */
+ 
+"Import_UserAction"             = "导入"; // Import data
+
+/* Installing software */
+ 
+"InstallingX_Info"						= "正在安装..."; //Installing software
+"InstallingAppX_Info"					= "正在安装{appName}";
+"AppXInstalled_Info"					= "已安装{itemname}";
+"AppXAndOthersInstalled_Info"			= "已安装{itemname}等";
+"UninstallingAppX_Info"					= "正在卸载{appName}";
+"AppXUninstalled_Info"					= "已卸载{itemname}";
+"AppXAndOthersUninstalled_Info"			= "已卸载{itemname}等";
+
+/* Quit the application */
+ 
+"Quit_UserAction"               		= "退出"; // Quit the application
+"Refresh_UserAction"            		= "刷新"; // Refresh viewed data(reload)
+"RevealX(FileSystem)_UserAction"		= "显示：{name}"; // equivalent to Show in Finder or Open enclosing Folder
+"Save_UserConfirmation"         		= "保存"; // Confirms save after destination or filename choice
+"Search_UserAction"            			= "搜索"; 
+
+/* Moving file from one location to another */
+ 
+"MovingItemX_Info"				= "正在移动{itemname}"; //Moving file from one location to another
+
+/* Open file */
+ 
+"OpenX_UserAction"				= "打开“{fileName}”"; //Open file
+"OpenItem_Title"				= "打开项目"; // Item as in media item or file
+"OpenItems_Title"				= "打开项目"; 
+"ItemXOpened_Info"				= "{itemname}已打开";
+"ItemXAndOthersOpened_Info"		= "{itemname}等文件已打开";
+"OpeningItemX_Info"				= "正在打开{itemname}";
+ 
+/* password change: the user enters the current password after this label */
+ 
+"OldPassword_Label"					= "旧密码："; //password change: the user enters the current password after this label
+"NewPassword_Label"					= "新密码："; // password change: the user enters the new password after this label
+"VerifyNewPassword_Label"			= "确认密码："; // password change: the user confirms the new password after this label
+"PasswordNewAndVerifyNoMatch_Info"	= "新密码和确认密码不同！请确认您的新密码。";
+"RememberPassword_Label"			= "记住密码"; // the application should remember the user's password
+"InvalidPassword_Title"				= "无效密码！";
+
+/* Generic print action */
+ 
+"Print_UserAction"				= "打印"; // Generic print action
+"PrintToPdfFile_Label"			= "打印为 PDF 文件...";
+"GenericPrinter_Label"			= "通用打印机...";
+"Paper(Printing)_Label"			= "纸张"; 
+"PaperSize_Info"				= "{paperWidth} x {paperHeight} {sizeUnit}"; // Paper format: 200 by 300 mm for example
+"Margins(Printing)_Label"		= "边距"; 
+"Left(Margin)_Label"			= "左"; 
+"Top(Margin)_Label"				= "上";
+"Right(Margin)_Label"			= "右";
+"Bottom(Margin)_Label"			= "下";
+"Orientation(Printing)_Label"	= "方向"; // Landscape or Portrait paper orientation
+"nOfTotal(Pages)_Info"			= "{pageNumber} / {totalPages} 页"; // The current viewed page
+
+/* processed items count follows */
+
+"Processed:n_Label"           	= "已处理："; // processed items count follows
+"Remaining:n_Label"    			= "剩余："; // remaining items to process count follows
+"ItemsCountXof1_Info"			= "{processeditems} / {totalitems} 项"; // used when processing a single item
+"ItemsCountXofY_Info"			= "{processeditems} / {totalitems} 项";
+"ItemsCountXof1Success_Info"	= "{processeditems} / {totalitems} 项成功处理。"; // used when processing a single item
+"ItemsCountXofYSuccess_Info"	= "{processeditems} / {totalitems} 项成功处理。";
+
+/* Standard rename file action */
+ 
+"Rename_UserAction"				= "重命名"; //Standard rename file action
+"RenamingItemX_Info"			= "正在重命名{itemname}";
+"Renaming000_Info" = "正在重命名...";
+/* Confirm current selection */
+
+"Select_UserConfirmation"       = "选择"; // Confirm current selection
+"Selection(Process)_Label"		= "选择"; // The process of selecting, not the current selection.
+"ConfirmSelection_Title"  		= "确认选择"; // Confirm current user selection
+"WhatWouldYouLikeToCopy_Info"  	= "您想要拷贝什么？"; // All items Or Selected items only
+"OnlySelectedItems_UserReply" 	= "仅所选项目";
+"AllItems_UserReply"           	= "所有项目";
+/* Needs retranslate, items where tracks */
+"SelectedItemsN_Info"       	= "选定项目："; 
+"SelectedItemsCount_Info"		= "{nbSelectedItems} / {nbDisplayedItems} 选定项";
+"ItemsCount_Info"				= "{nbDisplayedItems} 项";
+"MySelection(nItems)_Info"     	= "我的选择 ({nbItems})"; 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+*		Transfer
+*/
+
+"PreparingTransfer_Info"	= "正在准备传输，请稍候…";
+"Transfer(Process)_Label"	= "移到"; // The process of transferring data, not the verb.
+
+/* Software error */
+ 
+
+"Error_Label"                	= "出错"; // Software error
+"Errors_Label"                 	= "错误"; // Labelizes error count
+"UnknownError_Info"				= "未知错误";
+"ErrorCopyingFile_Title"		= "文件拷贝出错";
+"IgnoreFurtherErrors_UserReply"	= "忽略进一步的错误";
+"UnableToLoadData_Info"			= "无法加载数据"; 
+"FileOrFolderDoesNotExist_Info"	= "文件或文件夹不存在：{filename}"; 
+
+"NotEnoughSpace_Title"			= "空间不足";  // not enough space on target storage
+"NotEnoughSpace(Copy)_Info"		= "没有足够的空间用于处理拷贝。\n\n是否要继续？\n\n可用空间：{availablespace}\n所需空间：{requiredspace}";
+"NotEnoughSpace_Info"			= "没有足够的可用磁盘空间。";
+
+/* Needs Jé Input */
+ 
+"AdvancedInfo_Title"			= "高级信息"; //Needs Jé Input
+"Details_Label"               	= "详细信息"; // Labellizes additional info in error reporting or transfer logs
+"No_Label"                    	= "否";  // Status Label, as in Connected: No
+"None(Neutral)_Label"			= "无"; // If applicable, gender neutral. Details: None
+"Report(Noun)_Label"			= "报告"; // A report after a copy operation completes.
+"ShowLogs_UserAction"        	= "显示日志";
+"SizeFree_Info"					= "{diskSpaceFree} 可用空间"; // example: 20 GB free
+"Statistics(Report)_Label"    	= "统计："; // Statistics of transfer operation
+"Status(Connection)_Label"		= "状态"; // Labellizes connection status
+"Status(Item)_Label"           	= "状态"; // Labellizes status of item in data transfer report
+"ThisFolderIsEmpty_Info"		= "此文件夹为空。";
+"UnknownType_Label"      		= "未知"; // Unknown file type
+"Yes_Label"                   	= "是"; // Status Label, as in Connected: Yes
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		General Terminology
+ */
+
+"FileSystem_Title"				= "文件系统";
+"FileBrowser_Title"				= "文件浏览器"; // Both the Finder and Windows Explorer are file browsers...
+"Folder_Label"    				= "文件夹"; // Folder of file system
+"Documents_Label"				= "文稿"; // Documents as in electronic documents
+"Developer_Label"				= "开发者"; // Software developer
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Help
+ */
+ 
+"GetHelp_UserAction"					= "获取帮助";
+"Help(Noun)_Label"						= "帮助"; // Help, the noun and not the verb
+"SendFeedbackOrBugReport_UserAction"	= "发送反馈意见或错误报告";
+"PrintJobWindow_Title"					= "助手"; // As in software wizard window
+ 
+/* 35 KB of 1 GB for example */
+ 
+"SizeOfSizeTotal_Info"		= "{dataSize} / {dataSizeTotal}"; // 35 KB of 1 GB for example
+
+"Loading000_Info" = "正在加载...";
+"ItCanTakeAWhile_Info"		= "这可能需要一些时间，请耐心等待...";
+"PleaseWait_Info"			= "请稍候...";
+"NoDataAvailable000_Info" = "无可用数据...";
+"CalculatingSize_Info"		= "正在计算大小..."; // Data size of multiple items
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * 		Misc
+ */
+ 
+"TermsAndContitions_Label"	= "条款与条件";
+"AboutDigiDNA_Label"		= "关于 DigiDNA";
+
+/* In navigation context, as in a file browser or an internet browser */
+ 
+"Back(Navigation)_UserAction"		= "返回"; //In navigation context, as in a file browser or an internet browser
+"Next(Navigation)_UserAction"		= "下一步";  // In navigation context
+"Previous(Navigation)_UserAction"	= "上一步"; // In navigation context, like in a multi step wizard
+"Path(File)_Label"         			= "路径"; // As in file path
+"NavigationButtons_Info"			= "显示您之前查看过的文件夹";
+"ShowHistory_UserAction"			= "显示记录"; // Browsing history
+
+/* As in data processing or transfer operations */
+
+"Operations_Label"					= "操作"; //As in data processing or transfer operations
+"NoOperation_Label"					= "无操作"; 
+"OperationAborted_Info"				= "操作已中止。";
+"OperationFailed_Title"				= "操作失败";
+"OperationFailed_Info"				= "操作失败";
+"StopOperationX_UserAction"			= "停止操作​​：{name}"; 
+"Stopping000_Label" = "正在停止...";
+"PauseResumeOperationX_UserAction"	= "暂停/恢复操作：{name}";
+"Success(Status)_Label"				= "成功"; // Operation success
+
+/* In a menu, reveals extra options */
+ 
+"Options_Label"					= "选项"; // In a menu, reveals extra options
+"AdvancedOptions_Label"			= "高级选项";
+"FileBrowserOptions:_Label"		= "文件浏览器选项：";
+"BrowserOptions_Label"			= "浏览器选项"; // Refers to file browser
+"Configuration(Process)_Label"	= "配置"; // The process of configuring, not the current config.
+
+"ShowHiddenFiles_Label"			= "显示隐藏的文件和文件夹";
+"HideHiddenFiles_Label"			= "不显示隐藏文件和文件夹";
+
+"Analytics_Title"				= "分析"; // Application Analytics such as Google Analytics
+"DontShowTooltips_Info"			= "不显示工具提示消息"; 
+
+"DataExportDelimiterSetting:_Info"	= "数据导出分隔符（逗号分隔值、制表符分隔值等）："; // When exporting to text, which character will be used to separate fields
+"Tab(Char)_Label"             		= "制表符";
+"Comma(Char)_Label"           		= "逗号";
+"Semicolon(Char)_Label"       		= "分号";
+
+"InterfaceLanguage_Label"	= "界面语言"; // Language of the app
+"SystemLanguage_Label"		= "系统语言"; // Language of the current system ( OS )
+"LanguageChange_Title"		= "语言已更改";
+
+"OptionsPresetForBestResult_Info"	= "这些选项是预先设置的优化选项，您可以根据需要进行改动。";
+
+/* Like reboot computer, not restart app. */
+ 
+"Restart(Computer)_UserAction"			= "重启"; //Like reboot computer, not restart app.
+"Reslaunch(App)_UserAction"				= "重新打开"; // Quit and launch the application again
+"ShutDown(Computer)_UserAction"			= "关机"; // Power off computer or mobile device.
+"Sleep(Computer)_UserAction"			= "睡眠"; // Triggers computer or mobile device sleep mode
+
+/* In a filtering context, all unfiltered data: all messages, all contacts, etc... */
+ 
+"All(Filter)_Label"             = "全部"; // In a filtering context, all unfiltered data: all messages, all contacts, etc...
+"Date_Label"              		= "日期"; 
+"DateAdded_Label"            	= "添加日期"; // Labelizes the date at which an item was added
+"Kind(File)_Label"				= "种类"; // Image, Movie, Text, Audio...
+"Modified:Date_Info"			= "修改时间：%@"; // %@ replaced by file modification date
+"Name(Item)_Label"				= "名称"; // File name, item name, NOT person name
+"Size(Data)_Label"				= "大小"; // File size
+"Time_Label"                    = "时间"; // Time of the day
+"Type(File)_Label"				= "类型"; // JPG, MOV, TXT, MP3
+
+/* Limit chars, used in button */
+ 
+"TrialPeriodNDaysLeft_Info"			= "试用期：剩余 {nDays} 天"; //Limit chars, used in button
+"TrialPeriodLastDay_Info"			= "试用期：最后一天注册！";
+"TrialPeriodExpired_Info"			= "试用期已到期";
+"CheckForUpdates_UserAction"  		= "检查更新"; // Check if a newer version of the software is available
+"Purchase_UserAction"          		= "购买"; // The action, not the noun.
+"License(Noun)_Label"				= "许可证"; // As in software license
+"LostKey_UserAction"          		= "注册码丢失？"; // As in activation key, used to unlock paid features of the software
+"BuyNow_UserAction"           		= "立即购买";
+"Activate(License)_UserAction"		= "激活"; // Activate to unlock paid features of the software
+"Deactivate(License)_UserAction"	= "取消激活"; // Deactivate the license to allow activating on another computer
+
+/* Byte Unit abbreviation */
+
+"SizeBytesShort_Label"		= "B";  // Byte Unit abbreviation
+"SizeKiloBytesShort_Label"	= "KB"; // Kilobyte Unit abbreviation
+"SizeMegaBytesShort_Label"	= "MB"; 
+"SizeGigaBytesShort_Label"	= "GB";
+"SizeTeraBytesShort_Label"	= "TB";
+"SizePetaBytesShort_Label"	= "PB";
+"SizeExaBytesShort_Label"	= "EB";
+"SizeZettaBytesShort_Label"	= "ZB";
+"SizeYottaBytesShort_Label"	= "YB";
+"SizeKibiBytesShort_Label"	= "KiB";
+"SizeMebiBytesShort_Label"	= "MiB";
+"SizeGibiBytesShort_Label"	= "GiB";
+"SizeTebiBytesShort_Label"	= "TiB";
+"SizePebiBytesShort_Label"	= "PiB";
+"SizeExbiBytesShort_Label"	= "EiB";
+"SizeZebiBytesShort_Label"	= "ZiB";
+"SizeYobiBytesShort_Label"	= "YiB";
+
+"Hour(Duration)_Label"		= "小时";
+"Hours(Duration)_Label"		= "小时";
+"Minute(Duration)_Label"	= "分钟";
+"Minutes(Duration)_Label"	= "分钟";
+"Second(Duration)_Label"	= "秒";
+"Seconds(Duration)_Label"	= "秒";
+
+"LengthUnitMilimeterShort_Label"	= "毫米"; // milimeter unit abbreviation
+"LengthUnitInchShort_Label"			= "英寸"; // Inch unit abbreviation
+
+/* Standard Cancel Button */
+ 
+"Cancel_UserAction"			= "取消"; // Standard Cancel Button
+"Clear_UserAction"			= "清空"; // Clear list of items
+"Close_UserAction"			= "关闭"; // Close file folder
+"Continue_UserReply"		= "继续"; // Continue after interruption
+"Done_UserConfirmation"		= "完成"; // Leave current context
+"DontShowAgain_Label"		= "不再显示"; // Don't show the current message again
+"Ignore_UserReply"			= "忽略"; // Ignore warning and go ahead
+"Later_UserReply"			= "稍后"; // User reply to application suggestion
+"More_UserAction"			= "更多"; // Display extra options
+"No_UserReply"				= "否";  
+"NoThanks_UserReply"		= "不，谢谢！";
+"NotNow_UserReply"			= "以后再说";
+"OK_UserReply"				= "好"; 
+"Retry_UserReply"			= "重试"; // retry current action
+"Yes_UserReply"				= "是"; 
+
